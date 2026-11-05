@@ -15,7 +15,8 @@ const getJSON = (p) => new Promise((res, rej) => {
 
 (async () => {
   const list = await getJSON('/json/list');
-  const t = list.find((x) => x.type === 'page');
+  const host = new URL(PAGE).host;
+  const t = list.find((x) => x.type === 'page' && x.url.includes(host)) || list.find((x) => x.type === 'page');
   const ws = new WebSocket(t.webSocketDebuggerUrl);
   let id = 0; const pend = new Map(); const errs = [];
   const send = (m, q = {}) => new Promise((r) => { const i = ++id; pend.set(i, r); ws.send(JSON.stringify({ id: i, method: m, params: q })); });
@@ -30,7 +31,9 @@ const getJSON = (p) => new Promise((res, rej) => {
   await send('DOM.enable');
   await send('Page.enable');
   await send('Emulation.setDeviceMetricsOverride', { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false });
-  await send('Page.navigate', { url: PAGE });
+  await send('Network.enable');
+  await send('Network.setCacheDisabled', { cacheDisabled: true });
+  await send('Page.navigate', { url: PAGE + (PAGE.includes('?') ? '&' : '?') + 'cb=' + Date.now() });
   await new Promise((r) => setTimeout(r, 1800));
 
   // 注入文件
