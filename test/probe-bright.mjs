@@ -1,1 +1,14 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwpjb25zdCBTUj00ODAwMDsKZnVuY3Rpb24gcmQocCl7Y29uc3QgYj1mcy5yZWFkRmlsZVN5bmMocCk7bGV0IG89MTIsZD1udWxsO3doaWxlKG88Yi5sZW5ndGgtOCl7Y29uc3QgaWQ9Yi50b1N0cmluZygnYXNjaWknLG8sbys0KTtjb25zdCBzPWIucmVhZFVJbnQzMkxFKG8rNCk7aWYoaWQ9PT0nZGF0YScpe2Q9Yi5zdWJhcnJheShvKzgsbys4K3MpO2JyZWFrO31vKz04K3MrKHMmMSk7fWNvbnN0IG49KGQubGVuZ3RoPj4yKTtjb25zdCBMPW5ldyBGbG9hdDMyQXJyYXkobik7Zm9yKGxldCBpPTA7aTxuO2krKylMW2ldPWQucmVhZEludDE2TEUoaSo0KS8zMjc2ODtyZXR1cm4gTDt9CmNvbnN0IHg9cmQoJ3Rlc3Qvb3V0L+ecn+WGsF/nu4QyLndhdicpOwovLyDpq5jpopHluKbog73ph4/vvIjlhrDlo7DnmoQgL2kvIOWFg+mfsyBGMiDlnKggMmsg5bem5Y+z77yJ6YCQIDAuNXMg55yLCmNvbnNvbGUubG9nKCcwLjVzIOeql+WPo+mrmOmikeiDvemHj++8iD4xLjVrIOi/keS8vOeUqOS4gOmYtuW3ruWIhuiDvemHj++8iTonKTsKbGV0IGxpbmU9Jyc7CmZvcihsZXQgdz0wO3c8MjA7dysrKXsKICBjb25zdCBhPXcqMC41KlNSLGI9TWF0aC5taW4oeC5sZW5ndGgsYSswLjUqU1IpOwogIGxldCBlPTAscT0wOwogIGZvcihsZXQgaT1hKzE7aTxiO2krKyl7Y29uc3QgZD14W2ldLXhbaS0xXTtlKz1kKmQ7cSs9eFtpXSp4W2ldO30KICBsaW5lKz1gJHsodyowLjUpLnRvRml4ZWQoMSl9cz0keyhlL01hdGgubWF4KDEscSkpLnRvRml4ZWQoMil9IGA7Cn0KY29uc29sZS5sb2cobGluZSk7DQo=
+import fs from 'node:fs';
+const SR=48000;
+function rd(p){const b=fs.readFileSync(p);let o=12,d=null;while(o<b.length-8){const id=b.toString('ascii',o,o+4);const s=b.readUInt32LE(o+4);if(id==='data'){d=b.subarray(o+8,o+8+s);break;}o+=8+s+(s&1);}const n=(d.length>>2);const L=new Float32Array(n);for(let i=0;i<n;i++)L[i]=d.readInt16LE(i*4)/32768;return L;}
+const x=rd('test/out/真冰_组2.wav');
+// 高频带能量（冰声的 /i/ 元音 F2 在 2k 左右）逐 0.5s 看
+console.log('0.5s 窗口高频能量（>1.5k 近似用一阶差分能量）:');
+let line='';
+for(let w=0;w<20;w++){
+  const a=w*0.5*SR,b=Math.min(x.length,a+0.5*SR);
+  let e=0,q=0;
+  for(let i=a+1;i<b;i++){const d=x[i]-x[i-1];e+=d*d;q+=x[i]*x[i];}
+  line+=`${(w*0.5).toFixed(1)}s=${(e/Math.max(1,q)).toFixed(2)} `;
+}
+console.log(line);

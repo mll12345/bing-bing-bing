@@ -1,1 +1,16 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwppbXBvcnQgeyBwaXRjaFRyYWNrIH0gZnJvbSAnLi4vc3JjL3ZvaWNlLmpzJzsKY29uc3QgU1I9NDQxMDA7CmNvbnN0IHJhdz1uZXcgRmxvYXQzMkFycmF5KGZzLnJlYWRGaWxlU3luYygndGVzdC9yZWYuZjMyJykuYnVmZmVyLnNsaWNlKDApKTsKY29uc3Qgbj1NYXRoLmZsb29yKHJhdy5sZW5ndGgvMik7CmNvbnN0IG1vbm89bmV3IEZsb2F0MzJBcnJheShuKTsKZm9yKGxldCBpPTA7aTxuO2krKykgbW9ub1tpXT0ocmF3W2kqMl0rcmF3W2kqMisxXSkvMjsKY29uc3QgdHI9cGl0Y2hUcmFjayhtb25vLFNSLCgpPT57fSk7CmxldCBsaW5lPScnOwpmb3IobGV0IGk9MDtpPHRyLmZyYW1lcztpKyspewogIGNvbnN0IHQ9aSp0ci5ob3BTZWM7CiAgaWYodD41LjMpIGJyZWFrOwogIGNvbnN0IGM9dHIuY2xhcml0eVtpXTsKICBsaW5lICs9IGAke3QudG9GaXhlZCgyKX06JHtjPjAuNT90ci5mMFtpXS50b0ZpeGVkKDApOictLSd9IGA7Cn0KY29uc29sZS5sb2cobGluZSk7DQo=
+import fs from 'node:fs';
+import { pitchTrack } from '../src/voice.js';
+const SR=44100;
+const raw=new Float32Array(fs.readFileSync('test/ref.f32').buffer.slice(0));
+const n=Math.floor(raw.length/2);
+const mono=new Float32Array(n);
+for(let i=0;i<n;i++) mono[i]=(raw[i*2]+raw[i*2+1])/2;
+const tr=pitchTrack(mono,SR,()=>{});
+let line='';
+for(let i=0;i<tr.frames;i++){
+  const t=i*tr.hopSec;
+  if(t>5.3) break;
+  const c=tr.clarity[i];
+  line += `${t.toFixed(2)}:${c>0.5?tr.f0[i].toFixed(0):'--'} `;
+}
+console.log(line);

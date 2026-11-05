@@ -1,1 +1,78 @@
-IyDwn6eKIOWGsOWGsOWGsOeJiCDnlJ/miJDlmagKCuaKiuS4gOmmluatjOeahCoq5q+P5LiA5Liq5a2XKirpg73mjaLmiJDkuIDkuKrjgIzlhrDjgI3igJTigJTpn7Ppq5jot5/nnYDljp/llLHotbDvvIzml4vlvovov5jmmK/pgqPpppbvvIzmrYzor43lhajmmK/lhrDlhrDlhrDjgIIKCuWFqOeoi+WcqOa1j+iniOWZqOmHjOi3keWujO+8jOS4jeS8oOacjeWKoeWZqOOAgioq5rKh5pyJIERKIOWKoOmAn+OAgeayoeacieWNh+iwg+OAgeayoeacieWbm+Wbm+aLjem8k+acuioq77yM5bCx5piv5Y6f5puyICsg5Yaw5aOw44CCCgrlj4LogIPmlYjmnpzvvJpb8J+niiDlhrDlhrDlhrAg6Z+z5pWIIOKAlCBCVjFIRWhvNkxFUmZdKGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFIRWhvNkxFUmYpIMK3IFvwn6eK5Yaw54ix77yI6Zuo54ixRErvvInwn6eKIOKAlCBCVjFFbmhFNjhFQmVdKGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFFbmhFNjhFQmUvKQoKKirnur/kuIrlnLDlnYAqKu+8mjxodHRwczovL21sbDEyMzQ1LmdpdGh1Yi5pby9iaW5nLWJpbmctYmluZy8+CgoqKuaIkOWTgeivleWQrCoq77yIMTYxIOenkuWOn+absiDihpIgNTAyIOS4quWGsO+8jOWbm+e7hOWQhOS4gOeJiO+8jOmDveaYr+ecn+S6uuavjeacrO+8ie+8mgoKLSBb56ysIDEg57uEXShkZW1vL+WGsOWGsOWGsOeJiF8xMTRf55yf5YawX+e7hDEubXAzKe+8iOavjeacrOmfs+mrmCDiiYg0MzdIeu+8iQotIFvnrKwgMiDnu4RdKGRlbW8v5Yaw5Yaw5Yaw54mIXzExNF/nnJ/lhrBf57uEMi5tcDMp77yI4omINjA2SHrvvIkKLSBb56ysIDMg57uEXShkZW1vL+WGsOWGsOWGsOeJiF8xMTRf55yf5YawX+e7hDMubXAzKe+8iOKJiDcyMUh677yJCi0gW+esrCA0IOe7hF0oZGVtby/lhrDlhrDlhrDniYhfMTE0X+ecn+WGsF/nu4Q0Lm1wMynvvIjiiYg0MjdIeu+8iQoK5q+P57uE5YaN57uZ5LiA5q61IDM1IOenkuivleWQrO+8mmBkZW1vL+WGsOWGsOWGsOeJiF8xMTRf55yf5YawX+e7hE5f5YmNMzXnp5IubXAzYAoKIyMg55So5rOVCgoxLiDmiZPlvIDpobXpnaLvvIzmi5blhaXkuIDkuKogKipNUDQgLyBNUDMgLyBNNEEgLyBXQVYqKu+8iOKJpDEyME1C77yJCjIuIOeCueOAjOivleWQrOWbm+e7hOOAjeeahCAxLzIvMy80IOaMiemSru+8jOaMkeS4gOe7hOWWnOasoueahOWGsOWjsO+8iOeCueS4gOS4i+WwseS8muaKiuOAjOWGsOWjsOe7hOOAjeWIh+i/h+WOu++8iQozLiDosIPjgIzlhrDlo7Dpn7Pph48gLyDljp/llLHmrovnlZkgLyDlhrDmtJ7mt7flk40gLyDlhrDoo4LngrnnvIDjgI0KNC4g54K544CM8J+niiDlhrDlhrDlhrDvvIHjgI3vvIzmuLLmn5Plrozlj6/ku6Xor5XlkKwKNS4g5a+85Ye6ICoqV0FWKiog6Z+z6aKR77yM5oiW5a+85Ye6ICoqV2ViTSDop4bpopEqKu+8iDEyODDDlzcyMO+8jOW4puWGsOaZtuWKqOeUu+WSjOatjOWQje+8iQoKIyMg5a6D5piv5oCO5LmI5YGa55qECgrmlbTmnaHpk77ot6/mmK/nuq/liY3nq68gV2ViIEF1ZGlvICsg5omL5YaZIERTUO+8jOayoeacieS4gOS4quesrOS4ieaWueS+nei1lu+8mgoKfCDnjq/oioIgfCDlgZrms5UgfAp8LS0tfC0tLXwKfCDop6PnoIEgfCBgZGVjb2RlQXVkaW9EYXRhYO+8m+ino+S4jeWKqOWwseWbnumAgCBgPHZpZGVvPmAgKyBgTWVkaWFFbGVtZW50U291cmNlYCArIGBTY3JpcHRQcm9jZXNzb3JgIOWunuaXtuW9lea1ge+8iEFDLTMvRFRTIOS5i+exu+eahOWuueWZqOS5n+iDveaVkeS4gOS4i++8iSB8Cnwg5Lq65aOw5YiG56a7IHwg56uL5L2T5aOw6YeM5Lq65aOw5Yeg5LmO5oC75Zyo5q2j5Lit44CC5omL5YaZIEZGVO+8iGBzcmMvZmZ0LmpzYO+8ieWBmiBTVEZU77yM6YCQ5bin6YCQ6aKR54K5566XIG1pZC8obWlkK3NpZGUpIOW+l+WIsOi9r+aOqeiUve+8m+WIhuemu+WHuueahOS6uuWjsOWFiOmZkOW4piAxNzBIeiDlho3lh4/vvIzkvY7popEga2ljay/otJ3mlq/lm6DmraTlrozmlbTnlZnlnKjkvLTlpY/ph4wgfAp8IOaXi+W+i+i3n+i4qiB8IDE2a0h6IOS4i+mHh+agt+OAgTEwbXMg5q2l6ZW/44CBMTAyNCDngrkgRkZUIOiHquebuOWFs+a1i+Wfuumike+8jOWAjemikee6oOatoyArIOaKm+eJqee6v+aPkuWAvO+8m+mfs+mHj+mqpOmZjSAvIOmfs+mrmOi3s+WPmCAvIOS9juS6jiA4Mkh6IOWkhOaWreWtlyDigJTigJQgKirkuIDkuKrpn7PnrKYgPSDkuIDkuKrlrZcgPSDkuIDkuKrjgIzlhrDjgI0qKiB8Cnwg5Yaw5aOw5q+N5pysIHwgKirkuI3lkIjmiJDlo7Dpn7MqKuOAguWPguiAg+mfs+aViOmHjCAxMiDkuKrnnJ/kurrnmoTjgIzlhrDjgI3ooqvpgJDkuKrliIfmiJDljZXlrZfvvIhgc2FtcGxlcy9iaW5nLWJhbmsuYmluYCArIGAuanNvbmDvvInvvIwzIOS4quS4gOe7hOWFsSA0IOe7hO+8m+eCueaMiemSruivleWQrOeahOWwseaYr+i/mSAxMiDkuKrmr43mnKwgfAp8IOWPmOiwg+aLvOaOpSB8IOavj+S4qumfs+espuS7juacrOe7hOavjeacrOmHjOWPluS4gOS4qu+8jOeUqCAqKlBTT0xBKirvvIjmupDln5/lj5bkuIDkuKrmupDlkajmnJ/jgIHovpPlh7rln5/pk7rkuIDkuKrnm67moIflkajmnJ/vvIzkuKTln5/nqpflrr3kuI3lkIzvvInmiorln7rpopHmi4nliLDpn7PnrKbpn7Ppq5jjgIHplb/luqbmi4nliLDpn7PnrKbml7bplb/jgILlhbHmjK/ls7Dpmo/ms6LlvaLkuIDotbfkv53nlZnvvIzmiYDku6XmmK/lkIzkuIDkuKrnnJ/kurrlnKjllLHjgIzlhrDjgI3vvIzlj6rmmK/pn7Ppq5jlj5jkuoYgfAp8IOWTjeW6piB8IOWGsOWjsOaMiSoq6Z+z56ym56qX5Y+j5YaFKirnmoQgUk1TIOS4juS8tOWlj+Wvuem9kO+8iOS4jeaYr+aVtOi9qCBSTVPvvIzlkKbliJnkvJrooqvlpKfph4/pnZnpn7PmkYroloTvvInvvJvls7DlgLzov5vmnaXlkI7otbDova/ohp3pmZDluYXlho3mj5Dlk43luqYgfAp8IOa3t+mfsyB8IOS8tOWljyArIOWPr+mAieWOn+WUseaui+eVmSArIOWGsOWjsCDihpIg5Yaw5rSeIElSIOWNt+enr+a3t+WTjSDihpIg6auY6YCaIC8g56m65rCU5oSfIEVRIC8gdGFuaCDova/liYrms6IgLyDovbvljovnvKkgLyDpmZDluYUgfAp8IOWvvOWHuiB8IOaJi+WGmSAxNmJpdCBQQ00gV0FWIOe8lueggeWZqO+8m+inhumikei1sCBgY2FudmFzLmNhcHR1cmVTdHJlYW0oMzApYCArIGBNZWRpYVJlY29yZGVyYO+8iHZwOS9vcHVz77yJIHwKCiMjIOacrOWcsOW8gOWPkQoK5rKh5pyJ5p6E5bu65q2l6aqk77yM5Lu75L2V6Z2Z5oCB5pyN5Yqh5Zmo6YO96KGM77yaCgpgYGBiYXNoCm5vZGUgdGVzdC9zZXJ2ZS5qcyA4MTk5CiMg5omT5byAIGh0dHA6Ly8xMjcuMC4wLjE6ODE5OS8KYGBgCgojIyMg6YeN5bu65q+N5pys5rGgCgpgYGBiYXNoCmZmbXBlZyAtdiBlcnJvciAteSAtaSBkZW1vL+eOi+eJjOWGsOmUkF/pn7PpopEubXA0IC1hYyAyIC1hciA0ODAwMCAtZiBmMzJsZSB0ZXN0L3JlZi5mMzIKbm9kZSB0ZXN0L3JlZi1vbnNldHMubWpzICAgICAgICAjIOi1t+mfs+ajgOa1i+WIh+WHuiAxMiDkuKrjgIzlhrDjgI3ihpIgdGVzdC9vdXQvcmVmLXBvb2wuKgpub2RlIHRlc3QvbWFrZS1iYW5rLWFzc2V0Lm1qcyAgICMg4oaSIHNhbXBsZXMvYmluZy1iYW5rLmJpbiAvIC5qc29u77yI572R6aG155So55qE5q+N5pys5rGg77yJCm5vZGUgdGVzdC9tYWtlLXByZXZpZXdzLm1qcyAgICAgIyDihpIgc2FtcGxlcy/lhrDnu4QxLi40Lm1wM++8iOaMiemSruivleWQrO+8iQpgYGAKCiMjIyDmtYvor5XvvIjot5HlnKggaGVhZGxlc3MgQ2hyb21lIOmHjO+8jENEUCDpqbHliqjvvIkKCmBgYGJhc2gKbm9kZSB0ZXN0L3VpLXRlc3QuanMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyDnq6/liLDnq68gVUnvvIjkuIrkvKAg4oaSIOa4suafkyDihpIg5pKt5pS+IOKGkiDlr7zlh7rvvIkKbm9kZSB0ZXN0L2RyaXZlLmpzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBoYXJuZXNzIOWFqOmTvui3rwpub2RlIHRlc3QvZHVtcC5qcyBodHRwOi8vMTI3LjAuMC4xOjgxOTkvIGluLm1wNCBvdXQud2F2IDIgMiAwIDAuMjUgMC4zIDE4MApub2RlIHRlc3QvYW5hbHl6ZS5qcyB0ZXN0L291dC9vdXQud2F2ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIOWzsOWAvCAvIFJNUyAvIOmikeauteavlCAvIOWJiuazogpub2RlIHRlc3QvcHJvYmUtcmVzbGljZS5tanMgdGVzdC9vdXQvb3V0LndhdiAgICAgICAgICAgICAgICAgICAgICAjIOWRqOacn+aAp++8iOWIpOaWreWDj+S4jeWDj+S6uuWjsO+8iQpub2RlIHRlc3QvYmFuay1mdWxsLm1qcyB0ZXN0L3NyYzExNC5mMzIgMiAnZGVtby94eHgnICAgICAgICAgICAgICAjIE5vZGUg55u06LeR5pW05puy77yM56eS57qnCmBgYAoKIyMg5rWP6KeI5Zmo6KaB5rGCCgpDaHJvbWUgLyBFZGdlIDkwK++8iOmcgOimgSBXZWIgQXVkaW/jgIFgTWVkaWFSZWNvcmRlcmDjgIFgY2FwdHVyZVN0cmVhbWDvvInjgIJTYWZhcmkg6IO95riy5p+T5ZKM5a+85Ye6IFdBVu+8jOinhumikeWvvOWHuuWPr+iDveS4jeihjOOAggoKIyMgTGljZW5zZQoKTUlUCg==
+# 🧊 冰冰冰版 生成器
+
+把一首歌的**每一个字**都换成一个「冰」——音高跟着原唱走，旋律还是那首，歌词全是冰冰冰。
+
+全程在浏览器里跑完，不传服务器。**没有 DJ 加速、没有升调、没有四四拍鼓机**，就是原曲 + 冰声。
+
+参考效果：[🧊 冰冰冰 音效 — BV1HEho6LERf](https://www.bilibili.com/video/BV1HEho6LERf) · [🧊冰爱（雨爱DJ）🧊 — BV1EnhE68EBe](https://www.bilibili.com/video/BV1EnhE68EBe/)
+
+**线上地址**：<https://mll12345.github.io/bing-bing-bing/>
+
+**成品试听**（161 秒原曲 → 502 个冰，四组各一版，都是真人母本）：
+
+- [第 1 组](demo/冰冰冰版_114_真冰_组1.mp3)（母本音高 ≈437Hz）
+- [第 2 组](demo/冰冰冰版_114_真冰_组2.mp3)（≈606Hz）
+- [第 3 组](demo/冰冰冰版_114_真冰_组3.mp3)（≈721Hz）
+- [第 4 组](demo/冰冰冰版_114_真冰_组4.mp3)（≈427Hz）
+
+每组再给一段 35 秒试听：`demo/冰冰冰版_114_真冰_组N_前35秒.mp3`
+
+## 用法
+
+1. 打开页面，拖入一个 **MP4 / MP3 / M4A / WAV**（≤120MB）
+2. 点「试听四组」的 1/2/3/4 按钮，挑一组喜欢的冰声（点一下就会把「冰声组」切过去）
+3. 调「冰声音量 / 原唱残留 / 冰洞混响 / 冰裂点缀」
+4. 点「🧊 冰冰冰！」，渲染完可以试听
+5. 导出 **WAV** 音频，或导出 **WebM 视频**（1280×720，带冰晶动画和歌名）
+
+## 它是怎么做的
+
+整条链路是纯前端 Web Audio + 手写 DSP，没有一个第三方依赖：
+
+| 环节 | 做法 |
+|---|---|
+| 解码 | `decodeAudioData`；解不动就回退 `<video>` + `MediaElementSource` + `ScriptProcessor` 实时录流（AC-3/DTS 之类的容器也能救一下） |
+| 人声分离 | 立体声里人声几乎总在正中。手写 FFT（`src/fft.js`）做 STFT，逐帧逐频点算 mid/(mid+side) 得到软掩蔽；分离出的人声先限带 170Hz 再减，低频 kick/贝斯因此完整留在伴奏里 |
+| 旋律跟踪 | 16kHz 下采样、10ms 步长、1024 点 FFT 自相关测基频，倍频纠正 + 抛物线插值；音量骤降 / 音高跳变 / 低于 82Hz 处断字 —— **一个音符 = 一个字 = 一个「冰」** |
+| 冰声母本 | **不合成声音**。参考音效里 12 个真人的「冰」被逐个切成单字（`samples/bing-bank.bin` + `.json`），3 个一组共 4 组；点按钮试听的就是这 12 个母本 |
+| 变调拼接 | 每个音符从本组母本里取一个，用 **PSOLA**（源域取一个源周期、输出域铺一个目标周期，两域窗宽不同）把基频拉到音符音高、长度拉到音符时长。共振峰随波形一起保留，所以是同一个真人在唱「冰」，只是音高变了 |
+| 响度 | 冰声按**音符窗口内**的 RMS 与伴奏对齐（不是整轨 RMS，否则会被大量静音摊薄）；峰值进来后走软膝限幅再提响度 |
+| 混音 | 伴奏 + 可选原唱残留 + 冰声 → 冰洞 IR 卷积混响 → 高通 / 空气感 EQ / tanh 软削波 / 轻压缩 / 限幅 |
+| 导出 | 手写 16bit PCM WAV 编码器；视频走 `canvas.captureStream(30)` + `MediaRecorder`（vp9/opus） |
+
+## 本地开发
+
+没有构建步骤，任何静态服务器都行：
+
+```bash
+node test/serve.js 8199
+# 打开 http://127.0.0.1:8199/
+```
+
+### 重建母本池
+
+```bash
+ffmpeg -v error -y -i demo/王牌冰锐_音频.mp4 -ac 2 -ar 48000 -f f32le test/ref.f32
+node test/ref-onsets.mjs        # 起音检测切出 12 个「冰」→ test/out/ref-pool.*
+node test/make-bank-asset.mjs   # → samples/bing-bank.bin / .json（网页用的母本池）
+node test/make-previews.mjs     # → samples/冰组1..4.mp3（按钮试听）
+```
+
+### 测试（跑在 headless Chrome 里，CDP 驱动）
+
+```bash
+node test/ui-test.js                                              # 端到端 UI（上传 → 渲染 → 播放 → 导出）
+node test/drive.js                                                # harness 全链路
+node test/dump.js http://127.0.0.1:8199/ in.mp4 out.wav 2 2 0 0.25 0.3 180
+node test/analyze.js test/out/out.wav                             # 峰值 / RMS / 频段比 / 削波
+node test/probe-reslice.mjs test/out/out.wav                      # 周期性（判断像不像人声）
+node test/bank-full.mjs test/src114.f32 2 'demo/xxx'              # Node 直跑整曲，秒级
+```
+
+## 浏览器要求
+
+Chrome / Edge 90+（需要 Web Audio、`MediaRecorder`、`captureStream`）。Safari 能渲染和导出 WAV，视频导出可能不行。
+
+## License
+
+MIT

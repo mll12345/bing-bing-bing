@@ -1,1 +1,54 @@
-Ly8gcmVzbGljZS1ub2RlLm1qcyDigJTigJQg5ZyoIE5vZGUg6YeM6LeR44CM5YCf5Y6f5ZSx5ZeT5a2Q44CN55qE566h57q/77yM5a+85Ye657qv5Yaw5aOwIFdBVgovLyDnlKjms5U6IG5vZGUgdGVzdC9yZXNsaWNlLW5vZGUubWpzIDxzcmMuZjMyPiA8b3V0Lndhdj4gW2dyb3VwXSBbbWF4U2VjXQppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCc7CmltcG9ydCB7IHNlcGFyYXRlIH0gZnJvbSAnLi4vc3JjL3ZvY2Fscy5qcyc7CmltcG9ydCB7IGJpcXVhZCB9IGZyb20gJy4uL3NyYy9wY20uanMnOwppbXBvcnQgeyBwaXRjaFRyYWNrLCB0b05vdGVzIH0gZnJvbSAnLi4vc3JjL3ZvaWNlLmpzJzsKaW1wb3J0IHsgcmVuZGVyUmVzbGljZSB9IGZyb20gJy4uL3NyYy9yZXNsaWNlLmpzJzsKCmNvbnN0IFNSQyA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmFyZ3ZbMl0pOwpjb25zdCBPVVQgPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5hcmd2WzNdKTsKY29uc3QgR1JPVVAgPSBOdW1iZXIocHJvY2Vzcy5hcmd2WzRdIHx8IDIpOwpjb25zdCBNQVhTRUMgPSBOdW1iZXIocHJvY2Vzcy5hcmd2WzVdIHx8IDQ1KTsKY29uc3QgU1IgPSA0ODAwMDsKCmNvbnN0IHJhdyA9IG5ldyBGbG9hdDMyQXJyYXkoZnMucmVhZEZpbGVTeW5jKFNSQykuYnVmZmVyLnNsaWNlKDApKTsKY29uc3QgZnJhbWVzID0gTWF0aC5taW4oTWF0aC5mbG9vcihyYXcubGVuZ3RoIC8gMiksIE1hdGguZmxvb3IoTUFYU0VDICogU1IpKTsKY29uc3QgY2hzID0gW25ldyBGbG9hdDMyQXJyYXkoZnJhbWVzKSwgbmV3IEZsb2F0MzJBcnJheShmcmFtZXMpXTsKZm9yIChsZXQgaSA9IDA7IGkgPCBmcmFtZXM7IGkrKykgeyBjaHNbMF1baV0gPSByYXdbaSAqIDJdOyBjaHNbMV1baV0gPSByYXdbaSAqIDIgKyAxXTsgfQoKY29uc3QgdDAgPSBEYXRlLm5vdygpOwpjb25zdCBzZXAgPSBzZXBhcmF0ZShjaHMsIFNSLCAoKSA9PiB7fSk7CmNvbnNvbGUubG9nKCdzZXBhcmF0ZScsIERhdGUubm93KCkgLSB0MCwgJ21zIGNlbnRlcmVkPScsIHNlcC5jZW50ZXJlZCk7Cgpjb25zdCB2b2MgPSBzZXAudm9jYWwgPyBGbG9hdDMyQXJyYXkuZnJvbShzZXAudm9jYWxbMF0pIDogRmxvYXQzMkFycmF5LmZyb20oY2hzWzBdKTsKYmlxdWFkKHZvYywgU1IsICdoaWdocGFzcycsIDEyMCwgMC43KTsKY29uc3QgdDEgPSBEYXRlLm5vdygpOwpjb25zdCB0cmFjayA9IHBpdGNoVHJhY2sodm9jLCBTUiwgKCkgPT4ge30pOwpjb25zdCBub3RlcyA9IHRvTm90ZXModHJhY2ssIHsgbWluRHVyOiAwLjA3LCBjbGFyaXR5TWluOiAwLjI2IH0pOwpjb25zb2xlLmxvZygndHJhY2snLCBEYXRlLm5vdygpIC0gdDEsICdtcyBub3Rlcz0nLCBub3Rlcy5sZW5ndGgpOwoKY29uc3QgdDIgPSBEYXRlLm5vdygpOwpjb25zdCBiaW5nID0gcmVuZGVyUmVzbGljZSh2b2MsIFNSLCBub3RlcywgeyBnYWluOiAxLCBncm91cDogR1JPVVAsIHByb2dyZXNzOiAoKSA9PiB7fSB9KTsKY29uc29sZS5sb2coJ3Jlc2xpY2UnLCBEYXRlLm5vdygpIC0gdDIsICdtcyBjb3VudD0nLCBiaW5nLmNvdW50LCAnYmFuaz0nLCBiaW5nLmJhbmspOwoKLy8g5bOw5YC85b2S5LiA5bm25YaZIFdBVgpjb25zdCBkID0gYmluZy5kYXRhOwpsZXQgcGVhayA9IDFlLTk7CmZvciAobGV0IGkgPSAwOyBpIDwgZC5sZW5ndGg7IGkrKykgcGVhayA9IE1hdGgubWF4KHBlYWssIE1hdGguYWJzKGRbaV0pKTsKY29uc3QgZyA9IDAuODkgLyBwZWFrOwpjb25zdCBuID0gZC5sZW5ndGg7CmNvbnN0IGJ1ZiA9IEJ1ZmZlci5hbGxvYyg0NCArIG4gKiAyKTsKYnVmLndyaXRlKCdSSUZGJywgMCk7IGJ1Zi53cml0ZVVJbnQzMkxFKDM2ICsgbiAqIDIsIDQpOyBidWYud3JpdGUoJ1dBVkUnLCA4KTsKYnVmLndyaXRlKCdmbXQgJywgMTIpOyBidWYud3JpdGVVSW50MzJMRSgxNiwgMTYpOyBidWYud3JpdGVVSW50MTZMRSgxLCAyMCk7IGJ1Zi53cml0ZVVJbnQxNkxFKDEsIDIyKTsKYnVmLndyaXRlVUludDMyTEUoU1IsIDI0KTsgYnVmLndyaXRlVUludDMyTEUoU1IgKiAyLCAyOCk7IGJ1Zi53cml0ZVVJbnQxNkxFKDIsIDMyKTsgYnVmLndyaXRlVUludDE2TEUoMTYsIDM0KTsKYnVmLndyaXRlKCdkYXRhJywgMzYpOyBidWYud3JpdGVVSW50MzJMRShuICogMiwgNDApOwpmb3IgKGxldCBpID0gMDsgaSA8IG47IGkrKykgewogIGxldCB2ID0gZFtpXSAqIGc7CiAgdiA9IE1hdGgubWF4KC0xLCBNYXRoLm1pbigxLCB2KSk7CiAgYnVmLndyaXRlSW50MTZMRShNYXRoLnJvdW5kKHYgKiAzMjc2NyksIDQ0ICsgaSAqIDIpOwp9CmZzLm1rZGlyU3luYyhwYXRoLmRpcm5hbWUoT1VUKSwgeyByZWN1cnNpdmU6IHRydWUgfSk7CmZzLndyaXRlRmlsZVN5bmMoT1VULCBidWYpOwpjb25zb2xlLmxvZygnd3JvdGUnLCBPVVQsIChuIC8gU1IpLnRvRml4ZWQoMikgKyAncycsIChmcy5zdGF0U3luYyhPVVQpLnNpemUgLyAxMDQ4NTc2KS50b0ZpeGVkKDIpICsgJ01CJyk7Cg==
+// reslice-node.mjs —— 在 Node 里跑「借原唱嗓子」的管线，导出纯冰声 WAV
+// 用法: node test/reslice-node.mjs <src.f32> <out.wav> [group] [maxSec]
+import fs from 'node:fs';
+import path from 'node:path';
+import { separate } from '../src/vocals.js';
+import { biquad } from '../src/pcm.js';
+import { pitchTrack, toNotes } from '../src/voice.js';
+import { renderReslice } from '../src/reslice.js';
+
+const SRC = path.resolve(process.argv[2]);
+const OUT = path.resolve(process.argv[3]);
+const GROUP = Number(process.argv[4] || 2);
+const MAXSEC = Number(process.argv[5] || 45);
+const SR = 48000;
+
+const raw = new Float32Array(fs.readFileSync(SRC).buffer.slice(0));
+const frames = Math.min(Math.floor(raw.length / 2), Math.floor(MAXSEC * SR));
+const chs = [new Float32Array(frames), new Float32Array(frames)];
+for (let i = 0; i < frames; i++) { chs[0][i] = raw[i * 2]; chs[1][i] = raw[i * 2 + 1]; }
+
+const t0 = Date.now();
+const sep = separate(chs, SR, () => {});
+console.log('separate', Date.now() - t0, 'ms centered=', sep.centered);
+
+const voc = sep.vocal ? Float32Array.from(sep.vocal[0]) : Float32Array.from(chs[0]);
+biquad(voc, SR, 'highpass', 120, 0.7);
+const t1 = Date.now();
+const track = pitchTrack(voc, SR, () => {});
+const notes = toNotes(track, { minDur: 0.07, clarityMin: 0.26 });
+console.log('track', Date.now() - t1, 'ms notes=', notes.length);
+
+const t2 = Date.now();
+const bing = renderReslice(voc, SR, notes, { gain: 1, group: GROUP, progress: () => {} });
+console.log('reslice', Date.now() - t2, 'ms count=', bing.count, 'bank=', bing.bank);
+
+// 峰值归一并写 WAV
+const d = bing.data;
+let peak = 1e-9;
+for (let i = 0; i < d.length; i++) peak = Math.max(peak, Math.abs(d[i]));
+const g = 0.89 / peak;
+const n = d.length;
+const buf = Buffer.alloc(44 + n * 2);
+buf.write('RIFF', 0); buf.writeUInt32LE(36 + n * 2, 4); buf.write('WAVE', 8);
+buf.write('fmt ', 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(1, 22);
+buf.writeUInt32LE(SR, 24); buf.writeUInt32LE(SR * 2, 28); buf.writeUInt16LE(2, 32); buf.writeUInt16LE(16, 34);
+buf.write('data', 36); buf.writeUInt32LE(n * 2, 40);
+for (let i = 0; i < n; i++) {
+  let v = d[i] * g;
+  v = Math.max(-1, Math.min(1, v));
+  buf.writeInt16LE(Math.round(v * 32767), 44 + i * 2);
+}
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+fs.writeFileSync(OUT, buf);
+console.log('wrote', OUT, (n / SR).toFixed(2) + 's', (fs.statSync(OUT).size / 1048576).toFixed(2) + 'MB');

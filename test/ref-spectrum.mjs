@@ -1,1 +1,27 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwppbXBvcnQgeyBtYWtlRkZUIH0gZnJvbSAnLi4vc3JjL2ZmdC5qcyc7CmNvbnN0IFNSPTQ0MTAwOwpjb25zdCByYXc9bmV3IEZsb2F0MzJBcnJheShmcy5yZWFkRmlsZVN5bmMoJ3Rlc3QvcmVmLmYzMicpLmJ1ZmZlci5zbGljZSgwKSk7CmNvbnN0IG49TWF0aC5mbG9vcihyYXcubGVuZ3RoLzIpOwpjb25zdCBtb25vPW5ldyBGbG9hdDMyQXJyYXkobik7CmZvcihsZXQgaT0wO2k8bjtpKyspIG1vbm9baV09KHJhd1tpKjJdK3Jhd1tpKjIrMV0pLzI7CmNvbnN0IGJ1cnN0cz1bWzAuMjAsMC42MF0sWzEuNTUsMS45NV0sWzIuNTUsMi45NV0sWzMuMzUsMy43NV0sWzQuMDgsNC40NV0sWzQuODAsNS4xMF1dOwpjb25zdCBOPTQwOTY7Y29uc3QgZmZ0PW1ha2VGRlQoTik7CmZvcihjb25zdCBbdDAsdDFdIG9mIGJ1cnN0cyl7CiAgY29uc3QgYWNjPW5ldyBGbG9hdDMyQXJyYXkoTi8yKTsKICBsZXQgY250PTA7CiAgZm9yKGxldCBwPU1hdGguZmxvb3IodDAqU1IpO3ArTjw9TWF0aC5mbG9vcih0MSpTUik7cCs9Ti8yKXsKICAgIGNvbnN0IHJlPW5ldyBGbG9hdDMyQXJyYXkoTik7Y29uc3QgaW09bmV3IEZsb2F0MzJBcnJheShOKTsKICAgIGZvcihsZXQgaT0wO2k8TjtpKyspe2NvbnN0IHc9MC41LTAuNSpNYXRoLmNvcygyKk1hdGguUEkqaS8oTi0xKSk7cmVbaV09bW9ub1twK2ldKnc7fQogICAgZmZ0KHJlLGltLGZhbHNlKTsKICAgIGZvcihsZXQgaT0xO2k8Ti8yO2krKykgYWNjW2ldKz1NYXRoLmh5cG90KHJlW2ldLGltW2ldKTsKICAgIGNudCsrOwogIH0KICBmb3IobGV0IGk9MDtpPGFjYy5sZW5ndGg7aSsrKSBhY2NbaV0vPWNudDsKICBjb25zdCBwZWFrcz1bXTsKICBmb3IobGV0IGk9MjtpPGFjYy5sZW5ndGgtMjtpKyspewogICAgaWYoYWNjW2ldPmFjY1tpLTFdJiZhY2NbaV0+YWNjW2krMV0mJmFjY1tpXT5hY2NbaS0yXSYmYWNjW2ldPmFjY1tpKzJdKSBwZWFrcy5wdXNoKHtoejpNYXRoLnJvdW5kKGkqU1IvTiksbTphY2NbaV19KTsKICB9CiAgcGVha3Muc29ydCgoYSxiKT0+Yi5tLWEubSk7CiAgY29uc29sZS5sb2coYCR7dDB9LSR7dDF9cyBwZWFrczpgLCBwZWFrcy5zbGljZSgwLDgpLm1hcChwPT5wLmh6KS5qb2luKCcgJykpOwp9DQo=
+import fs from 'node:fs';
+import { makeFFT } from '../src/fft.js';
+const SR=44100;
+const raw=new Float32Array(fs.readFileSync('test/ref.f32').buffer.slice(0));
+const n=Math.floor(raw.length/2);
+const mono=new Float32Array(n);
+for(let i=0;i<n;i++) mono[i]=(raw[i*2]+raw[i*2+1])/2;
+const bursts=[[0.20,0.60],[1.55,1.95],[2.55,2.95],[3.35,3.75],[4.08,4.45],[4.80,5.10]];
+const N=4096;const fft=makeFFT(N);
+for(const [t0,t1] of bursts){
+  const acc=new Float32Array(N/2);
+  let cnt=0;
+  for(let p=Math.floor(t0*SR);p+N<=Math.floor(t1*SR);p+=N/2){
+    const re=new Float32Array(N);const im=new Float32Array(N);
+    for(let i=0;i<N;i++){const w=0.5-0.5*Math.cos(2*Math.PI*i/(N-1));re[i]=mono[p+i]*w;}
+    fft(re,im,false);
+    for(let i=1;i<N/2;i++) acc[i]+=Math.hypot(re[i],im[i]);
+    cnt++;
+  }
+  for(let i=0;i<acc.length;i++) acc[i]/=cnt;
+  const peaks=[];
+  for(let i=2;i<acc.length-2;i++){
+    if(acc[i]>acc[i-1]&&acc[i]>acc[i+1]&&acc[i]>acc[i-2]&&acc[i]>acc[i+2]) peaks.push({hz:Math.round(i*SR/N),m:acc[i]});
+  }
+  peaks.sort((a,b)=>b.m-a.m);
+  console.log(`${t0}-${t1}s peaks:`, peaks.slice(0,8).map(p=>p.hz).join(' '));
+}

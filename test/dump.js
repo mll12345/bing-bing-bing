@@ -1,1 +1,119 @@
-Ly8gZHVtcC5qcyDigJTigJQg5riy5p+T5bm25oqK6L6T5Ye6IFdBViDpgJrov4cgL3NhdmUvIOiQveWIsCB0ZXN0L291dC/vvIzkvpsgZmZtcGVnIOWIhuaekAovLyDnlKjms5U6IG5vZGUgdGVzdC9kdW1wLmpzIDxwYWdlVXJsPiA8aW5wdXRGaWxlPiA8b3V0TmFtZS53YXY+IFt2b2ljZV0gW3RpbWJyZV0gW2tlZXBdIFtyZXZdIFtzcGFya2xlXSBbbWF4TGVuXQpjb25zdCBodHRwID0gcmVxdWlyZSgnaHR0cCcpOwpjb25zdCBmcyA9IHJlcXVpcmUoJ2ZzJyk7CmNvbnN0IHBhdGggPSByZXF1aXJlKCdwYXRoJyk7Cgpjb25zdCBQQUdFID0gcHJvY2Vzcy5hcmd2WzJdIHx8ICdodHRwOi8vMTI3LjAuMC4xOjgxOTkvJzsKY29uc3QgRklMRSA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmFyZ3ZbM10pOwpjb25zdCBOQU1FID0gcHJvY2Vzcy5hcmd2WzRdIHx8ICdvdXQud2F2JzsKY29uc3Qgdm9pY2UgPSBwcm9jZXNzLmFyZ3ZbNV0gfHwgMTsKY29uc3QgdGltYnJlID0gcHJvY2Vzcy5hcmd2WzZdIHx8IDI7CmNvbnN0IGtlZXAgPSBwcm9jZXNzLmFyZ3ZbN10gfHwgMDsKY29uc3QgcmV2ID0gcHJvY2Vzcy5hcmd2WzhdIHx8IDAuMjU7CmNvbnN0IHNwYXJrbGUgPSBwcm9jZXNzLmFyZ3ZbOV0gfHwgMC4zOwpjb25zdCBtYXhMZW4gPSBwcm9jZXNzLmFyZ3ZbMTBdIHx8IDMwMDsKY29uc3QgUkVQT1JUID0gcGF0aC5yZXNvbHZlKCd0ZXN0L2R1bXAtcmVwb3J0Lmpzb24nKTsKCmNvbnN0IGdldEpTT04gPSAocCkgPT4gbmV3IFByb21pc2UoKHJlcywgcmVqKSA9PiB7CiAgaHR0cC5nZXQoeyBob3N0OiAnMTI3LjAuMC4xJywgcG9ydDogOTIyMiwgcGF0aDogcCB9LCAocikgPT4gewogICAgbGV0IHMgPSAnJzsgci5vbignZGF0YScsIChkKSA9PiAocyArPSBkKSk7IHIub24oJ2VuZCcsICgpID0+IHsgdHJ5IHsgcmVzKEpTT04ucGFyc2UocykpOyB9IGNhdGNoIChlKSB7IHJlaihlKTsgfSB9KTsKICB9KS5vbignZXJyb3InLCByZWopOwp9KTsKCihhc3luYyAoKSA9PiB7CiAgY29uc3QgcmVwID0geyBwYWdlOiBQQUdFLCBmaWxlOiBGSUxFLCBuYW1lOiBOQU1FLCBvazogZmFsc2UsIGVycnM6IFtdIH07CiAgdHJ5IHsKICAgIGNvbnN0IGxpc3QgPSBhd2FpdCBnZXRKU09OKCcvanNvbi9saXN0Jyk7CiAgICBjb25zdCBob3N0ID0gbmV3IFVSTChQQUdFKS5ob3N0OwogICAgY29uc3QgdCA9IGxpc3QuZmluZCgoeCkgPT4geC50eXBlID09PSAncGFnZScgJiYgeC51cmwuaW5jbHVkZXMoaG9zdCkpCiAgICAgIHx8IGxpc3QuZmluZCgoeCkgPT4geC50eXBlID09PSAncGFnZScgJiYgL15odHRwcz86Ly50ZXN0KHgudXJsKSkKICAgICAgfHwgbGlzdC5maW5kKCh4KSA9PiB4LnR5cGUgPT09ICdwYWdlJyk7CiAgICBpZiAoIXQpIHRocm93IG5ldyBFcnJvcignbm8gQ0RQIHBhZ2UgdGFyZ2V0Jyk7CiAgICBjb25zdCB3cyA9IG5ldyBXZWJTb2NrZXQodC53ZWJTb2NrZXREZWJ1Z2dlclVybCk7CiAgICBsZXQgaWQgPSAwOyBjb25zdCBwZW5kID0gbmV3IE1hcCgpOwogICAgY29uc3Qgc2VuZCA9IChtLCBxID0ge30pID0+IG5ldyBQcm9taXNlKChyKSA9PiB7IGNvbnN0IGkgPSArK2lkOyBwZW5kLnNldChpLCByKTsgd3Muc2VuZChKU09OLnN0cmluZ2lmeSh7IGlkOiBpLCBtZXRob2Q6IG0sIHBhcmFtczogcSB9KSk7IH0pOwogICAgd3Mub25tZXNzYWdlID0gKGUpID0+IHsKICAgICAgY29uc3QgbSA9IEpTT04ucGFyc2UoZS5kYXRhKTsKICAgICAgaWYgKG0uaWQgJiYgcGVuZC5oYXMobS5pZCkpIHsgcGVuZC5nZXQobS5pZCkobS5yZXN1bHQpOyBwZW5kLmRlbGV0ZShtLmlkKTsgcmV0dXJuOyB9CiAgICAgIGlmIChtLm1ldGhvZCA9PT0gJ1J1bnRpbWUuZXhjZXB0aW9uVGhyb3duJykgcmVwLmVycnMucHVzaChtLnBhcmFtcy5leGNlcHRpb25EZXRhaWxzPy5leGNlcHRpb24/LmRlc2NyaXB0aW9uKTsKICAgIH07CiAgICB3cy5vbmVycm9yID0gKGUpID0+IHsgcmVwLmVycnMucHVzaCgnd3MgZXJyb3I6ICcgKyAoZS5tZXNzYWdlIHx8ICd1bmtub3duJykpOyB9OwogICAgd3Mub25jbG9zZSA9ICgpID0+IHsgaWYgKCFyZXAub2spIHJlcC5lcnJzLnB1c2goJ3dzIGNsb3NlZCBlYXJseScpOyB9OwogICAgYXdhaXQgbmV3IFByb21pc2UoKHIpID0+IHsgd3Mub25vcGVuID0gcjsgc2V0VGltZW91dChyLCA4MDAwKTsgfSk7CiAgICBhd2FpdCBzZW5kKCdSdW50aW1lLmVuYWJsZScpOyBhd2FpdCBzZW5kKCdET00uZW5hYmxlJyk7IGF3YWl0IHNlbmQoJ1BhZ2UuZW5hYmxlJyk7CiAgICBhd2FpdCBzZW5kKCdQYWdlLm5hdmlnYXRlJywgeyB1cmw6IFBBR0UgfSk7CiAgICBhd2FpdCBuZXcgUHJvbWlzZSgocikgPT4gc2V0VGltZW91dChyLCAxNTAwKSk7CgogICAgY29uc3QgZG9jID0gYXdhaXQgc2VuZCgnRE9NLmdldERvY3VtZW50JywgeyBkZXB0aDogLTEgfSk7CiAgICBjb25zdCBxID0gYXdhaXQgc2VuZCgnRE9NLnF1ZXJ5U2VsZWN0b3InLCB7IG5vZGVJZDogZG9jLnJvb3Qubm9kZUlkLCBzZWxlY3RvcjogJyNmaWxlSW5wdXQnIH0pOwogICAgYXdhaXQgc2VuZCgnRE9NLnNldEZpbGVJbnB1dEZpbGVzJywgeyBub2RlSWQ6IHEubm9kZUlkLCBmaWxlczogW0ZJTEVdIH0pOwoKICAgIGNvbnN0IHdhaXRGb3IgPSBhc3luYyAoZXhwciwgbXMsIGxhYmVsKSA9PiB7CiAgICAgIGNvbnN0IHQwID0gRGF0ZS5ub3coKTsKICAgICAgd2hpbGUgKERhdGUubm93KCkgLSB0MCA8IG1zKSB7CiAgICAgICAgY29uc3QgciA9IGF3YWl0IHNlbmQoJ1J1bnRpbWUuZXZhbHVhdGUnLCB7IGV4cHJlc3Npb246IGV4cHIsIHJldHVybkJ5VmFsdWU6IHRydWUgfSk7CiAgICAgICAgaWYgKHI/LnJlc3VsdD8udmFsdWUpIHJldHVybjsKICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZSgocjIpID0+IHNldFRpbWVvdXQocjIsIDMwMCkpOwogICAgICB9CiAgICAgIHRocm93IG5ldyBFcnJvcigndGltZW91dCAnICsgbGFiZWwpOwogICAgfTsKICAgIGF3YWl0IHdhaXRGb3IoJyEhd2luZG93Ll9faWNlPy5zdGF0ZT8uc3JjQnVmZmVyJywgNjAwMDAsICdkZWNvZGUnKTsKICAgIHJlcC5kZWNvZGVkID0gSlNPTi5wYXJzZSgoYXdhaXQgc2VuZCgnUnVudGltZS5ldmFsdWF0ZScsIHsKICAgICAgZXhwcmVzc2lvbjogYEpTT04uc3RyaW5naWZ5KHtkdXI6d2luZG93Ll9faWNlLnN0YXRlLnNyY0J1ZmZlci5kdXJhdGlvbixzcjp3aW5kb3cuX19pY2Uuc3RhdGUuc3JjQnVmZmVyLnNhbXBsZVJhdGUsY2g6d2luZG93Ll9faWNlLnN0YXRlLnNyY0J1ZmZlci5udW1iZXJPZkNoYW5uZWxzfSlgLAogICAgICByZXR1cm5CeVZhbHVlOiB0cnVlIH0pKS5yZXN1bHQudmFsdWUpOwoKICAgIC8vIOebtOaOpeazqOWFpSA0IOe7hOmHjOeahOS4gOe7hO+8jOe7leW8gOa7keWdl++8iOe6v+S4iumhtemdouS5n+i1sOi/meadoei3r++8iQogICAgYXdhaXQgc2VuZCgnUnVudGltZS5ldmFsdWF0ZScsIHsKICAgICAgZXhwcmVzc2lvbjogYCgoKT0+e2NvbnN0IHM9KGlkLHYpPT57Y29uc3QgZT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCk7aWYoZSl7ZS52YWx1ZT12O2UuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoJ2lucHV0Jyx7YnViYmxlczp0cnVlfSkpfX07cygndm9pY2UnLCR7dm9pY2V9KTtzKCd0aW1icmUnLCR7dGltYnJlfSk7cygna2VlcCcsJHtrZWVwfSk7cygncmV2Jywke3Jldn0pO3MoJ3NwYXJrbGUnLCR7c3BhcmtsZX0pO3MoJ21heExlbicsJHttYXhMZW59KTtyZXR1cm4gMX0pKClgLAogICAgfSk7CiAgICBhd2FpdCBzZW5kKCdSdW50aW1lLmV2YWx1YXRlJywgeyBleHByZXNzaW9uOiBgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2J0blJlbmRlcicpLmNsaWNrKClgIH0pOwogICAgYXdhaXQgd2FpdEZvcignISF3aW5kb3cuX19pY2U/LnN0YXRlPy5vdXRCdWZmZXInLCAzMDAwMDAsICdyZW5kZXInKTsKICAgIHJlcC5pbmZvID0gSlNPTi5wYXJzZSgoYXdhaXQgc2VuZCgnUnVudGltZS5ldmFsdWF0ZScsIHsgZXhwcmVzc2lvbjogYEpTT04uc3RyaW5naWZ5KHdpbmRvdy5fX2ljZS5zdGF0ZS5vdXRJbmZvKWAsIHJldHVybkJ5VmFsdWU6IHRydWUgfSkpLnJlc3VsdC52YWx1ZSk7CgogICAgLy8g5pys5Zyw6aG16Z2i6LWwIGZldGNoIFBPU1Qg5LiK5Lyg77yb57q/5LiK6aG16Z2i77yIR2l0SHViIFBhZ2VzIOS4jeaUr+aMgSBQT1NU77yJ5Zue6YCA5oiQ5YiG54mHIGJhc2U2NCDlj5blm54KICAgIGNvbnN0IHVwID0gYXdhaXQgc2VuZCgnUnVudGltZS5ldmFsdWF0ZScsIHsKICAgICAgZXhwcmVzc2lvbjogYChhc3luYygpPT57dHJ5ewogICAgICAgIGNvbnN0IG09YXdhaXQgaW1wb3J0KCcuL3NyYy9hdWRpby5qcycpO2NvbnN0IGJsb2I9bS5lbmNvZGVXYXYod2luZG93Ll9faWNlLnN0YXRlLm91dEJ1ZmZlcik7CiAgICAgICAgY29uc3Qgcj1hd2FpdCBmZXRjaCgnL3NhdmUvJHtlbmNvZGVVUklDb21wb25lbnQoTkFNRSl9Jyx7bWV0aG9kOidQT1NUJyxib2R5OmJsb2J9KTsKICAgICAgICBpZighci5vaykgdGhyb3cgbmV3IEVycm9yKCdQT1NUICcrci5zdGF0dXMpOwogICAgICAgIHJldHVybiAnUE9TVEVEJzsKICAgICAgfWNhdGNoKGUpewogICAgICAgIGNvbnN0IG09YXdhaXQgaW1wb3J0KCcuL3NyYy9hdWRpby5qcycpO2NvbnN0IGJsb2I9bS5lbmNvZGVXYXYod2luZG93Ll9faWNlLnN0YXRlLm91dEJ1ZmZlcik7CiAgICAgICAgY29uc3QgYnVmPW5ldyBVaW50OEFycmF5KGF3YWl0IGJsb2IuYXJyYXlCdWZmZXIoKSk7CiAgICAgICAgbGV0IHM9Jyc7Y29uc3QgQ0g9MHg4MDAwOwogICAgICAgIGZvcihsZXQgaT0wO2k8YnVmLmxlbmd0aDtpKz1DSCkgcys9U3RyaW5nLmZyb21DaGFyQ29kZS5hcHBseShudWxsLGJ1Zi5zdWJhcnJheShpLGkrQ0gpKTsKICAgICAgICB3aW5kb3cuX19kdW1wQjY0PWJ0b2Eocyk7CiAgICAgICAgcmV0dXJuICdCNjQ6Jyt3aW5kb3cuX19kdW1wQjY0Lmxlbmd0aDsKICAgICAgfX0pKClgLAogICAgICByZXR1cm5CeVZhbHVlOiB0cnVlLCBhd2FpdFByb21pc2U6IHRydWUsCiAgICB9KTsKICAgIHJlcC5zYXZlZCA9IHVwPy5yZXN1bHQ/LnZhbHVlOwogICAgY29uc3Qgc2F2ZWRTdHIgPSBTdHJpbmcocmVwLnNhdmVkIHx8ICcnKTsKICAgIGlmIChzYXZlZFN0ci5zdGFydHNXaXRoKCdCNjQ6JykpIHsKICAgICAgY29uc3QgdG90YWwgPSBOdW1iZXIoc2F2ZWRTdHIuc2xpY2UoNCkpOwogICAgICBjb25zdCBDSCA9IDQgKiAxMDI0ICogMTAyNDsKICAgICAgbGV0IGI2NCA9ICcnOwogICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHRvdGFsOyBpICs9IENIKSB7CiAgICAgICAgY29uc3QgciA9IGF3YWl0IHNlbmQoJ1J1bnRpbWUuZXZhbHVhdGUnLCB7CiAgICAgICAgICBleHByZXNzaW9uOiBgd2luZG93Ll9fZHVtcEI2NC5zbGljZSgke2l9LCR7TWF0aC5taW4odG90YWwsIGkgKyBDSCl9KWAsIHJldHVybkJ5VmFsdWU6IHRydWUsCiAgICAgICAgfSk7CiAgICAgICAgYjY0ICs9IHIucmVzdWx0LnZhbHVlOwogICAgICB9CiAgICAgIGNvbnN0IG91dERpciA9IHBhdGgucmVzb2x2ZSgndGVzdC9vdXQnKTsKICAgICAgZnMubWtkaXJTeW5jKG91dERpciwgeyByZWN1cnNpdmU6IHRydWUgfSk7CiAgICAgIGNvbnN0IG91dFBhdGggPSBwYXRoLmpvaW4ob3V0RGlyLCBOQU1FKTsKICAgICAgZnMud3JpdGVGaWxlU3luYyhvdXRQYXRoLCBCdWZmZXIuZnJvbShiNjQsICdiYXNlNjQnKSk7CiAgICAgIHJlcC5zYXZlZCA9ICdGSUxFOicgKyBvdXRQYXRoICsgJyAoJyArIGZzLnN0YXRTeW5jKG91dFBhdGgpLnNpemUgKyAnIGJ5dGVzKSc7CiAgICAgIHJlcC5mYWxsYmFjayA9IHRydWU7CiAgICB9IGVsc2UgaWYgKHNhdmVkU3RyID09PSAnUE9TVEVEJykgewogICAgICByZXAuc2F2ZWQgPSAnUE9TVCAvc2F2ZS8nICsgTkFNRTsKICAgIH0KICAgIHJlcC5vayA9IHRydWU7CiAgfSBjYXRjaCAoZSkgewogICAgcmVwLmVycnMucHVzaChTdHJpbmcoZSAmJiBlLnN0YWNrIHx8IGUpKTsKICB9CiAgZnMud3JpdGVGaWxlU3luYyhSRVBPUlQsIEpTT04uc3RyaW5naWZ5KHJlcCwgbnVsbCwgMikpOwogIGNvbnNvbGUubG9nKCdyZXBvcnQgLT4nLCBSRVBPUlQsIHJlcC5vayA/ICdPSycgOiAnRkFJTEVEJyk7CiAgcHJvY2Vzcy5leGl0KHJlcC5vayA/IDAgOiAxKTsKfSkoKTsK
+// dump.js —— 渲染并把输出 WAV 通过 /save/ 落到 test/out/，供 ffmpeg 分析
+// 用法: node test/dump.js <pageUrl> <inputFile> <outName.wav> [voice] [timbre] [keep] [rev] [sparkle] [maxLen]
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
+const PAGE = process.argv[2] || 'http://127.0.0.1:8199/';
+const FILE = path.resolve(process.argv[3]);
+const NAME = process.argv[4] || 'out.wav';
+const voice = process.argv[5] || 1;
+const timbre = process.argv[6] || 2;
+const keep = process.argv[7] || 0;
+const rev = process.argv[8] || 0.25;
+const sparkle = process.argv[9] || 0.3;
+const maxLen = process.argv[10] || 300;
+const REPORT = path.resolve('test/dump-report.json');
+
+const getJSON = (p) => new Promise((res, rej) => {
+  http.get({ host: '127.0.0.1', port: 9222, path: p }, (r) => {
+    let s = ''; r.on('data', (d) => (s += d)); r.on('end', () => { try { res(JSON.parse(s)); } catch (e) { rej(e); } });
+  }).on('error', rej);
+});
+
+(async () => {
+  const rep = { page: PAGE, file: FILE, name: NAME, ok: false, errs: [] };
+  try {
+    const list = await getJSON('/json/list');
+    const host = new URL(PAGE).host;
+    const t = list.find((x) => x.type === 'page' && x.url.includes(host))
+      || list.find((x) => x.type === 'page' && /^https?:/.test(x.url))
+      || list.find((x) => x.type === 'page');
+    if (!t) throw new Error('no CDP page target');
+    const ws = new WebSocket(t.webSocketDebuggerUrl);
+    let id = 0; const pend = new Map();
+    const send = (m, q = {}) => new Promise((r) => { const i = ++id; pend.set(i, r); ws.send(JSON.stringify({ id: i, method: m, params: q })); });
+    ws.onmessage = (e) => {
+      const m = JSON.parse(e.data);
+      if (m.id && pend.has(m.id)) { pend.get(m.id)(m.result); pend.delete(m.id); return; }
+      if (m.method === 'Runtime.exceptionThrown') rep.errs.push(m.params.exceptionDetails?.exception?.description);
+    };
+    ws.onerror = (e) => { rep.errs.push('ws error: ' + (e.message || 'unknown')); };
+    ws.onclose = () => { if (!rep.ok) rep.errs.push('ws closed early'); };
+    await new Promise((r) => { ws.onopen = r; setTimeout(r, 8000); });
+    await send('Runtime.enable'); await send('DOM.enable'); await send('Page.enable');
+    await send('Page.navigate', { url: PAGE });
+    await new Promise((r) => setTimeout(r, 1500));
+
+    const doc = await send('DOM.getDocument', { depth: -1 });
+    const q = await send('DOM.querySelector', { nodeId: doc.root.nodeId, selector: '#fileInput' });
+    await send('DOM.setFileInputFiles', { nodeId: q.nodeId, files: [FILE] });
+
+    const waitFor = async (expr, ms, label) => {
+      const t0 = Date.now();
+      while (Date.now() - t0 < ms) {
+        const r = await send('Runtime.evaluate', { expression: expr, returnByValue: true });
+        if (r?.result?.value) return;
+        await new Promise((r2) => setTimeout(r2, 300));
+      }
+      throw new Error('timeout ' + label);
+    };
+    await waitFor('!!window.__ice?.state?.srcBuffer', 60000, 'decode');
+    rep.decoded = JSON.parse((await send('Runtime.evaluate', {
+      expression: `JSON.stringify({dur:window.__ice.state.srcBuffer.duration,sr:window.__ice.state.srcBuffer.sampleRate,ch:window.__ice.state.srcBuffer.numberOfChannels})`,
+      returnByValue: true })).result.value);
+
+    // 直接注入 4 组里的一组，绕开滑块（线上页面也走这条路）
+    await send('Runtime.evaluate', {
+      expression: `(()=>{const s=(id,v)=>{const e=document.getElementById(id);if(e){e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}))}};s('voice',${voice});s('timbre',${timbre});s('keep',${keep});s('rev',${rev});s('sparkle',${sparkle});s('maxLen',${maxLen});return 1})()`,
+    });
+    await send('Runtime.evaluate', { expression: `document.getElementById('btnRender').click()` });
+    await waitFor('!!window.__ice?.state?.outBuffer', 300000, 'render');
+    rep.info = JSON.parse((await send('Runtime.evaluate', { expression: `JSON.stringify(window.__ice.state.outInfo)`, returnByValue: true })).result.value);
+
+    // 本地页面走 fetch POST 上传；线上页面（GitHub Pages 不支持 POST）回退成分片 base64 取回
+    const up = await send('Runtime.evaluate', {
+      expression: `(async()=>{try{
+        const m=await import('./src/audio.js');const blob=m.encodeWav(window.__ice.state.outBuffer);
+        const r=await fetch('/save/${encodeURIComponent(NAME)}',{method:'POST',body:blob});
+        if(!r.ok) throw new Error('POST '+r.status);
+        return 'POSTED';
+      }catch(e){
+        const m=await import('./src/audio.js');const blob=m.encodeWav(window.__ice.state.outBuffer);
+        const buf=new Uint8Array(await blob.arrayBuffer());
+        let s='';const CH=0x8000;
+        for(let i=0;i<buf.length;i+=CH) s+=String.fromCharCode.apply(null,buf.subarray(i,i+CH));
+        window.__dumpB64=btoa(s);
+        return 'B64:'+window.__dumpB64.length;
+      }})()`,
+      returnByValue: true, awaitPromise: true,
+    });
+    rep.saved = up?.result?.value;
+    const savedStr = String(rep.saved || '');
+    if (savedStr.startsWith('B64:')) {
+      const total = Number(savedStr.slice(4));
+      const CH = 4 * 1024 * 1024;
+      let b64 = '';
+      for (let i = 0; i < total; i += CH) {
+        const r = await send('Runtime.evaluate', {
+          expression: `window.__dumpB64.slice(${i},${Math.min(total, i + CH)})`, returnByValue: true,
+        });
+        b64 += r.result.value;
+      }
+      const outDir = path.resolve('test/out');
+      fs.mkdirSync(outDir, { recursive: true });
+      const outPath = path.join(outDir, NAME);
+      fs.writeFileSync(outPath, Buffer.from(b64, 'base64'));
+      rep.saved = 'FILE:' + outPath + ' (' + fs.statSync(outPath).size + ' bytes)';
+      rep.fallback = true;
+    } else if (savedStr === 'POSTED') {
+      rep.saved = 'POST /save/' + NAME;
+    }
+    rep.ok = true;
+  } catch (e) {
+    rep.errs.push(String(e && e.stack || e));
+  }
+  fs.writeFileSync(REPORT, JSON.stringify(rep, null, 2));
+  console.log('report ->', REPORT, rep.ok ? 'OK' : 'FAILED');
+  process.exit(rep.ok ? 0 : 1);
+})();

@@ -1,1 +1,45 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwppbXBvcnQgeyBleGVjRmlsZVN5bmMgfSBmcm9tICdub2RlOmNoaWxkX3Byb2Nlc3MnOwpjb25zdCBTUj00NDEwMDsKY29uc3QgbWV0YT1KU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYygnc2FtcGxlcy9iaW5nLWJhbmsuanNvbicsJ3V0ZjgnKSk7CmNvbnN0IGJpbj1mcy5yZWFkRmlsZVN5bmMoJ3NhbXBsZXMvYmluZy1iYW5rLmJpbicpOwpjb25zdCBpMTY9bmV3IEludDE2QXJyYXkoYmluLmJ1ZmZlcixiaW4uYnl0ZU9mZnNldCxiaW4ubGVuZ3RoLzIpOwpjb25zdCBwb29sPW5ldyBGbG9hdDMyQXJyYXkoaTE2Lmxlbmd0aCk7CmZvcihsZXQgaT0wO2k8aTE2Lmxlbmd0aDtpKyspcG9vbFtpXT1pMTZbaV0vMzI3Njg7CmNvbnN0IHNlZ3M9W107CmZvcihsZXQgZz0wO2c8NDtnKyspewogIGNvbnN0IHRyaT1tZXRhLnN5bGxhYmxlcy5zbGljZShnKjMsZyozKzMpOwogIGNvbnN0IHBhcnRzPVtdOwogIGZvcihjb25zdCBzIG9mIHRyaSl7CiAgICBjb25zdCBkPW5ldyBGbG9hdDMyQXJyYXkocy5sZW4rTWF0aC5mbG9vcigwLjA0KlNSKSk7CiAgICBmb3IobGV0IGk9MDtpPHMubGVuO2krKyl7Y29uc3QgdD1pPnMubGVuLTAuMDQqU1I/KHMubGVuLWkpLygwLjA0KlNSKToxO2RbaV09cG9vbFtzLm9mZitpXSp0O30KICAgIHBhcnRzLnB1c2goZCk7CiAgfQogIHNlZ3MucHVzaChwYXJ0cyk7Cn0KY29uc3QgZ2FwPU1hdGguZmxvb3IoMC43NSpTUiksIGlubmVyPU1hdGguZmxvb3IoMC4zMCpTUik7CmxldCB0b3RhbD1NYXRoLmZsb29yKDAuMjUqU1IpOwpmb3IoY29uc3QgcCBvZiBzZWdzKWZvcihjb25zdCBkIG9mIHApdG90YWwrPWQubGVuZ3RoK2lubmVyOwp0b3RhbCs9Z2FwKjM7CmNvbnN0IG91dD1uZXcgRmxvYXQzMkFycmF5KHRvdGFsKTsKbGV0IG9mZj1NYXRoLmZsb29yKDAuMjUqU1IpOwpmb3IobGV0IGc9MDtnPDQ7ZysrKXsKICBzZWdzW2ddLmZvckVhY2goKGQsaSk9PnsKICAgIGZvcihsZXQgaz0wO2s8ZC5sZW5ndGg7aysrKW91dFtvZmYra109ZFtrXTsKICAgIG9mZis9ZC5sZW5ndGg7CiAgICBpZihpPDIpb2ZmKz1pbm5lcjsKICB9KTsKICBvZmYrPWdhcDsKfQpsZXQgcGs9MDtmb3IobGV0IGk9MDtpPG91dC5sZW5ndGg7aSsrKXBrPU1hdGgubWF4KHBrLE1hdGguYWJzKG91dFtpXSkpOwpjb25zdCBnZz0wLjkvKHBrfHwxKTsKY29uc3Qgbj1vdXQubGVuZ3RoOwpjb25zdCBiPUJ1ZmZlci5hbGxvYyg0NCtuKjIpOwpiLndyaXRlKCdSSUZGJywwKTtiLndyaXRlVUludDMyTEUoMzYrbioyLDQpO2Iud3JpdGUoJ1dBVkUnLDgpOwpiLndyaXRlKCdmbXQgJywxMik7Yi53cml0ZVVJbnQzMkxFKDE2LDE2KTtiLndyaXRlVUludDE2TEUoMSwyMCk7Yi53cml0ZVVJbnQxNkxFKDEsMjIpOwpiLndyaXRlVUludDMyTEUoU1IsMjQpO2Iud3JpdGVVSW50MzJMRShTUioyLDI4KTtiLndyaXRlVUludDE2TEUoMiwzMik7Yi53cml0ZVVJbnQxNkxFKDE2LDM0KTsKYi53cml0ZSgnZGF0YScsMzYpO2Iud3JpdGVVSW50MzJMRShuKjIsNDApOwpmb3IobGV0IGk9MDtpPG47aSsrKWIud3JpdGVJbnQxNkxFKE1hdGgucm91bmQoTWF0aC5tYXgoLTEsTWF0aC5taW4oMSxvdXRbaV0qZ2cpKSozMjc2NyksNDQraSoyKTsKZnMud3JpdGVGaWxlU3luYygndGVzdC9vdXQvcHJldmlldzQud2F2JyxiKTsKZXhlY0ZpbGVTeW5jKCdmZm1wZWcnLFsnLXYnLCdlcnJvcicsJy15JywnLWknLCd0ZXN0L291dC9wcmV2aWV3NC53YXYnLCctYjphJywnMTkyaycsJ2RlbW8v5Yaw5aOwXzTnu4Tor5XlkKwubXAzJ10pOwpjb25zb2xlLmxvZygnNOe7hOivleWQrCcsKG4vU1IpLnRvRml4ZWQoMikrJ3MnKTsNCg==
+import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
+const SR=44100;
+const meta=JSON.parse(fs.readFileSync('samples/bing-bank.json','utf8'));
+const bin=fs.readFileSync('samples/bing-bank.bin');
+const i16=new Int16Array(bin.buffer,bin.byteOffset,bin.length/2);
+const pool=new Float32Array(i16.length);
+for(let i=0;i<i16.length;i++)pool[i]=i16[i]/32768;
+const segs=[];
+for(let g=0;g<4;g++){
+  const tri=meta.syllables.slice(g*3,g*3+3);
+  const parts=[];
+  for(const s of tri){
+    const d=new Float32Array(s.len+Math.floor(0.04*SR));
+    for(let i=0;i<s.len;i++){const t=i>s.len-0.04*SR?(s.len-i)/(0.04*SR):1;d[i]=pool[s.off+i]*t;}
+    parts.push(d);
+  }
+  segs.push(parts);
+}
+const gap=Math.floor(0.75*SR), inner=Math.floor(0.30*SR);
+let total=Math.floor(0.25*SR);
+for(const p of segs)for(const d of p)total+=d.length+inner;
+total+=gap*3;
+const out=new Float32Array(total);
+let off=Math.floor(0.25*SR);
+for(let g=0;g<4;g++){
+  segs[g].forEach((d,i)=>{
+    for(let k=0;k<d.length;k++)out[off+k]=d[k];
+    off+=d.length;
+    if(i<2)off+=inner;
+  });
+  off+=gap;
+}
+let pk=0;for(let i=0;i<out.length;i++)pk=Math.max(pk,Math.abs(out[i]));
+const gg=0.9/(pk||1);
+const n=out.length;
+const b=Buffer.alloc(44+n*2);
+b.write('RIFF',0);b.writeUInt32LE(36+n*2,4);b.write('WAVE',8);
+b.write('fmt ',12);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);
+b.writeUInt32LE(SR,24);b.writeUInt32LE(SR*2,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);
+b.write('data',36);b.writeUInt32LE(n*2,40);
+for(let i=0;i<n;i++)b.writeInt16LE(Math.round(Math.max(-1,Math.min(1,out[i]*gg))*32767),44+i*2);
+fs.writeFileSync('test/out/preview4.wav',b);
+execFileSync('ffmpeg',['-v','error','-y','-i','test/out/preview4.wav','-b:a','192k','demo/冰声_4组试听.mp3']);
+console.log('4组试听',(n/SR).toFixed(2)+'s');

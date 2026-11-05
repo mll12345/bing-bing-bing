@@ -1,1 +1,74 @@
-Ly8gcmVmLXNwbGl0Lm1qcyDigJTigJQg5oqK5Y+C6ICD6Z+z6aKR5YiH5oiQ5Y2V5Liq44CM5Yaw44CN6Z+z6IqC77ya6IO96YeP5YyF57uc6LC354K55YiH5YiGCmltcG9ydCBmcyBmcm9tICdub2RlOmZzJzsKaW1wb3J0IHsgcGl0Y2hUcmFjayB9IGZyb20gJy4uL3NyYy92b2ljZS5qcyc7Cgpjb25zdCBTUiA9IDQ0MTAwOwpjb25zdCByYXcgPSBuZXcgRmxvYXQzMkFycmF5KGZzLnJlYWRGaWxlU3luYyhwcm9jZXNzLmFyZ3ZbMl0pLmJ1ZmZlci5zbGljZSgwKSk7CmNvbnN0IG4gPSBNYXRoLmZsb29yKHJhdy5sZW5ndGggLyAyKTsKY29uc3QgbW9ubyA9IG5ldyBGbG9hdDMyQXJyYXkobik7CmZvciAobGV0IGkgPSAwOyBpIDwgbjsgaSsrKSBtb25vW2ldID0gKHJhd1tpICogMl0gKyByYXdbaSAqIDIgKyAxXSkgLyAyOwoKLy8gM21zIOWMhee7nO+8iOW4puS4gOeCueW5s+a7ke+8jOaKl+WNleeCueWZquWjsO+8iQpjb25zdCBob3AgPSBNYXRoLmZsb29yKFNSICogMC4wMDMpOwpjb25zdCBlbnYgPSBbXTsKZm9yIChsZXQgcCA9IDA7IHAgKyBob3AgPD0gbjsgcCArPSBob3ApIHsKICBsZXQgcyA9IDA7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBob3A7IGkrKykgcyArPSBtb25vW3AgKyBpXSAqIG1vbm9bcCArIGldOwogIGVudi5wdXNoKE1hdGguc3FydChzIC8gaG9wKSk7Cn0KY29uc3Qgc20gPSBlbnYubWFwKCh2LCBpKSA9PiB7CiAgbGV0IGEgPSAwOyBsZXQgYyA9IDA7CiAgZm9yIChsZXQgayA9IC0yOyBrIDw9IDI7IGsrKykgeyBjb25zdCBqID0gaSArIGs7IGlmIChqID49IDAgJiYgaiA8IGVudi5sZW5ndGgpIHsgYSArPSBlbnZbal07IGMrKzsgfSB9CiAgcmV0dXJuIGEgLyBjOwp9KTsKY29uc3QgbXggPSBNYXRoLm1heCguLi5zbSk7CmNvbnN0IG9uVGhyID0gbXggKiAwLjEyOyAgIC8vIOi1t+eCuemYiOWAvApjb25zdCBvZmZUaHIgPSBteCAqIDAuMTY7ICAvLyDosLfngrnpmIjlgLwKCi8vIOWFiOaJvuOAjOacieWjsOWMuumXtOOAjQpjb25zdCByZWdzID0gW107CmxldCBzdCA9IC0xOwpmb3IgKGxldCBpID0gMDsgaSA8IHNtLmxlbmd0aDsgaSsrKSB7CiAgaWYgKHN0IDwgMCAmJiBzbVtpXSA+IG9uVGhyKSBzdCA9IGk7CiAgZWxzZSBpZiAoc3QgPj0gMCAmJiBzbVtpXSA8IG9mZlRociAqIDAuNSkgeyByZWdzLnB1c2goW3N0LCBpXSk7IHN0ID0gLTE7IH0KfQppZiAoc3QgPj0gMCkgcmVncy5wdXNoKFtzdCwgc20ubGVuZ3RoXSk7CgovLyDmr4/kuKrmnInlo7DljLrpl7TlhoXpg6jmjInosLfngrnlho3liIcKZnVuY3Rpb24gc3BsaXRzKGEsIGIpIHsKICBjb25zdCBvdXQgPSBbXTsKICBsZXQgY3VyID0gYTsKICBmb3IgKGxldCBpID0gYSArIDM7IGkgPCBiIC0gMzsgaSsrKSB7CiAgICBjb25zdCBpc01pbiA9IHNtW2ldIDw9IHNtW2kgLSAxXSAmJiBzbVtpXSA8PSBzbVtpICsgMV0gJiYgc21baV0gPCBzbVtpIC0gM10gJiYgc21baV0gPCBzbVtpICsgM107CiAgICBpZiAoIWlzTWluKSBjb250aW51ZTsKICAgIGlmIChzbVtpXSA+IG14ICogMC40MikgY29udGludWU7IC8vIOiwt+W/hemhu+aYjuaYvuS4i+mZtwogICAgaWYgKGkgLSBjdXIgPCA4KSBjb250aW51ZTsgICAgICAgLy8g6Iez5bCRIDI0bXMKICAgIG91dC5wdXNoKFtjdXIsIGldKTsKICAgIGN1ciA9IGk7CiAgfQogIGlmIChiIC0gY3VyID49IDgpIG91dC5wdXNoKFtjdXIsIGJdKTsKICByZXR1cm4gb3V0Owp9Cgpjb25zdCB0cmFjayA9IHBpdGNoVHJhY2sobW9ubywgU1IsICgpID0+IHt9KTsKY29uc3QgYWxsID0gW107CmZvciAoY29uc3QgW2EsIGJdIG9mIHJlZ3MpIGZvciAoY29uc3QgcyBvZiBzcGxpdHMoYSwgYikpIGFsbC5wdXNoKHMpOwoKbGV0IGlkeCA9IDA7CmZvciAoY29uc3QgW2EsIGJdIG9mIGFsbCkgewogIGNvbnN0IHQwID0gYSAqIDAuMDAzOwogIGNvbnN0IHQxID0gYiAqIDAuMDAzOwogIGNvbnN0IGYwcyA9IFtdOwogIGZvciAobGV0IGkgPSAwOyBpIDwgdHJhY2suZnJhbWVzOyBpKyspIHsKICAgIGNvbnN0IHQgPSBpICogdHJhY2suaG9wU2VjOwogICAgaWYgKHQgPj0gdDAgJiYgdCA8PSB0MSAmJiB0cmFjay5jbGFyaXR5W2ldID4gMC40NSAmJiB0cmFjay5mMFtpXSA+IDYwKSBmMHMucHVzaCh0cmFjay5mMFtpXSk7CiAgfQogIGYwcy5zb3J0KCh4LCB5KSA9PiB4IC0geSk7CiAgY29uc3QgbWVkID0gZjBzLmxlbmd0aCA/IGYwc1tmMHMubGVuZ3RoID4+IDFdIDogMDsKICBsZXQgcGsgPSAwOwogIGZvciAobGV0IHAgPSBNYXRoLmZsb29yKHQwICogU1IpOyBwIDwgTWF0aC5mbG9vcih0MSAqIFNSKTsgcCsrKSBwayA9IE1hdGgubWF4KHBrLCBNYXRoLmFicyhtb25vW3BdKSk7CiAgY29uc3QgZHVyID0gdDEgLSB0MDsKICBpZHgrKzsKICBjb25zb2xlLmxvZyhgJHtTdHJpbmcoaWR4KS5wYWRTdGFydCgyKX0gJHt0MC50b0ZpeGVkKDMpfS0ke3QxLnRvRml4ZWQoMyl9IGR1cj0ke2R1ci50b0ZpeGVkKDIpfSBmMD0ke21lZC50b0ZpeGVkKDApfSBwZWFrPSR7cGsudG9GaXhlZCgyKX0gJHtkdXIgPCAwLjE4ID8gJ3Nob3J0JyA6ICcnfWApOwp9CmNvbnNvbGUubG9nKCd0b3RhbCcsIGFsbC5sZW5ndGgpOwo=
+// ref-split.mjs —— 把参考音频切成单个「冰」音节：能量包络谷点切分
+import fs from 'node:fs';
+import { pitchTrack } from '../src/voice.js';
+
+const SR = 44100;
+const raw = new Float32Array(fs.readFileSync(process.argv[2]).buffer.slice(0));
+const n = Math.floor(raw.length / 2);
+const mono = new Float32Array(n);
+for (let i = 0; i < n; i++) mono[i] = (raw[i * 2] + raw[i * 2 + 1]) / 2;
+
+// 3ms 包络（带一点平滑，抗单点噪声）
+const hop = Math.floor(SR * 0.003);
+const env = [];
+for (let p = 0; p + hop <= n; p += hop) {
+  let s = 0;
+  for (let i = 0; i < hop; i++) s += mono[p + i] * mono[p + i];
+  env.push(Math.sqrt(s / hop));
+}
+const sm = env.map((v, i) => {
+  let a = 0; let c = 0;
+  for (let k = -2; k <= 2; k++) { const j = i + k; if (j >= 0 && j < env.length) { a += env[j]; c++; } }
+  return a / c;
+});
+const mx = Math.max(...sm);
+const onThr = mx * 0.12;   // 起点阈值
+const offThr = mx * 0.16;  // 谷点阈值
+
+// 先找「有声区间」
+const regs = [];
+let st = -1;
+for (let i = 0; i < sm.length; i++) {
+  if (st < 0 && sm[i] > onThr) st = i;
+  else if (st >= 0 && sm[i] < offThr * 0.5) { regs.push([st, i]); st = -1; }
+}
+if (st >= 0) regs.push([st, sm.length]);
+
+// 每个有声区间内部按谷点再切
+function splits(a, b) {
+  const out = [];
+  let cur = a;
+  for (let i = a + 3; i < b - 3; i++) {
+    const isMin = sm[i] <= sm[i - 1] && sm[i] <= sm[i + 1] && sm[i] < sm[i - 3] && sm[i] < sm[i + 3];
+    if (!isMin) continue;
+    if (sm[i] > mx * 0.42) continue; // 谷必须明显下陷
+    if (i - cur < 8) continue;       // 至少 24ms
+    out.push([cur, i]);
+    cur = i;
+  }
+  if (b - cur >= 8) out.push([cur, b]);
+  return out;
+}
+
+const track = pitchTrack(mono, SR, () => {});
+const all = [];
+for (const [a, b] of regs) for (const s of splits(a, b)) all.push(s);
+
+let idx = 0;
+for (const [a, b] of all) {
+  const t0 = a * 0.003;
+  const t1 = b * 0.003;
+  const f0s = [];
+  for (let i = 0; i < track.frames; i++) {
+    const t = i * track.hopSec;
+    if (t >= t0 && t <= t1 && track.clarity[i] > 0.45 && track.f0[i] > 60) f0s.push(track.f0[i]);
+  }
+  f0s.sort((x, y) => x - y);
+  const med = f0s.length ? f0s[f0s.length >> 1] : 0;
+  let pk = 0;
+  for (let p = Math.floor(t0 * SR); p < Math.floor(t1 * SR); p++) pk = Math.max(pk, Math.abs(mono[p]));
+  const dur = t1 - t0;
+  idx++;
+  console.log(`${String(idx).padStart(2)} ${t0.toFixed(3)}-${t1.toFixed(3)} dur=${dur.toFixed(2)} f0=${med.toFixed(0)} peak=${pk.toFixed(2)} ${dur < 0.18 ? 'short' : ''}`);
+}
+console.log('total', all.length);

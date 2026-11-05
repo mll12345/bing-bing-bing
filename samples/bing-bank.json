@@ -1,1 +1,83 @@
-ewogICJzciI6IDQ0MTAwLAogICJncm91cHMiOiBbCiAgICB7CiAgICAgICJncm91cCI6IDEsCiAgICAgICJmMCI6IDQzNwogICAgfSwKICAgIHsKICAgICAgImdyb3VwIjogMiwKICAgICAgImYwIjogNjA2CiAgICB9LAogICAgewogICAgICAiZ3JvdXAiOiAzLAogICAgICAiZjAiOiA3MjEKICAgIH0sCiAgICB7CiAgICAgICJncm91cCI6IDQsCiAgICAgICJmMCI6IDQyNwogICAgfQogIF0sCiAgInN5bGxhYmxlcyI6IFsKICAgIHsKICAgICAgIm9mZiI6IDAsCiAgICAgICJsZW4iOiA4ODIwLAogICAgICAiZjAiOiA0MzcKICAgIH0sCiAgICB7CiAgICAgICJvZmYiOiA4ODIwLAogICAgICAibGVuIjogOTA0MCwKICAgICAgImYwIjogNDM3CiAgICB9LAogICAgewogICAgICAib2ZmIjogMTc4NjAsCiAgICAgICJsZW4iOiAxMDU4NCwKICAgICAgImYwIjogNDM3CiAgICB9LAogICAgewogICAgICAib2ZmIjogMjg0NDQsCiAgICAgICJsZW4iOiA2NjE1LAogICAgICAiZjAiOiA2MDYKICAgIH0sCiAgICB7CiAgICAgICJvZmYiOiAzNTA1OSwKICAgICAgImxlbiI6IDcwNTYsCiAgICAgICJmMCI6IDYwNgogICAgfSwKICAgIHsKICAgICAgIm9mZiI6IDQyMTE1LAogICAgICAibGVuIjogMTA1ODQsCiAgICAgICJmMCI6IDYwNwogICAgfSwKICAgIHsKICAgICAgIm9mZiI6IDUyNjk5LAogICAgICAibGVuIjogNTczMywKICAgICAgImYwIjogNzIwCiAgICB9LAogICAgewogICAgICAib2ZmIjogNTg0MzIsCiAgICAgICJsZW4iOiA1OTUzLAogICAgICAiZjAiOiA3MTcKICAgIH0sCiAgICB7CiAgICAgICJvZmYiOiA2NDM4NSwKICAgICAgImxlbiI6IDEwNTgzLAogICAgICAiZjAiOiA3MjYKICAgIH0sCiAgICB7CiAgICAgICJvZmYiOiA3NDk2OCwKICAgICAgImxlbiI6IDg4MjAsCiAgICAgICJmMCI6IDQ0MAogICAgfSwKICAgIHsKICAgICAgIm9mZiI6IDgzNzg4LAogICAgICAibGVuIjogMTA1ODQsCiAgICAgICJmMCI6IDQ0MwogICAgfSwKICAgIHsKICAgICAgIm9mZiI6IDk0MzcyLAogICAgICAibGVuIjogMTA1ODQsCiAgICAgICJmMCI6IDM5OQogICAgfQogIF0KfQ==
+{
+  "sr": 44100,
+  "groups": [
+    {
+      "group": 1,
+      "f0": 437
+    },
+    {
+      "group": 2,
+      "f0": 606
+    },
+    {
+      "group": 3,
+      "f0": 721
+    },
+    {
+      "group": 4,
+      "f0": 427
+    }
+  ],
+  "syllables": [
+    {
+      "off": 0,
+      "len": 8820,
+      "f0": 437
+    },
+    {
+      "off": 8820,
+      "len": 9040,
+      "f0": 437
+    },
+    {
+      "off": 17860,
+      "len": 10584,
+      "f0": 437
+    },
+    {
+      "off": 28444,
+      "len": 6615,
+      "f0": 606
+    },
+    {
+      "off": 35059,
+      "len": 7056,
+      "f0": 606
+    },
+    {
+      "off": 42115,
+      "len": 10584,
+      "f0": 607
+    },
+    {
+      "off": 52699,
+      "len": 5733,
+      "f0": 720
+    },
+    {
+      "off": 58432,
+      "len": 5953,
+      "f0": 717
+    },
+    {
+      "off": 64385,
+      "len": 10583,
+      "f0": 726
+    },
+    {
+      "off": 74968,
+      "len": 8820,
+      "f0": 440
+    },
+    {
+      "off": 83788,
+      "len": 10584,
+      "f0": 443
+    },
+    {
+      "off": 94372,
+      "len": 10584,
+      "f0": 399
+    }
+  ]
+}

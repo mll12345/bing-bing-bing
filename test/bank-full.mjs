@@ -1,1 +1,116 @@
-Ly8gYmFuay1mdWxsLm1qcyDigJTigJQg55So55yf5q+N5pys5rGg5pW05puy5riy5p+T77yITm9kZe+8jOW/q++8ie+8jOS6p+WHuiBkZW1vIG1wMwovLyDnlKjms5U6IG5vZGUgdGVzdC9iYW5rLWZ1bGwubWpzIDxzcmMuZjMyPiA8Z3JvdXA+IDxvdXRCYXNlPgppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCB7IGV4ZWNGaWxlU3luYyB9IGZyb20gJ25vZGU6Y2hpbGRfcHJvY2Vzcyc7CmltcG9ydCB7IHNlcGFyYXRlIH0gZnJvbSAnLi4vc3JjL3ZvY2Fscy5qcyc7CmltcG9ydCB7IGJpcXVhZCwgbm9ybWFsaXplIH0gZnJvbSAnLi4vc3JjL3BjbS5qcyc7CmltcG9ydCB7IHBpdGNoVHJhY2ssIHRvTm90ZXMgfSBmcm9tICcuLi9zcmMvdm9pY2UuanMnOwppbXBvcnQgeyByZW5kZXJCYW5rIH0gZnJvbSAnLi4vc3JjL2JhbmsuanMnOwoKY29uc3QgU1IgPSA0ODAwMDsKY29uc3QgU1JDID0gcHJvY2Vzcy5hcmd2WzJdOwpjb25zdCBHUk9VUCA9IE51bWJlcihwcm9jZXNzLmFyZ3ZbM10gfHwgMik7CmNvbnN0IE9VVCA9IHByb2Nlc3MuYXJndls0XSB8fCBgZGVtby/lhrDlhrDlhrBf55yf5YawX+e7hCR7R1JPVVB9YDsKCmNvbnN0IHJhdyA9IG5ldyBGbG9hdDMyQXJyYXkoZnMucmVhZEZpbGVTeW5jKFNSQykuYnVmZmVyLnNsaWNlKDApKTsKY29uc3QgZnJhbWVzID0gTWF0aC5mbG9vcihyYXcubGVuZ3RoIC8gMik7CmNvbnN0IGNocyA9IFtuZXcgRmxvYXQzMkFycmF5KGZyYW1lcyksIG5ldyBGbG9hdDMyQXJyYXkoZnJhbWVzKV07CmZvciAobGV0IGkgPSAwOyBpIDwgZnJhbWVzOyBpKyspIHsgY2hzWzBdW2ldID0gcmF3W2kgKiAyXTsgY2hzWzFdW2ldID0gcmF3W2kgKiAyICsgMV07IH0KY29uc29sZS5sb2coJ2luJywgKGZyYW1lcyAvIFNSKS50b0ZpeGVkKDIpICsgJ3MnKTsKCmNvbnN0IHQwID0gRGF0ZS5ub3coKTsKY29uc3Qgc2VwID0gc2VwYXJhdGUoY2hzLCBTUiwgKCkgPT4ge30pOwpjb25zdCB2b2NIUCA9IFtdOwpjb25zdCBpbnN0ID0gW107CmZvciAobGV0IGMgPSAwOyBjIDwgMjsgYysrKSB7CiAgY29uc3QgdiA9IHNlcC52b2NhbCA/IEZsb2F0MzJBcnJheS5mcm9tKHNlcC52b2NhbFtNYXRoLm1pbihjLCBzZXAudm9jYWwubGVuZ3RoIC0gMSldKSA6IG51bGw7CiAgaWYgKHYpIGJpcXVhZCh2LCBTUiwgJ2hpZ2hwYXNzJywgMTcwLCAwLjcpOwogIHZvY0hQLnB1c2godik7CiAgY29uc3QgYmFzZSA9IEZsb2F0MzJBcnJheS5mcm9tKGNoc1tjXSk7CiAgaWYgKHYpIHsgZm9yIChsZXQgaSA9IDA7IGkgPCBmcmFtZXM7IGkrKykgYmFzZVtpXSAtPSB2W2ldICogMC45MjsgYmlxdWFkKGJhc2UsIFNSLCAnaGlnaHBhc3MnLCAyMiwgMC43KTsgfQogIGluc3QucHVzaChiYXNlKTsKfQpjb25zb2xlLmxvZygnc2VwYXJhdGUnLCBEYXRlLm5vdygpIC0gdDAsICdtcyBjZW50ZXJlZD0nLCBzZXAuY2VudGVyZWQpOwoKY29uc3QgdHJhY2sgPSBwaXRjaFRyYWNrKHZvY0hQWzBdLCBTUiwgKCkgPT4ge30pOwpjb25zdCBub3RlcyA9IHRvTm90ZXModHJhY2ssIHsgbWluRHVyOiAwLjA3LCBjbGFyaXR5TWluOiAwLjI2IH0pOwpjb25zb2xlLmxvZygnbm90ZXMnLCBub3Rlcy5sZW5ndGgpOwoKLy8g5q+N5pys5rGgCmNvbnN0IG1ldGEgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYygnc2FtcGxlcy9iaW5nLWJhbmsuanNvbicsICd1dGY4JykpOwpjb25zdCBiaW4gPSBmcy5yZWFkRmlsZVN5bmMoJ3NhbXBsZXMvYmluZy1iYW5rLmJpbicpOwpjb25zdCBpMTYgPSBuZXcgSW50MTZBcnJheShiaW4uYnVmZmVyLCBiaW4uYnl0ZU9mZnNldCwgYmluLmxlbmd0aCAvIDIpOwpjb25zdCBwb29sUmF3ID0gbmV3IEZsb2F0MzJBcnJheShpMTYubGVuZ3RoKTsKZm9yIChsZXQgaSA9IDA7IGkgPCBpMTYubGVuZ3RoOyBpKyspIHBvb2xSYXdbaV0gPSBpMTZbaV0gLyAzMjc2ODsKbGV0IHBvb2wgPSBwb29sUmF3Owpjb25zdCBpZHggPSB7IC4uLm1ldGEgfTsKaWYgKG1ldGEuc3IgIT09IFNSKSB7CiAgY29uc3QgcmF0aW8gPSBtZXRhLnNyIC8gU1I7CiAgY29uc3Qgbk91dCA9IE1hdGguZmxvb3IocG9vbFJhdy5sZW5ndGggLyByYXRpbyk7CiAgcG9vbCA9IG5ldyBGbG9hdDMyQXJyYXkobk91dCk7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBuT3V0OyBpKyspIHsKICAgIGNvbnN0IHggPSBpICogcmF0aW87IGNvbnN0IGkwID0geCB8IDA7IGNvbnN0IGYgPSB4IC0gaTA7CiAgICBwb29sW2ldID0gKHBvb2xSYXdbaTBdIHx8IDApICogKDEgLSBmKSArIChwb29sUmF3W2kwICsgMV0gfHwgMCkgKiBmOwogIH0KICBpZHguc3lsbGFibGVzID0gbWV0YS5zeWxsYWJsZXMubWFwKChzKSA9PiAoeyBvZmY6IE1hdGgucm91bmQocy5vZmYgLyByYXRpbyksIGxlbjogTWF0aC5yb3VuZChzLmxlbiAvIHJhdGlvKSwgZjA6IHMuZjAgfSkpOwp9Cgpjb25zdCB0MSA9IERhdGUubm93KCk7CmNvbnN0IGJpbmcgPSByZW5kZXJCYW5rKHBvb2wsIGlkeCwgbm90ZXMsIHsgc3I6IFNSLCBsZW46IGZyYW1lcywgZ2FpbjogMSwgZ3JvdXA6IEdST1VQLCBwcm9ncmVzczogKCkgPT4ge30gfSk7CmNvbnNvbGUubG9nKCdiYW5rJywgRGF0ZS5ub3coKSAtIHQxLCAnbXMgY291bnQ9JywgYmluZy5jb3VudCk7CmJpcXVhZChiaW5nLmRhdGEsIFNSLCAnaGlnaHNoZWxmJywgNzAwMCwgMC43LCAtNS41KTsKYmlxdWFkKGJpbmcuZGF0YSwgU1IsICdoaWdocGFzcycsIDE1MCwgMC43KTsKCmNvbnN0IHJtc09mID0gKGEpID0+IHsgbGV0IHMgPSAwOyBmb3IgKGxldCBpID0gMDsgaSA8IGEubGVuZ3RoOyBpICs9IDMpIHMgKz0gYVtpXSAqIGFbaV07IHJldHVybiBNYXRoLnNxcnQocyAvIE1hdGgubWF4KDEsIE1hdGguY2VpbChhLmxlbmd0aCAvIDMpKSk7IH07CmNvbnN0IGluc3RSbXMgPSAwLjUgKiAocm1zT2YoaW5zdFswXSkgKyBybXNPZihpbnN0WzFdKSk7Ci8vIOWGsOWjsOWPquWcqOmfs+espuWkhOWPkeWjsO+8jOaMieOAjOWPkeWjsOWMuumXtOWGheeahCBybXPjgI3lrprmoIfvvIzlkKbliJnkvJrooqvlpKfph4/pnZnpn7PmkYroloTjgIHlr7zoh7Tls7DlgLzov4fpq5gKbGV0IGJzID0gMDsgbGV0IGJuID0gMDsKZm9yIChjb25zdCBudCBvZiBub3RlcykgewogIGNvbnN0IGEgPSBNYXRoLm1heCgwLCBNYXRoLmZsb29yKG50LnN0YXJ0ICogU1IpKTsKICBjb25zdCBiID0gTWF0aC5taW4oZnJhbWVzLCBhICsgTWF0aC5mbG9vcigobnQuZHVyICsgMC4wNikgKiBTUikpOwogIGZvciAobGV0IGkgPSBhOyBpIDwgYjsgaSArPSAyKSB7IGJzICs9IGJpbmcuZGF0YVtpXSAqIGJpbmcuZGF0YVtpXTsgYm4rKzsgfQp9CmNvbnN0IGJpbmdSbXMgPSBNYXRoLnNxcnQoYnMgLyBNYXRoLm1heCgxLCBibikpOwpjb25zdCBzY2FsZSA9IGJpbmdSbXMgPiAxZS02ID8gKGluc3RSbXMgKiAwLjg1KSAvIGJpbmdSbXMgOiAwOwoKY29uc3Qgb3V0ID0gW25ldyBGbG9hdDMyQXJyYXkoZnJhbWVzKSwgbmV3IEZsb2F0MzJBcnJheShmcmFtZXMpXTsKZm9yIChsZXQgYyA9IDA7IGMgPCAyOyBjKyspIHsKICBjb25zdCBkID0gb3V0W2NdOwogIGZvciAobGV0IGkgPSAwOyBpIDwgZnJhbWVzOyBpKyspIGRbaV0gPSBpbnN0W2NdW2ldICsgYmluZy5kYXRhW2ldICogc2NhbGU7Cn0KLy8g6L2v6Iad6ZmQ5bmFICsg5o+Q5ZON5bqmCmxldCBwcmUgPSAwOwpmb3IgKGNvbnN0IGQgb2Ygb3V0KSBmb3IgKGxldCBpID0gMDsgaSA8IGQubGVuZ3RoOyBpKyspIHByZSA9IE1hdGgubWF4KHByZSwgTWF0aC5hYnMoZFtpXSkpOwpwcmUgPSBwcmUgPiAwID8gMC44NiAvIHByZSA6IDE7CmNvbnN0IGtuZWUgPSAwLjY2Owpmb3IgKGNvbnN0IGQgb2Ygb3V0KSB7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBkLmxlbmd0aDsgaSsrKSB7CiAgICBsZXQgdiA9IGRbaV0gKiBwcmU7CiAgICBjb25zdCBhID0gTWF0aC5hYnModik7CiAgICBpZiAoYSA+IGtuZWUpIHYgPSBNYXRoLnNpZ24odikgKiAoa25lZSArICgxIC0ga25lZSkgKiBNYXRoLnRhbmgoKGEgLSBrbmVlKSAvICgxIC0ga25lZSkpKTsKICAgIGRbaV0gPSB2OwogIH0KfQoKLy8gV0FW77yIMTZiaXQg56uL5L2T5aOw77yJCmNvbnN0IG4gPSBmcmFtZXM7CmNvbnN0IGJ1ZiA9IEJ1ZmZlci5hbGxvYyg0NCArIG4gKiA0KTsKYnVmLndyaXRlKCdSSUZGJywgMCk7IGJ1Zi53cml0ZVVJbnQzMkxFKDM2ICsgbiAqIDQsIDQpOyBidWYud3JpdGUoJ1dBVkUnLCA4KTsKYnVmLndyaXRlKCdmbXQgJywgMTIpOyBidWYud3JpdGVVSW50MzJMRSgxNiwgMTYpOyBidWYud3JpdGVVSW50MTZMRSgxLCAyMCk7IGJ1Zi53cml0ZVVJbnQxNkxFKDIsIDIyKTsKYnVmLndyaXRlVUludDMyTEUoU1IsIDI0KTsgYnVmLndyaXRlVUludDMyTEUoU1IgKiA0LCAyOCk7IGJ1Zi53cml0ZVVJbnQxNkxFKDQsIDMyKTsgYnVmLndyaXRlVUludDE2TEUoMTYsIDM0KTsKYnVmLndyaXRlKCdkYXRhJywgMzYpOyBidWYud3JpdGVVSW50MzJMRShuICogNCwgNDApOwpsZXQgcGVhayA9IDA7CmZvciAobGV0IGMgPSAwOyBjIDwgMjsgYysrKSBmb3IgKGxldCBpID0gMDsgaSA8IG47IGkrKykgcGVhayA9IE1hdGgubWF4KHBlYWssIE1hdGguYWJzKG91dFtjXVtpXSkpOwpjb25zdCBnID0gcGVhayA+IDAgPyAwLjk1IC8gcGVhayA6IDE7CmZvciAobGV0IGkgPSAwOyBpIDwgbjsgaSsrKSB7CiAgZm9yIChsZXQgYyA9IDA7IGMgPCAyOyBjKyspIHsKICAgIGNvbnN0IHYgPSBNYXRoLm1heCgtMSwgTWF0aC5taW4oMSwgb3V0W2NdW2ldICogZykpOwogICAgYnVmLndyaXRlSW50MTZMRShNYXRoLnJvdW5kKHYgKiAzMjc2NyksIDQ0ICsgaSAqIDQgKyBjICogMik7CiAgfQp9CmZzLm1rZGlyU3luYygnZGVtbycsIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwpjb25zdCB3YXYgPSBgdGVzdC9vdXQv55yf5YawX+e7hCR7R1JPVVB9LndhdmA7CmZzLndyaXRlRmlsZVN5bmMod2F2LCBidWYpOwpleGVjRmlsZVN5bmMoJ2ZmbXBlZycsIFsnLXYnLCAnZXJyb3InLCAnLXknLCAnLWknLCB3YXYsICctYjphJywgJzE5MmsnLCBgJHtPVVR9Lm1wM2BdKTsKZXhlY0ZpbGVTeW5jKCdmZm1wZWcnLCBbJy12JywgJ2Vycm9yJywgJy15JywgJy1pJywgd2F2LCAnLXQnLCAnMzUnLCAnLWI6YScsICcxOTJrJywgYCR7T1VUfV/liY0zNeenki5tcDNgXSk7CmNvbnNvbGUubG9nKCd3cm90ZScsIGAke09VVH0ubXAzYCwgKGZzLnN0YXRTeW5jKGAke09VVH0ubXAzYCkuc2l6ZSAvIDEwNDg1NzYpLnRvRml4ZWQoMikgKyAnTUInKTsK
+// bank-full.mjs —— 用真母本池整曲渲染（Node，快），产出 demo mp3
+// 用法: node test/bank-full.mjs <src.f32> <group> <outBase>
+import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { separate } from '../src/vocals.js';
+import { biquad, normalize } from '../src/pcm.js';
+import { pitchTrack, toNotes } from '../src/voice.js';
+import { renderBank } from '../src/bank.js';
+
+const SR = 48000;
+const SRC = process.argv[2];
+const GROUP = Number(process.argv[3] || 2);
+const OUT = process.argv[4] || `demo/冰冰冰_真冰_组${GROUP}`;
+
+const raw = new Float32Array(fs.readFileSync(SRC).buffer.slice(0));
+const frames = Math.floor(raw.length / 2);
+const chs = [new Float32Array(frames), new Float32Array(frames)];
+for (let i = 0; i < frames; i++) { chs[0][i] = raw[i * 2]; chs[1][i] = raw[i * 2 + 1]; }
+console.log('in', (frames / SR).toFixed(2) + 's');
+
+const t0 = Date.now();
+const sep = separate(chs, SR, () => {});
+const vocHP = [];
+const inst = [];
+for (let c = 0; c < 2; c++) {
+  const v = sep.vocal ? Float32Array.from(sep.vocal[Math.min(c, sep.vocal.length - 1)]) : null;
+  if (v) biquad(v, SR, 'highpass', 170, 0.7);
+  vocHP.push(v);
+  const base = Float32Array.from(chs[c]);
+  if (v) { for (let i = 0; i < frames; i++) base[i] -= v[i] * 0.92; biquad(base, SR, 'highpass', 22, 0.7); }
+  inst.push(base);
+}
+console.log('separate', Date.now() - t0, 'ms centered=', sep.centered);
+
+const track = pitchTrack(vocHP[0], SR, () => {});
+const notes = toNotes(track, { minDur: 0.07, clarityMin: 0.26 });
+console.log('notes', notes.length);
+
+// 母本池
+const meta = JSON.parse(fs.readFileSync('samples/bing-bank.json', 'utf8'));
+const bin = fs.readFileSync('samples/bing-bank.bin');
+const i16 = new Int16Array(bin.buffer, bin.byteOffset, bin.length / 2);
+const poolRaw = new Float32Array(i16.length);
+for (let i = 0; i < i16.length; i++) poolRaw[i] = i16[i] / 32768;
+let pool = poolRaw;
+const idx = { ...meta };
+if (meta.sr !== SR) {
+  const ratio = meta.sr / SR;
+  const nOut = Math.floor(poolRaw.length / ratio);
+  pool = new Float32Array(nOut);
+  for (let i = 0; i < nOut; i++) {
+    const x = i * ratio; const i0 = x | 0; const f = x - i0;
+    pool[i] = (poolRaw[i0] || 0) * (1 - f) + (poolRaw[i0 + 1] || 0) * f;
+  }
+  idx.syllables = meta.syllables.map((s) => ({ off: Math.round(s.off / ratio), len: Math.round(s.len / ratio), f0: s.f0 }));
+}
+
+const t1 = Date.now();
+const bing = renderBank(pool, idx, notes, { sr: SR, len: frames, gain: 1, group: GROUP, progress: () => {} });
+console.log('bank', Date.now() - t1, 'ms count=', bing.count);
+biquad(bing.data, SR, 'highshelf', 7000, 0.7, -5.5);
+biquad(bing.data, SR, 'highpass', 150, 0.7);
+
+const rmsOf = (a) => { let s = 0; for (let i = 0; i < a.length; i += 3) s += a[i] * a[i]; return Math.sqrt(s / Math.max(1, Math.ceil(a.length / 3))); };
+const instRms = 0.5 * (rmsOf(inst[0]) + rmsOf(inst[1]));
+// 冰声只在音符处发声，按「发声区间内的 rms」定标，否则会被大量静音摊薄、导致峰值过高
+let bs = 0; let bn = 0;
+for (const nt of notes) {
+  const a = Math.max(0, Math.floor(nt.start * SR));
+  const b = Math.min(frames, a + Math.floor((nt.dur + 0.06) * SR));
+  for (let i = a; i < b; i += 2) { bs += bing.data[i] * bing.data[i]; bn++; }
+}
+const bingRms = Math.sqrt(bs / Math.max(1, bn));
+const scale = bingRms > 1e-6 ? (instRms * 0.85) / bingRms : 0;
+
+const out = [new Float32Array(frames), new Float32Array(frames)];
+for (let c = 0; c < 2; c++) {
+  const d = out[c];
+  for (let i = 0; i < frames; i++) d[i] = inst[c][i] + bing.data[i] * scale;
+}
+// 软膝限幅 + 提响度
+let pre = 0;
+for (const d of out) for (let i = 0; i < d.length; i++) pre = Math.max(pre, Math.abs(d[i]));
+pre = pre > 0 ? 0.86 / pre : 1;
+const knee = 0.66;
+for (const d of out) {
+  for (let i = 0; i < d.length; i++) {
+    let v = d[i] * pre;
+    const a = Math.abs(v);
+    if (a > knee) v = Math.sign(v) * (knee + (1 - knee) * Math.tanh((a - knee) / (1 - knee)));
+    d[i] = v;
+  }
+}
+
+// WAV（16bit 立体声）
+const n = frames;
+const buf = Buffer.alloc(44 + n * 4);
+buf.write('RIFF', 0); buf.writeUInt32LE(36 + n * 4, 4); buf.write('WAVE', 8);
+buf.write('fmt ', 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(2, 22);
+buf.writeUInt32LE(SR, 24); buf.writeUInt32LE(SR * 4, 28); buf.writeUInt16LE(4, 32); buf.writeUInt16LE(16, 34);
+buf.write('data', 36); buf.writeUInt32LE(n * 4, 40);
+let peak = 0;
+for (let c = 0; c < 2; c++) for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(out[c][i]));
+const g = peak > 0 ? 0.95 / peak : 1;
+for (let i = 0; i < n; i++) {
+  for (let c = 0; c < 2; c++) {
+    const v = Math.max(-1, Math.min(1, out[c][i] * g));
+    buf.writeInt16LE(Math.round(v * 32767), 44 + i * 4 + c * 2);
+  }
+}
+fs.mkdirSync('demo', { recursive: true });
+const wav = `test/out/真冰_组${GROUP}.wav`;
+fs.writeFileSync(wav, buf);
+execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', wav, '-b:a', '192k', `${OUT}.mp3`]);
+execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', wav, '-t', '35', '-b:a', '192k', `${OUT}_前35秒.mp3`]);
+console.log('wrote', `${OUT}.mp3`, (fs.statSync(`${OUT}.mp3`).size / 1048576).toFixed(2) + 'MB');

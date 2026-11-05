@@ -1,1 +1,44 @@
-Ly8gbWFrZS1wcmV2aWV3cy5tanMg4oCU4oCUIOeUqOecn+avjeacrOeUn+aIkCA0IOe7hOivleWQrO+8iOavj+e7hCAzIOS4quOAjOWGsOOAjei/nuedgO+8jOS4juWPguiAg+S4gOiHtO+8iQppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCB7IGV4ZWNGaWxlU3luYyB9IGZyb20gJ25vZGU6Y2hpbGRfcHJvY2Vzcyc7Cgpjb25zdCBTUiA9IDQ0MTAwOwpjb25zdCBtZXRhID0gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMoJ3NhbXBsZXMvYmluZy1iYW5rLmpzb24nLCAndXRmOCcpKTsKY29uc3QgYmluID0gZnMucmVhZEZpbGVTeW5jKCdzYW1wbGVzL2JpbmctYmFuay5iaW4nKTsKY29uc3QgaTE2ID0gbmV3IEludDE2QXJyYXkoYmluLmJ1ZmZlciwgYmluLmJ5dGVPZmZzZXQsIGJpbi5sZW5ndGggLyAyKTsKY29uc3QgcG9vbCA9IG5ldyBGbG9hdDMyQXJyYXkoaTE2Lmxlbmd0aCk7CmZvciAobGV0IGkgPSAwOyBpIDwgaTE2Lmxlbmd0aDsgaSsrKSBwb29sW2ldID0gaTE2W2ldIC8gMzI3Njg7CgpmdW5jdGlvbiB3cml0ZVdhdihwLCBkKSB7CiAgY29uc3QgbiA9IGQubGVuZ3RoOwogIGNvbnN0IGIgPSBCdWZmZXIuYWxsb2MoNDQgKyBuICogMik7CiAgYi53cml0ZSgnUklGRicsIDApOyBiLndyaXRlVUludDMyTEUoMzYgKyBuICogMiwgNCk7IGIud3JpdGUoJ1dBVkUnLCA4KTsKICBiLndyaXRlKCdmbXQgJywgMTIpOyBiLndyaXRlVUludDMyTEUoMTYsIDE2KTsgYi53cml0ZVVJbnQxNkxFKDEsIDIwKTsgYi53cml0ZVVJbnQxNkxFKDEsIDIyKTsKICBiLndyaXRlVUludDMyTEUoU1IsIDI0KTsgYi53cml0ZVVJbnQzMkxFKFNSICogMiwgMjgpOyBiLndyaXRlVUludDE2TEUoMiwgMzIpOyBiLndyaXRlVUludDE2TEUoMTYsIDM0KTsKICBiLndyaXRlKCdkYXRhJywgMzYpOyBiLndyaXRlVUludDMyTEUobiAqIDIsIDQwKTsKICBmb3IgKGxldCBpID0gMDsgaSA8IG47IGkrKykgYi53cml0ZUludDE2TEUoTWF0aC5yb3VuZChNYXRoLm1heCgtMSwgTWF0aC5taW4oMSwgZFtpXSkpICogMzI3NjcpLCA0NCArIGkgKiAyKTsKICBmcy53cml0ZUZpbGVTeW5jKHAsIGIpOwp9Cgpmb3IgKGxldCBnID0gMTsgZyA8PSA0OyBnKyspIHsKICBjb25zdCB0cmkgPSBtZXRhLnN5bGxhYmxlcy5zbGljZSgoZyAtIDEpICogMywgZyAqIDMpOwogIGlmICh0cmkubGVuZ3RoIDwgMykgY29udGludWU7CiAgLy8g5q+P5Liq6Z+z6IqC77ya5rqQ56CBICsgNDBtcyDlsL7pg6joobDlh48KICBjb25zdCB0b3RhbCA9IHRyaS5yZWR1Y2UoKGEsIHMpID0+IGEgKyBzLmxlbiArIE1hdGguZmxvb3IoMC4wNCAqIFNSKSwgMCkgKyBNYXRoLmZsb29yKDAuMjUgKiBTUik7CiAgY29uc3QgZCA9IG5ldyBGbG9hdDMyQXJyYXkodG90YWwpOwogIGxldCBvZmYgPSBNYXRoLmZsb29yKDAuMDMgKiBTUik7CiAgZm9yIChjb25zdCBzIG9mIHRyaSkgewogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBzLmxlbjsgaSsrKSB7CiAgICAgIGNvbnN0IHRhaWwgPSBpID4gcy5sZW4gLSAwLjA0ICogU1IgPyAocy5sZW4gLSBpKSAvICgwLjA0ICogU1IpIDogMTsKICAgICAgZFtvZmYgKyBpXSA9IHBvb2xbcy5vZmYgKyBpXSAqIHRhaWw7CiAgICB9CiAgICBvZmYgKz0gcy5sZW4gKyBNYXRoLmZsb29yKDAuMDQgKiBTUik7CiAgfQogIGxldCBwayA9IDA7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBkLmxlbmd0aDsgaSsrKSBwayA9IE1hdGgubWF4KHBrLCBNYXRoLmFicyhkW2ldKSk7CiAgY29uc3QgZ2cgPSAwLjkyIC8gKHBrIHx8IDEpOwogIGZvciAobGV0IGkgPSAwOyBpIDwgZC5sZW5ndGg7IGkrKykgZFtpXSAqPSBnZzsKICB3cml0ZVdhdihgdGVzdC9vdXQvcHJldiR7Z30ud2F2YCwgZCk7CiAgZXhlY0ZpbGVTeW5jKCdmZm1wZWcnLCBbJy12JywgJ2Vycm9yJywgJy15JywgJy1pJywgYHRlc3Qvb3V0L3ByZXYke2d9LndhdmAsICctYjphJywgJzE5MmsnLCBgc2FtcGxlcy/lhrDnu4Qke2d9Lm1wM2BdKTsKICBjb25zb2xlLmxvZyhg57uEJHtnfWAsIHRyaS5tYXAoKHMpID0+IHMuZjApLmpvaW4oJy8nKSwgKGQubGVuZ3RoIC8gU1IpLnRvRml4ZWQoMikgKyAncycpOwp9Cg==
+// make-previews.mjs —— 用真母本生成 4 组试听（每组 3 个「冰」连着，与参考一致）
+import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
+
+const SR = 44100;
+const meta = JSON.parse(fs.readFileSync('samples/bing-bank.json', 'utf8'));
+const bin = fs.readFileSync('samples/bing-bank.bin');
+const i16 = new Int16Array(bin.buffer, bin.byteOffset, bin.length / 2);
+const pool = new Float32Array(i16.length);
+for (let i = 0; i < i16.length; i++) pool[i] = i16[i] / 32768;
+
+function writeWav(p, d) {
+  const n = d.length;
+  const b = Buffer.alloc(44 + n * 2);
+  b.write('RIFF', 0); b.writeUInt32LE(36 + n * 2, 4); b.write('WAVE', 8);
+  b.write('fmt ', 12); b.writeUInt32LE(16, 16); b.writeUInt16LE(1, 20); b.writeUInt16LE(1, 22);
+  b.writeUInt32LE(SR, 24); b.writeUInt32LE(SR * 2, 28); b.writeUInt16LE(2, 32); b.writeUInt16LE(16, 34);
+  b.write('data', 36); b.writeUInt32LE(n * 2, 40);
+  for (let i = 0; i < n; i++) b.writeInt16LE(Math.round(Math.max(-1, Math.min(1, d[i])) * 32767), 44 + i * 2);
+  fs.writeFileSync(p, b);
+}
+
+for (let g = 1; g <= 4; g++) {
+  const tri = meta.syllables.slice((g - 1) * 3, g * 3);
+  if (tri.length < 3) continue;
+  // 每个音节：源码 + 40ms 尾部衰减
+  const total = tri.reduce((a, s) => a + s.len + Math.floor(0.04 * SR), 0) + Math.floor(0.25 * SR);
+  const d = new Float32Array(total);
+  let off = Math.floor(0.03 * SR);
+  for (const s of tri) {
+    for (let i = 0; i < s.len; i++) {
+      const tail = i > s.len - 0.04 * SR ? (s.len - i) / (0.04 * SR) : 1;
+      d[off + i] = pool[s.off + i] * tail;
+    }
+    off += s.len + Math.floor(0.04 * SR);
+  }
+  let pk = 0;
+  for (let i = 0; i < d.length; i++) pk = Math.max(pk, Math.abs(d[i]));
+  const gg = 0.92 / (pk || 1);
+  for (let i = 0; i < d.length; i++) d[i] *= gg;
+  writeWav(`test/out/prev${g}.wav`, d);
+  execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', `test/out/prev${g}.wav`, '-b:a', '192k', `samples/冰组${g}.mp3`]);
+  console.log(`组${g}`, tri.map((s) => s.f0).join('/'), (d.length / SR).toFixed(2) + 's');
+}

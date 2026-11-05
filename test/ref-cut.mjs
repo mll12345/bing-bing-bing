@@ -1,1 +1,121 @@
-Ly8gcmVmLWN1dC5tanMg4oCU4oCUIOaKiuWPguiAg+mfs+mikeWIh+aIkOWNleS4quOAjOWGsOOAje+8jOaMieWfuumikeW9kuaIkOWbm+e7hO+8jOWvvOWHuuavjeacrOaxoAppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCB7IHBpdGNoVHJhY2sgfSBmcm9tICcuLi9zcmMvdm9pY2UuanMnOwoKY29uc3QgU1IgPSA0NDEwMDsKY29uc3QgcmF3ID0gbmV3IEZsb2F0MzJBcnJheShmcy5yZWFkRmlsZVN5bmMoJ3Rlc3QvcmVmLmYzMicpLmJ1ZmZlci5zbGljZSgwKSk7CmNvbnN0IG4gPSBNYXRoLmZsb29yKHJhdy5sZW5ndGggLyAyKTsKY29uc3QgbW9ubyA9IG5ldyBGbG9hdDMyQXJyYXkobik7CmZvciAobGV0IGkgPSAwOyBpIDwgbjsgaSsrKSBtb25vW2ldID0gKHJhd1tpICogMl0gKyByYXdbaSAqIDIgKyAxXSkgLyAyOwoKLy8gMm1zIOWMhee7nApjb25zdCBob3AgPSBNYXRoLmZsb29yKFNSICogMC4wMDIpOwpjb25zdCBlbnYgPSBbXTsKZm9yIChsZXQgcCA9IDA7IHAgKyBob3AgPD0gbjsgcCArPSBob3ApIHsKICBsZXQgcyA9IDA7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBob3A7IGkrKykgcyArPSBtb25vW3AgKyBpXSAqIG1vbm9bcCArIGldOwogIGVudi5wdXNoKE1hdGguc3FydChzIC8gaG9wKSk7Cn0KY29uc3Qgc20gPSBlbnYubWFwKCh2LCBpKSA9PiB7CiAgbGV0IGEgPSAwOyBsZXQgYyA9IDA7CiAgZm9yIChsZXQgayA9IC0zOyBrIDw9IDM7IGsrKykgeyBjb25zdCBqID0gaSArIGs7IGlmIChqID49IDAgJiYgaiA8IGVudi5sZW5ndGgpIHsgYSArPSBlbnZbal07IGMrKzsgfSB9CiAgcmV0dXJuIGEgLyBjOwp9KTsKY29uc3QgbXggPSBNYXRoLm1heCguLi5zbSk7CgovLyDmnInlo7DniYfmrrUKY29uc3QgcmVncyA9IFtdOwpsZXQgc3QgPSAtMTsKZm9yIChsZXQgaSA9IDA7IGkgPCBzbS5sZW5ndGg7IGkrKykgewogIGlmIChzdCA8IDAgJiYgc21baV0gPiBteCAqIDAuMTQpIHN0ID0gaTsKICBlbHNlIGlmIChzdCA+PSAwICYmIHNtW2ldIDwgbXggKiAwLjA3KSB7IGlmIChpIC0gc3QgPiAxNSkgcmVncy5wdXNoKFtzdCwgaV0pOyBzdCA9IC0xOyB9Cn0KaWYgKHN0ID49IDApIHJlZ3MucHVzaChbc3QsIHNtLmxlbmd0aF0pOwoKY29uc3QgdHJhY2sgPSBwaXRjaFRyYWNrKG1vbm8sIFNSLCAoKSA9PiB7fSk7CmNvbnN0IGYwQXQgPSAodCkgPT4gewogIGNvbnN0IGkgPSBNYXRoLnJvdW5kKHQgLyB0cmFjay5ob3BTZWMpOwogIGxldCBiZXN0ID0gMDsgbGV0IGJjID0gMDsKICBmb3IgKGxldCBrID0gLTM7IGsgPD0gMzsgaysrKSB7CiAgICBjb25zdCBqID0gaSArIGs7CiAgICBpZiAoaiA+PSAwICYmIGogPCB0cmFjay5mcmFtZXMgJiYgdHJhY2suY2xhcml0eVtqXSA+IGJjKSB7IGJjID0gdHJhY2suY2xhcml0eVtqXTsgYmVzdCA9IHRyYWNrLmYwW2pdOyB9CiAgfQogIHJldHVybiBiYyA+IDAuNCA/IGJlc3QgOiAwOwp9OwoKLy8g5q+P5q615YaF6YOo5oyJ6LC354K55YiH5oiQ5Y2V5a2X77ya6LC354K5ID0g5bGA6YOo5p6B5bCP5LiU5L2O5LqO5q615bOw5YC8IDcwJe+8iOi/meS6m+S4iei/nuOAjOWGsOWGsOWGsOOAjeeahOiwt+S4jea3se+8iQpjb25zdCBjdXRzID0gW107CmZvciAoY29uc3QgW2EsIGJdIG9mIHJlZ3MpIHsKICBsZXQgcGsgPSAwOwogIGZvciAobGV0IGkgPSBhOyBpIDwgYjsgaSsrKSBwayA9IE1hdGgubWF4KHBrLCBzbVtpXSk7CiAgbGV0IGN1ciA9IGE7CiAgZm9yIChsZXQgaSA9IGEgKyAxMjsgaSA8IGIgLSAxMjsgaSsrKSB7CiAgICBpZiAoc21baV0gPiBwayAqIDAuNzIpIGNvbnRpbnVlOwogICAgaWYgKCEoc21baV0gPD0gc21baSAtIDFdICYmIHNtW2ldIDw9IHNtW2kgKyAxXSkpIGNvbnRpbnVlOwogICAgbGV0IGxvID0gdHJ1ZTsKICAgIGZvciAobGV0IGsgPSAxOyBrIDw9IDg7IGsrKykgaWYgKHNtW2kgLSBrXSA8IHNtW2ldIHx8IHNtW2kgKyBrXSA8IHNtW2ldKSB7IGxvID0gZmFsc2U7IGJyZWFrOyB9CiAgICBpZiAoIWxvKSBjb250aW51ZTsKICAgIGN1dHMucHVzaChbY3VyLCBpXSk7CiAgICBjdXIgPSBpOwogIH0KICBjdXRzLnB1c2goW2N1ciwgYl0pOwp9CgovLyDov4fmu6QgKyDmsYLmr4/kuKrlrZfnmoQgZjAKY29uc3Qgc3lsID0gW107CmZvciAoY29uc3QgW2EsIGJdIG9mIGN1dHMpIHsKICBjb25zdCB0MCA9IChhICogaG9wKSAvIFNSOwogIGNvbnN0IHQxID0gKGIgKiBob3ApIC8gU1I7CiAgY29uc3QgZHVyID0gdDEgLSB0MDsKICBpZiAoZHVyIDwgMC4xMCB8fCBkdXIgPiAwLjQ1KSBjb250aW51ZTsKICBsZXQgcGsgPSAwOwogIGZvciAobGV0IHAgPSBNYXRoLmZsb29yKHQwICogU1IpOyBwIDwgTWF0aC5mbG9vcih0MSAqIFNSKTsgcCsrKSBwayA9IE1hdGgubWF4KHBrLCBNYXRoLmFicyhtb25vW3BdKSk7CiAgaWYgKHBrIDwgbXggKiAwLjI1KSBjb250aW51ZTsKICBjb25zdCBmMHMgPSBbXTsKICBmb3IgKGxldCB0ID0gdDAgKyAwLjAyOyB0IDwgdDEgLSAwLjAyOyB0ICs9IDAuMDEpIHsgY29uc3QgZiA9IGYwQXQodCk7IGlmIChmID4gMTUwICYmIGYgPCAxMDAwKSBmMHMucHVzaChmKTsgfQogIGlmIChmMHMubGVuZ3RoIDwgMykgY29udGludWU7CiAgZjBzLnNvcnQoKHgsIHkpID0+IHggLSB5KTsKICBjb25zdCBmMCA9IGYwc1tmMHMubGVuZ3RoID4+IDFdOwogIHN5bC5wdXNoKHsgdDAsIHQxLCBkdXIsIGYwLCBwZWFrOiBwayB9KTsKfQpjb25zb2xlLmxvZygncmF3IHN5bGxhYmxlcycsIHN5bC5sZW5ndGgpOwpzeWwuZm9yRWFjaCgocywgaSkgPT4gY29uc29sZS5sb2coYCR7U3RyaW5nKGkgKyAxKS5wYWRTdGFydCgyKX0gJHtzLnQwLnRvRml4ZWQoMyl9LSR7cy50MS50b0ZpeGVkKDMpfSBkdXI9JHtzLmR1ci50b0ZpeGVkKDIpfSBmMD0ke3MuZjAudG9GaXhlZCgwKX0gcGs9JHtzLnBlYWsudG9GaXhlZCgyKX1gKSk7CgovLyDmjIkgZjAg5Y2H5bqP5o6S77yM562J5YiG5oiQIDQg57uE77yI5q+P57uE5Y+W5pyA6Z2g6L+R6K+l57uE5Lit5L2N6Z+z6auY55qE6YKj5Liq5q+N5pys77yM6Z+z6LSo5pyA5aW977yJCnN5bC5zb3J0KChhLCBiKSA9PiBhLmYwIC0gYi5mMCk7CmNvbnN0IGdyb3VwcyA9IFtdOwpjb25zdCBwZXIgPSBNYXRoLm1heCgxLCBNYXRoLmZsb29yKHN5bC5sZW5ndGggLyA0KSk7CmZvciAobGV0IGcgPSAwOyBnIDwgNDsgZysrKSB7CiAgY29uc3Qgc2xpY2UgPSBzeWwuc2xpY2UoZyAqIHBlciwgZyA9PT0gMyA/IHN5bC5sZW5ndGggOiAoZyArIDEpICogcGVyKTsKICBpZiAoIXNsaWNlLmxlbmd0aCkgY29udGludWU7CiAgLy8g5Y+W6K+l57uE5YaF5bOw5YC85pyA5aSn55qE77yI5pyA5bmy5YeA77yJCiAgc2xpY2Uuc29ydCgoYSwgYikgPT4gYi5wZWFrIC0gYS5wZWFrKTsKICBncm91cHMucHVzaCh7IGdyb3VwOiBnICsgMSwgLi4uc2xpY2VbMF0gfSk7Cn0KY29uc29sZS5sb2coJy0tLSBncm91cHMnKTsKZ3JvdXBzLmZvckVhY2goKGcpID0+IGNvbnNvbGUubG9nKGDnu4Qke2cuZ3JvdXB9IGYwPSR7Zy5mMC50b0ZpeGVkKDApfSAke2cudDAudG9GaXhlZCgzKX0tJHtnLnQxLnRvRml4ZWQoMyl9YCkpOwoKLy8g5a+85Ye65q+N5pys5rGg77ya5q+P5Liq5YCZ6YCJ6Z+z6IqC5LiA5q61IGYzMiArIOWFg+aVsOaNrgpjb25zdCBwb29sID0gW107CmZvciAoY29uc3QgcyBvZiBzeWwpIHsKICBjb25zdCBhID0gTWF0aC5tYXgoMCwgTWF0aC5mbG9vcigocy50MCAtIDAuMDEpICogU1IpKTsKICBjb25zdCBiID0gTWF0aC5taW4obiwgTWF0aC5mbG9vcigocy50MSArIDAuMDMpICogU1IpKTsKICBwb29sLnB1c2goeyBmMDogcy5mMCwgZHVyOiBzLmR1ciwgZGF0YTogbW9uby5zdWJhcnJheShhLCBiKSB9KTsKfQpmcy5ta2RpclN5bmMoJ3Rlc3Qvb3V0JywgeyByZWN1cnNpdmU6IHRydWUgfSk7CmZzLndyaXRlRmlsZVN5bmMoJ3Rlc3Qvb3V0L3JlZi1wb29sLmpzb24nLCBKU09OLnN0cmluZ2lmeSh7CiAgc3I6IFNSLAogIGdyb3VwczogZ3JvdXBzLm1hcCgoZykgPT4gKHsgZ3JvdXA6IGcuZ3JvdXAsIGYwOiBnLmYwLCB0MDogZy50MCwgdDE6IGcudDEgfSkpLAogIHBvb2w6IHBvb2wubWFwKChwKSA9PiAoeyBmMDogcC5mMCwgZHVyOiBwLmR1ciwgbGVuOiBwLmRhdGEubGVuZ3RoIH0pKSwKfSwgbnVsbCwgMikpOwoKLy8g5ou85o6l5rGg5a2Q5oiQ5LiA5Liq5aSnIGYzMiDkvr/kuo7nvZHpobXliqDovb0KbGV0IHRvdGFsID0gMDsKZm9yIChjb25zdCBwIG9mIHBvb2wpIHRvdGFsICs9IHAuZGF0YS5sZW5ndGg7CmNvbnN0IGJpZyA9IG5ldyBGbG9hdDMyQXJyYXkodG90YWwpOwpsZXQgb2ZmID0gMDsKY29uc3QgaWR4ID0gW107CmZvciAoY29uc3QgcCBvZiBwb29sKSB7IGJpZy5zZXQocC5kYXRhLCBvZmYpOyBpZHgucHVzaCh7IG9mZiwgbGVuOiBwLmRhdGEubGVuZ3RoLCBmMDogcC5mMCwgZHVyOiBwLmR1ciB9KTsgb2ZmICs9IHAuZGF0YS5sZW5ndGg7IH0KZnMud3JpdGVGaWxlU3luYygndGVzdC9vdXQvcmVmLXBvb2wuZjMyJywgQnVmZmVyLmZyb20oYmlnLmJ1ZmZlcikpOwpmcy53cml0ZUZpbGVTeW5jKCd0ZXN0L291dC9yZWYtcG9vbC5pZHguanNvbicsIEpTT04uc3RyaW5naWZ5KHsgc3I6IFNSLCBncm91cHM6IGdyb3Vwcy5tYXAoKGcpID0+ICh7IGdyb3VwOiBnLmdyb3VwLCBmMDogZy5mMCwgdDA6IGcudDAsIHQxOiBnLnQxIH0pKSwgc3lsbGFibGVzOiBpZHggfSwgbnVsbCwgMikpOwpjb25zb2xlLmxvZygncG9vbCcsIHBvb2wubGVuZ3RoLCAnc2FtcGxlcycsIHRvdGFsLCAodG90YWwgLyBTUikudG9GaXhlZCgyKSArICdzJyk7Cg==
+// ref-cut.mjs —— 把参考音频切成单个「冰」，按基频归成四组，导出母本池
+import fs from 'node:fs';
+import { pitchTrack } from '../src/voice.js';
+
+const SR = 44100;
+const raw = new Float32Array(fs.readFileSync('test/ref.f32').buffer.slice(0));
+const n = Math.floor(raw.length / 2);
+const mono = new Float32Array(n);
+for (let i = 0; i < n; i++) mono[i] = (raw[i * 2] + raw[i * 2 + 1]) / 2;
+
+// 2ms 包络
+const hop = Math.floor(SR * 0.002);
+const env = [];
+for (let p = 0; p + hop <= n; p += hop) {
+  let s = 0;
+  for (let i = 0; i < hop; i++) s += mono[p + i] * mono[p + i];
+  env.push(Math.sqrt(s / hop));
+}
+const sm = env.map((v, i) => {
+  let a = 0; let c = 0;
+  for (let k = -3; k <= 3; k++) { const j = i + k; if (j >= 0 && j < env.length) { a += env[j]; c++; } }
+  return a / c;
+});
+const mx = Math.max(...sm);
+
+// 有声片段
+const regs = [];
+let st = -1;
+for (let i = 0; i < sm.length; i++) {
+  if (st < 0 && sm[i] > mx * 0.14) st = i;
+  else if (st >= 0 && sm[i] < mx * 0.07) { if (i - st > 15) regs.push([st, i]); st = -1; }
+}
+if (st >= 0) regs.push([st, sm.length]);
+
+const track = pitchTrack(mono, SR, () => {});
+const f0At = (t) => {
+  const i = Math.round(t / track.hopSec);
+  let best = 0; let bc = 0;
+  for (let k = -3; k <= 3; k++) {
+    const j = i + k;
+    if (j >= 0 && j < track.frames && track.clarity[j] > bc) { bc = track.clarity[j]; best = track.f0[j]; }
+  }
+  return bc > 0.4 ? best : 0;
+};
+
+// 每段内部按谷点切成单字：谷点 = 局部极小且低于段峰值 70%（这些三连「冰冰冰」的谷不深）
+const cuts = [];
+for (const [a, b] of regs) {
+  let pk = 0;
+  for (let i = a; i < b; i++) pk = Math.max(pk, sm[i]);
+  let cur = a;
+  for (let i = a + 12; i < b - 12; i++) {
+    if (sm[i] > pk * 0.72) continue;
+    if (!(sm[i] <= sm[i - 1] && sm[i] <= sm[i + 1])) continue;
+    let lo = true;
+    for (let k = 1; k <= 8; k++) if (sm[i - k] < sm[i] || sm[i + k] < sm[i]) { lo = false; break; }
+    if (!lo) continue;
+    cuts.push([cur, i]);
+    cur = i;
+  }
+  cuts.push([cur, b]);
+}
+
+// 过滤 + 求每个字的 f0
+const syl = [];
+for (const [a, b] of cuts) {
+  const t0 = (a * hop) / SR;
+  const t1 = (b * hop) / SR;
+  const dur = t1 - t0;
+  if (dur < 0.10 || dur > 0.45) continue;
+  let pk = 0;
+  for (let p = Math.floor(t0 * SR); p < Math.floor(t1 * SR); p++) pk = Math.max(pk, Math.abs(mono[p]));
+  if (pk < mx * 0.25) continue;
+  const f0s = [];
+  for (let t = t0 + 0.02; t < t1 - 0.02; t += 0.01) { const f = f0At(t); if (f > 150 && f < 1000) f0s.push(f); }
+  if (f0s.length < 3) continue;
+  f0s.sort((x, y) => x - y);
+  const f0 = f0s[f0s.length >> 1];
+  syl.push({ t0, t1, dur, f0, peak: pk });
+}
+console.log('raw syllables', syl.length);
+syl.forEach((s, i) => console.log(`${String(i + 1).padStart(2)} ${s.t0.toFixed(3)}-${s.t1.toFixed(3)} dur=${s.dur.toFixed(2)} f0=${s.f0.toFixed(0)} pk=${s.peak.toFixed(2)}`));
+
+// 按 f0 升序排，等分成 4 组（每组取最靠近该组中位音高的那个母本，音质最好）
+syl.sort((a, b) => a.f0 - b.f0);
+const groups = [];
+const per = Math.max(1, Math.floor(syl.length / 4));
+for (let g = 0; g < 4; g++) {
+  const slice = syl.slice(g * per, g === 3 ? syl.length : (g + 1) * per);
+  if (!slice.length) continue;
+  // 取该组内峰值最大的（最干净）
+  slice.sort((a, b) => b.peak - a.peak);
+  groups.push({ group: g + 1, ...slice[0] });
+}
+console.log('--- groups');
+groups.forEach((g) => console.log(`组${g.group} f0=${g.f0.toFixed(0)} ${g.t0.toFixed(3)}-${g.t1.toFixed(3)}`));
+
+// 导出母本池：每个候选音节一段 f32 + 元数据
+const pool = [];
+for (const s of syl) {
+  const a = Math.max(0, Math.floor((s.t0 - 0.01) * SR));
+  const b = Math.min(n, Math.floor((s.t1 + 0.03) * SR));
+  pool.push({ f0: s.f0, dur: s.dur, data: mono.subarray(a, b) });
+}
+fs.mkdirSync('test/out', { recursive: true });
+fs.writeFileSync('test/out/ref-pool.json', JSON.stringify({
+  sr: SR,
+  groups: groups.map((g) => ({ group: g.group, f0: g.f0, t0: g.t0, t1: g.t1 })),
+  pool: pool.map((p) => ({ f0: p.f0, dur: p.dur, len: p.data.length })),
+}, null, 2));
+
+// 拼接池子成一个大 f32 便于网页加载
+let total = 0;
+for (const p of pool) total += p.data.length;
+const big = new Float32Array(total);
+let off = 0;
+const idx = [];
+for (const p of pool) { big.set(p.data, off); idx.push({ off, len: p.data.length, f0: p.f0, dur: p.dur }); off += p.data.length; }
+fs.writeFileSync('test/out/ref-pool.f32', Buffer.from(big.buffer));
+fs.writeFileSync('test/out/ref-pool.idx.json', JSON.stringify({ sr: SR, groups: groups.map((g) => ({ group: g.group, f0: g.f0, t0: g.t0, t1: g.t1 })), syllables: idx }, null, 2));
+console.log('pool', pool.length, 'samples', total, (total / SR).toFixed(2) + 's');

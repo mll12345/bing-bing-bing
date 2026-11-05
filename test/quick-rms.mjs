@@ -1,1 +1,8 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwpjb25zdCBTUj00ODAwMDsKZnVuY3Rpb24gcmQocCl7Y29uc3QgYj1mcy5yZWFkRmlsZVN5bmMocCk7bGV0IG89MTIsZD1udWxsO3doaWxlKG88Yi5sZW5ndGgtOCl7Y29uc3QgaWQ9Yi50b1N0cmluZygnYXNjaWknLG8sbys0KTtjb25zdCBzPWIucmVhZFVJbnQzMkxFKG8rNCk7aWYoaWQ9PT0nZGF0YScpe2Q9Yi5zdWJhcnJheShvKzgsbys4K3MpO2JyZWFrO31vKz04K3MrKHMmMSk7fWNvbnN0IG49KGQubGVuZ3RoPj4xKTtjb25zdCB4PW5ldyBGbG9hdDMyQXJyYXkobik7Zm9yKGxldCBpPTA7aTxuO2krKyl4W2ldPWQucmVhZEludDE2TEUoaSoyKS8zMjc2ODtyZXR1cm4geDt9CmNvbnN0IHg9cmQoJ3Rlc3Qvb3V0L+ecn+WGsF/nu4QyLndhdicpOwpsZXQgcGs9MCxzPTA7Zm9yKGxldCBpPTA7aTx4Lmxlbmd0aDtpKyspe3BrPU1hdGgubWF4KHBrLE1hdGguYWJzKHhbaV0pKTtzKz14W2ldKnhbaV07fQpjb25zb2xlLmxvZygncGVhaycscGsudG9GaXhlZCgzKSwncm1zJyxNYXRoLnNxcnQocy94Lmxlbmd0aCkudG9GaXhlZCgzKSk7Ci8vIDUg56eS56qX5Y+jIHJtcwpmb3IobGV0IHc9MDt3PDY7dysrKXtjb25zdCBhPXcqNSpTUixiPU1hdGgubWluKHgubGVuZ3RoLGErNSpTUik7bGV0IHE9MDtmb3IobGV0IGk9YTtpPGI7aSsrKXErPXhbaV0qeFtpXTtjb25zb2xlLmxvZyhgdD0ke3cqNX0tJHt3KjUrNX1zIHJtcz0ke01hdGguc3FydChxLyhiLWEpKS50b0ZpeGVkKDMpfWApO30NCg==
+import fs from 'node:fs';
+const SR=48000;
+function rd(p){const b=fs.readFileSync(p);let o=12,d=null;while(o<b.length-8){const id=b.toString('ascii',o,o+4);const s=b.readUInt32LE(o+4);if(id==='data'){d=b.subarray(o+8,o+8+s);break;}o+=8+s+(s&1);}const n=(d.length>>1);const x=new Float32Array(n);for(let i=0;i<n;i++)x[i]=d.readInt16LE(i*2)/32768;return x;}
+const x=rd('test/out/真冰_组2.wav');
+let pk=0,s=0;for(let i=0;i<x.length;i++){pk=Math.max(pk,Math.abs(x[i]));s+=x[i]*x[i];}
+console.log('peak',pk.toFixed(3),'rms',Math.sqrt(s/x.length).toFixed(3));
+// 5 秒窗口 rms
+for(let w=0;w<6;w++){const a=w*5*SR,b=Math.min(x.length,a+5*SR);let q=0;for(let i=a;i<b;i++)q+=x[i]*x[i];console.log(`t=${w*5}-${w*5+5}s rms=${Math.sqrt(q/(b-a)).toFixed(3)}`);}

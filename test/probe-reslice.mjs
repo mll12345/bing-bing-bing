@@ -1,1 +1,84 @@
-Ly8gcHJvYmUtcmVzbGljZS5tanMg4oCU4oCUIOajgOafpeOAjOWAn+adpeeahOWGsOOAjeaYr+S4jeaYr+ecn+WXk+mfs++8muWRqOacn+aApyArIOWPjea1i+WfuumikSArIOiwseWzsAppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCB7IG1ha2VGRlQgfSBmcm9tICcuLi9zcmMvZmZ0LmpzJzsKaW1wb3J0IHsgcGl0Y2hUcmFjayB9IGZyb20gJy4uL3NyYy92b2ljZS5qcyc7Cgpjb25zdCBGSUxFID0gcHJvY2Vzcy5hcmd2WzJdOwpjb25zdCBTUiA9IDQ4MDAwOwoKZnVuY3Rpb24gcmVhZFdhdihwKSB7CiAgY29uc3QgYiA9IGZzLnJlYWRGaWxlU3luYyhwKTsKICBsZXQgb2ZmID0gMTI7CiAgbGV0IGRhdGEgPSBudWxsOwogIHdoaWxlIChvZmYgPCBiLmxlbmd0aCAtIDgpIHsKICAgIGNvbnN0IGlkID0gYi50b1N0cmluZygnYXNjaWknLCBvZmYsIG9mZiArIDQpOwogICAgY29uc3Qgc3ogPSBiLnJlYWRVSW50MzJMRShvZmYgKyA0KTsKICAgIGlmIChpZCA9PT0gJ2RhdGEnKSB7IGRhdGEgPSBiLnN1YmFycmF5KG9mZiArIDgsIG9mZiArIDggKyBzeik7IGJyZWFrOyB9CiAgICBvZmYgKz0gOCArIHN6ICsgKHN6ICYgMSk7CiAgfQogIGNvbnN0IG4gPSBkYXRhLmxlbmd0aCA+PiAxOwogIGNvbnN0IG91dCA9IG5ldyBGbG9hdDMyQXJyYXkobik7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBuOyBpKyspIG91dFtpXSA9IGRhdGEucmVhZEludDE2TEUoaSAqIDIpIC8gMzI3Njg7CiAgcmV0dXJuIG91dDsKfQoKY29uc3QgeCA9IHJlYWRXYXYoRklMRSk7CgovLyAxKSDlkajmnJ/mgKfvvJroh6rnm7jlhbPlnKggbGFn4oiIWzJtcywxNW1zXSDnmoTmnIDlpKflgLwgLyDpm7blu7bov58KZnVuY3Rpb24gcGVyaW9kaWNpdHkoc2VnKSB7CiAgbGV0IHIwID0gMDsKICBmb3IgKGxldCBpID0gMDsgaSA8IHNlZy5sZW5ndGg7IGkrKykgcjAgKz0gc2VnW2ldICogc2VnW2ldOwogIGlmIChyMCA8IDFlLTkpIHJldHVybiAwOwogIGxldCBiZXN0ID0gMDsKICBjb25zdCBsbyA9IE1hdGguZmxvb3IoU1IgKiAwLjAwMik7CiAgY29uc3QgaGkgPSBNYXRoLmZsb29yKFNSICogMC4wMTUpOwogIGZvciAobGV0IGxhZyA9IGxvOyBsYWcgPD0gaGk7IGxhZysrKSB7CiAgICBsZXQgcyA9IDA7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IHNlZy5sZW5ndGggLSBsYWc7IGkgKz0gMikgcyArPSBzZWdbaV0gKiBzZWdbaSArIGxhZ107CiAgICBjb25zdCByID0gcyAvIHIwICogKHNlZy5sZW5ndGggLyAoc2VnLmxlbmd0aCAtIGxhZykpOwogICAgaWYgKHIgPiBiZXN0KSBiZXN0ID0gcjsKICB9CiAgcmV0dXJuIGJlc3Q7Cn0KLy8g5Y+W5pyA5ZON55qEIDgg5Liq56qX5Y+j5bmz5Z2HCmNvbnN0IFcgPSBNYXRoLmZsb29yKFNSICogMC4wNik7CmNvbnN0IHNjb3JlcyA9IFtdOwpmb3IgKGxldCBwID0gMDsgcCArIFcgPCB4Lmxlbmd0aDsgcCArPSBXKSB7CiAgbGV0IGUgPSAwOwogIGZvciAobGV0IGkgPSAwOyBpIDwgVzsgaSsrKSBlICs9IHhbcCArIGldICogeFtwICsgaV07CiAgc2NvcmVzLnB1c2goeyBwLCBlIH0pOwp9CnNjb3Jlcy5zb3J0KChhLCBiKSA9PiBiLmUgLSBhLmUpOwpjb25zdCB0b3AgPSBzY29yZXMuc2xpY2UoMCwgOCk7CmNvbnN0IHBlciA9IHRvcC5tYXAoKHMpID0+IHBlcmlvZGljaXR5KHguc3ViYXJyYXkocy5wLCBzLnAgKyBXKSkpOwpjb25zdCBhdmcgPSBwZXIucmVkdWNlKChhLCBiKSA9PiBhICsgYiwgMCkgLyBwZXIubGVuZ3RoOwoKLy8gMikg5Y+N5rWL5Z+66aKRCmNvbnN0IHRyYWNrID0gcGl0Y2hUcmFjayh4LCBTUiwgKCkgPT4ge30pOwpjb25zdCBmMCA9IFtdOwpmb3IgKGxldCBpID0gMDsgaSA8IHRyYWNrLmYwLmxlbmd0aDsgaSsrKSBpZiAodHJhY2suY2xhcml0eVtpXSA+IDAuNSAmJiB0cmFjay5mMFtpXSA+IDYwKSBmMC5wdXNoKHRyYWNrLmYwW2ldKTsKZjAuc29ydCgoYSwgYikgPT4gYSAtIGIpOwpjb25zdCBtZWQgPSBmMC5sZW5ndGggPyBmMFtmMC5sZW5ndGggPj4gMV0gOiAwOwoKLy8gMykg5pyA5ZON56qX5Y+j6LCx5bOwCmNvbnN0IHNlZyA9IHguc3ViYXJyYXkodG9wWzBdLnAsIHRvcFswXS5wICsgMjA0OCk7CmNvbnN0IE4gPSAyMDQ4Owpjb25zdCBmZnQgPSBtYWtlRkZUKE4pOwpjb25zdCByZSA9IG5ldyBGbG9hdDMyQXJyYXkoTik7IGNvbnN0IGltID0gbmV3IEZsb2F0MzJBcnJheShOKTsKZm9yIChsZXQgaSA9IDA7IGkgPCBOOyBpKyspIHsgY29uc3QgdyA9IDAuNSAtIDAuNSAqIE1hdGguY29zKCgyICogTWF0aC5QSSAqIGkpIC8gKE4gLSAxKSk7IHJlW2ldID0gKHNlZ1tpXSB8fCAwKSAqIHc7IH0KZmZ0KHJlLCBpbSwgZmFsc2UpOwpjb25zdCBtYWcgPSBbXTsKZm9yIChsZXQgaSA9IDE7IGkgPCBOIC8gMjsgaSsrKSBtYWcucHVzaCh7IGh6OiBNYXRoLnJvdW5kKChpICogU1IpIC8gTiksIG06IE1hdGguaHlwb3QocmVbaV0sIGltW2ldKSB9KTsKbWFnLnNvcnQoKGEsIGIpID0+IGIubSAtIGEubSk7CmNvbnN0IHBlYWtzID0gbWFnLnNsaWNlKDAsIDYpLm1hcCgocCkgPT4gcC5oeik7Cgpjb25zb2xlLmxvZyhKU09OLnN0cmluZ2lmeSh7CiAgZmlsZTogRklMRSwKICBkdXJTZWM6ICsoeC5sZW5ndGggLyBTUikudG9GaXhlZCgyKSwKICBwZXJpb2RpY2l0eTogK2F2Zy50b0ZpeGVkKDMpLAogIHBlcmlvZGljaXR5RWFjaDogcGVyLm1hcCgodikgPT4gK3YudG9GaXhlZCgzKSksCiAgZjBNZWRpYW46ICttZWQudG9GaXhlZCgwKSwKICBmMFJhbmdlOiBmMC5sZW5ndGggPyBbK2YwWzBdLnRvRml4ZWQoMCksICtmMFtmMC5sZW5ndGggLSAxXS50b0ZpeGVkKDApXSA6IG51bGwsCiAgdm9pY2VkRnJhbWVzOiBmMC5sZW5ndGgsCiAgcGVha3MsCn0sIG51bGwsIDIpKTsK
+// probe-reslice.mjs —— 检查「借来的冰」是不是真嗓音：周期性 + 反测基频 + 谱峰
+import fs from 'node:fs';
+import { makeFFT } from '../src/fft.js';
+import { pitchTrack } from '../src/voice.js';
+
+const FILE = process.argv[2];
+const SR = 48000;
+
+function readWav(p) {
+  const b = fs.readFileSync(p);
+  let off = 12;
+  let data = null;
+  while (off < b.length - 8) {
+    const id = b.toString('ascii', off, off + 4);
+    const sz = b.readUInt32LE(off + 4);
+    if (id === 'data') { data = b.subarray(off + 8, off + 8 + sz); break; }
+    off += 8 + sz + (sz & 1);
+  }
+  const n = data.length >> 1;
+  const out = new Float32Array(n);
+  for (let i = 0; i < n; i++) out[i] = data.readInt16LE(i * 2) / 32768;
+  return out;
+}
+
+const x = readWav(FILE);
+
+// 1) 周期性：自相关在 lag∈[2ms,15ms] 的最大值 / 零延迟
+function periodicity(seg) {
+  let r0 = 0;
+  for (let i = 0; i < seg.length; i++) r0 += seg[i] * seg[i];
+  if (r0 < 1e-9) return 0;
+  let best = 0;
+  const lo = Math.floor(SR * 0.002);
+  const hi = Math.floor(SR * 0.015);
+  for (let lag = lo; lag <= hi; lag++) {
+    let s = 0;
+    for (let i = 0; i < seg.length - lag; i += 2) s += seg[i] * seg[i + lag];
+    const r = s / r0 * (seg.length / (seg.length - lag));
+    if (r > best) best = r;
+  }
+  return best;
+}
+// 取最响的 8 个窗口平均
+const W = Math.floor(SR * 0.06);
+const scores = [];
+for (let p = 0; p + W < x.length; p += W) {
+  let e = 0;
+  for (let i = 0; i < W; i++) e += x[p + i] * x[p + i];
+  scores.push({ p, e });
+}
+scores.sort((a, b) => b.e - a.e);
+const top = scores.slice(0, 8);
+const per = top.map((s) => periodicity(x.subarray(s.p, s.p + W)));
+const avg = per.reduce((a, b) => a + b, 0) / per.length;
+
+// 2) 反测基频
+const track = pitchTrack(x, SR, () => {});
+const f0 = [];
+for (let i = 0; i < track.f0.length; i++) if (track.clarity[i] > 0.5 && track.f0[i] > 60) f0.push(track.f0[i]);
+f0.sort((a, b) => a - b);
+const med = f0.length ? f0[f0.length >> 1] : 0;
+
+// 3) 最响窗口谱峰
+const seg = x.subarray(top[0].p, top[0].p + 2048);
+const N = 2048;
+const fft = makeFFT(N);
+const re = new Float32Array(N); const im = new Float32Array(N);
+for (let i = 0; i < N; i++) { const w = 0.5 - 0.5 * Math.cos((2 * Math.PI * i) / (N - 1)); re[i] = (seg[i] || 0) * w; }
+fft(re, im, false);
+const mag = [];
+for (let i = 1; i < N / 2; i++) mag.push({ hz: Math.round((i * SR) / N), m: Math.hypot(re[i], im[i]) });
+mag.sort((a, b) => b.m - a.m);
+const peaks = mag.slice(0, 6).map((p) => p.hz);
+
+console.log(JSON.stringify({
+  file: FILE,
+  durSec: +(x.length / SR).toFixed(2),
+  periodicity: +avg.toFixed(3),
+  periodicityEach: per.map((v) => +v.toFixed(3)),
+  f0Median: +med.toFixed(0),
+  f0Range: f0.length ? [+f0[0].toFixed(0), +f0[f0.length - 1].toFixed(0)] : null,
+  voicedFrames: f0.length,
+  peaks,
+}, null, 2));

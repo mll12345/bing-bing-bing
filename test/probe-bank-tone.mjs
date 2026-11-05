@@ -1,1 +1,25 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwppbXBvcnQgeyBtYWtlRkZUIH0gZnJvbSAnLi4vc3JjL2ZmdC5qcyc7CmNvbnN0IG1ldGE9SlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMoJ3NhbXBsZXMvYmluZy1iYW5rLmpzb24nLCd1dGY4JykpOwpjb25zdCBiaW49ZnMucmVhZEZpbGVTeW5jKCdzYW1wbGVzL2JpbmctYmFuay5iaW4nKTsKY29uc3QgaTE2PW5ldyBJbnQxNkFycmF5KGJpbi5idWZmZXIsYmluLmJ5dGVPZmZzZXQsYmluLmxlbmd0aC8yKTsKY29uc3QgcG9vbD1uZXcgRmxvYXQzMkFycmF5KGkxNi5sZW5ndGgpOwpmb3IobGV0IGk9MDtpPGkxNi5sZW5ndGg7aSsrKXBvb2xbaV09aTE2W2ldLzMyNzY4Owpjb25zdCBTUj00NDEwMCxOPTIwNDgsZmZ0PW1ha2VGRlQoTik7CmZvcihsZXQgZz0wO2c8NDtnKyspewogIGNvbnN0IHRyaT1tZXRhLnN5bGxhYmxlcy5zbGljZShnKjMsZyozKzMpOwogIGxldCBjU3VtPTAsY250PTA7CiAgZm9yKGNvbnN0IHMgb2YgdHJpKXsKICAgIGNvbnN0IG1pZD1zLm9mZisocy5sZW4+PjEpOwogICAgZm9yKGNvbnN0IGMgb2YgW21pZC0xMDI0LG1pZF0pewogICAgICBpZihjPDB8fGMrTj5wb29sLmxlbmd0aCljb250aW51ZTsKICAgICAgY29uc3QgcmU9bmV3IEZsb2F0MzJBcnJheShOKSxpbT1uZXcgRmxvYXQzMkFycmF5KE4pOwogICAgICBmb3IobGV0IGk9MDtpPE47aSsrKXtjb25zdCB3PTAuNS0wLjUqTWF0aC5jb3MoMipNYXRoLlBJKmkvKE4tMSkpO3JlW2ldPXBvb2xbYytpXSp3O30KICAgICAgZmZ0KHJlLGltLGZhbHNlKTsKICAgICAgbGV0IG51bT0wLGRlbj0wOwogICAgICBmb3IobGV0IGk9MjtpPE4vMjtpKyspe2NvbnN0IG09TWF0aC5oeXBvdChyZVtpXSxpbVtpXSk7bnVtKz1tKihpKlNSL04pO2Rlbis9bTt9CiAgICAgIGlmKGRlbj4wKXtjU3VtKz1udW0vZGVuO2NudCsrO30KICAgIH0KICB9CiAgY29uc29sZS5sb2coYOe7hCR7ZysxfSBmMD0ke21ldGEuZ3JvdXBzW2ddLmYwfSBjZW50cm9pZD0keyhjU3VtL01hdGgubWF4KDEsY250KSkudG9GaXhlZCgwKX1IemApOwp9DQo=
+import fs from 'node:fs';
+import { makeFFT } from '../src/fft.js';
+const meta=JSON.parse(fs.readFileSync('samples/bing-bank.json','utf8'));
+const bin=fs.readFileSync('samples/bing-bank.bin');
+const i16=new Int16Array(bin.buffer,bin.byteOffset,bin.length/2);
+const pool=new Float32Array(i16.length);
+for(let i=0;i<i16.length;i++)pool[i]=i16[i]/32768;
+const SR=44100,N=2048,fft=makeFFT(N);
+for(let g=0;g<4;g++){
+  const tri=meta.syllables.slice(g*3,g*3+3);
+  let cSum=0,cnt=0;
+  for(const s of tri){
+    const mid=s.off+(s.len>>1);
+    for(const c of [mid-1024,mid]){
+      if(c<0||c+N>pool.length)continue;
+      const re=new Float32Array(N),im=new Float32Array(N);
+      for(let i=0;i<N;i++){const w=0.5-0.5*Math.cos(2*Math.PI*i/(N-1));re[i]=pool[c+i]*w;}
+      fft(re,im,false);
+      let num=0,den=0;
+      for(let i=2;i<N/2;i++){const m=Math.hypot(re[i],im[i]);num+=m*(i*SR/N);den+=m;}
+      if(den>0){cSum+=num/den;cnt++;}
+    }
+  }
+  console.log(`组${g+1} f0=${meta.groups[g].f0} centroid=${(cSum/Math.max(1,cnt)).toFixed(0)}Hz`);
+}

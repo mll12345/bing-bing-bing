@@ -1,1 +1,24 @@
-IyDmtYvor5XkuqfnianvvIjkvZPnp6/lpKfjgIHlj6/ph43mlrDnlJ/miJDvvIkNCnRlc3Qvb3V0Lw0KdGVzdC9zb25nNDUubXAzDQp0ZXN0L3Nvbmc0NS5tNGENCnRlc3Qvc29uZzQ1Lm1wNA0KdGVzdC9zcmM0NS53YXYNCnRlc3QvZngqLndhdg0KdGVzdC8qLnBuZw0KdGVzdC9kdW1wLXJlcG9ydC5qc29uDQp0ZXN0L2R1bXAubG9nDQoNCiMg57O757ufDQouRFNfU3RvcmUNClRodW1icy5kYg0Kbm9kZV9tb2R1bGVzLw0KZml4LnBzMQ0KZGVtby8qLndhdg0KDQoNCnRlc3QvdHJhY2UqLmxvZw0KdGVzdC8qLmxvZw0KCnRlc3QvKi5mMzIKdGVzdC9yZWZfbW9uby53YXYNCg==
+# 测试产物（体积大、可重新生成）
+test/out/
+test/song45.mp3
+test/song45.m4a
+test/song45.mp4
+test/src45.wav
+test/fx*.wav
+test/*.png
+test/dump-report.json
+test/dump.log
+
+# 系统
+.DS_Store
+Thumbs.db
+node_modules/
+fix.ps1
+demo/*.wav
+
+
+test/trace*.log
+test/*.log
+
+test/*.f32
+test/ref_mono.wav

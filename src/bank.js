@@ -1,1 +1,59 @@
-Ly8gYmFuay5qcyDigJTigJQg55So44CM55yf5Lq655qE5Yaw44CN5b2T5q+N5pys77yM6ICM5LiN5piv5ZCI5oiQCi8vIOavjeacrOadpeiHquWPguiAg+mfs+mikeWIh+WHuuadpeeahOecn+Wunumfs+iKgu+8iDMg5Liq5LiA57uE77yM5YWxIDQg57uE77yJ77yMCi8vIOaSreaUvuaXtuWPquWBmiBQU09MQSDlj5josIMgKyDlj5jplb/vvIzms6LlvaLmnKzouqvmmK/nnJ/kurrll5PlrZDvvIzmiYDku6XmmK/jgIzlhrDjgI3kuI3mmK/pn7PmlYjjgIIKCmltcG9ydCB7IHBzb2xhIH0gZnJvbSAnLi9yZXNsaWNlLmpzJzsKCi8qKgogKiBAcGFyYW0ge0Zsb2F0MzJBcnJheX0gcG9vbCAgICAg5omA5pyJ5q+N5pys5ou85Zyo5LiA6LW355qE5Y2V5aOw6YGT5qC35pysCiAqIEBwYXJhbSB7e3NyOm51bWJlciwgc3lsbGFibGVzOntvZmY6bnVtYmVyLGxlbjpudW1iZXIsZjA6bnVtYmVyfVtdLCBncm91cHM6e2dyb3VwOm51bWJlcixmMDpudW1iZXJ9W119fSBpZHgKICogQHBhcmFtIHt7c3RhcnQ6bnVtYmVyLGR1cjpudW1iZXIsZjA6bnVtYmVyLGFtcDpudW1iZXJ9W119IG5vdGVzCiAqIEBwYXJhbSB7e3NyOm51bWJlciwgbGVuOm51bWJlciwgZ2Fpbj86bnVtYmVyLCBncm91cD86bnVtYmVyLCBwcm9ncmVzcz86RnVuY3Rpb259fSBvcHQKICovCmV4cG9ydCBmdW5jdGlvbiByZW5kZXJCYW5rKHBvb2wsIGlkeCwgbm90ZXMsIG9wdCkgewogIGNvbnN0IHNyID0gb3B0LnNyOwogIGNvbnN0IGxlbiA9IG9wdC5sZW47CiAgY29uc3QgZ2FpbiA9IG9wdC5nYWluID09IG51bGwgPyAxIDogb3B0LmdhaW47CiAgY29uc3QgZ3JvdXAgPSBNYXRoLm1pbig0LCBNYXRoLm1heCgxLCBvcHQuZ3JvdXAgfHwgMikpOwogIGNvbnN0IHByb2dyZXNzID0gb3B0LnByb2dyZXNzIHx8ICgoKSA9PiB7fSk7CiAgY29uc3Qgb3V0ID0gbmV3IEZsb2F0MzJBcnJheShsZW4pOwoKICAvLyDor6Xnu4TnmoTkuInkuKrmr43mnKzvvIhpZHguc3lsbGFibGVzIOaMiemhuuW6j+WwseaYryA0IOe7hCDDlyAzIOS4qu+8iQogIGNvbnN0IGJhc2UgPSAoZ3JvdXAgLSAxKSAqIDM7CiAgY29uc3QgbWluZSA9IGlkeC5zeWxsYWJsZXMuc2xpY2UoYmFzZSwgYmFzZSArIDMpLm1hcCgocykgPT4gKHsKICAgIGRhdGE6IHBvb2wuc3ViYXJyYXkocy5vZmYsIHMub2ZmICsgcy5sZW4pLAogICAgZjA6IHMuZjAgfHwgNDAwLAogIH0pKTsKICBpZiAoIW1pbmUubGVuZ3RoKSByZXR1cm4geyBkYXRhOiBvdXQsIGNvdW50OiAwIH07CgogIGxldCBjb3VudCA9IDA7CiAgZm9yIChsZXQgayA9IDA7IGsgPCBub3Rlcy5sZW5ndGg7IGsrKykgewogICAgY29uc3QgbnQgPSBub3Rlc1trXTsKICAgIGlmIChrICUgNDAgPT09IDApIHByb2dyZXNzKDAuMiArIDAuNyAqIChrIC8gbm90ZXMubGVuZ3RoKSk7CiAgICBjb25zdCBzcmMgPSBtaW5lW2sgJSBtaW5lLmxlbmd0aF07CgogICAgY29uc3Qgb3V0TGVuID0gTWF0aC5tYXgoTWF0aC5mbG9vcigwLjA5ICogc3IpLCBNYXRoLmZsb29yKChudC5kdXIgKiAwLjk1ICsgMC4wNSkgKiBzcikpOwogICAgY29uc3QgZHN0ID0gcHNvbGEoc3JjLmRhdGEsIHNyLCBzcmMuZjAsIG50LmYwLCBvdXRMZW4pOwogICAgaWYgKCFkc3QubGVuZ3RoKSBjb250aW51ZTsKCiAgICBsZXQgcGVhayA9IDFlLTY7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IG91dExlbjsgaSsrKSBwZWFrID0gTWF0aC5tYXgocGVhaywgTWF0aC5hYnMoZHN0W2ldKSk7CiAgICBjb25zdCB0YXJnZXQgPSBNYXRoLm1pbigwLjk1LCBNYXRoLm1heCgwLjA4LCBudC5hbXAgKiAxLjIpKSAqIGdhaW47CiAgICBjb25zdCBnID0gdGFyZ2V0IC8gcGVhazsKCiAgICBjb25zdCBhdCA9IE1hdGgubWF4KDAsIE1hdGguZmxvb3IobnQuc3RhcnQgKiBzcikpOwogICAgY29uc3QgZmFkZUluID0gTWF0aC5taW4oTWF0aC5mbG9vcigwLjAwMyAqIHNyKSwgb3V0TGVuID4+IDMpOwogICAgY29uc3QgZmFkZU91dCA9IE1hdGgubWluKE1hdGguZmxvb3IoMC4wMTUgKiBzciksIG91dExlbiA+PiAzKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgb3V0TGVuOyBpKyspIHsKICAgICAgY29uc3QgaiA9IGF0ICsgaTsKICAgICAgaWYgKGogPj0gbGVuKSBicmVhazsKICAgICAgbGV0IHcgPSAxOwogICAgICBpZiAoaSA8IGZhZGVJbikgdyA9IGkgLyBmYWRlSW47CiAgICAgIGVsc2UgaWYgKGkgPiBvdXRMZW4gLSBmYWRlT3V0KSB3ID0gKG91dExlbiAtIGkpIC8gZmFkZU91dDsKICAgICAgb3V0W2pdICs9IGRzdFtpXSAqIGcgKiB3OwogICAgfQogICAgY291bnQrKzsKICB9CiAgcHJvZ3Jlc3MoMC45NSk7CiAgcmV0dXJuIHsgZGF0YTogb3V0LCBjb3VudCB9Owp9Cg==
+// bank.js —— 用「真人的冰」当母本，而不是合成
+// 母本来自参考音频切出来的真实音节（3 个一组，共 4 组），
+// 播放时只做 PSOLA 变调 + 变长，波形本身是真人嗓子，所以是「冰」不是音效。
+
+import { psola } from './reslice.js';
+
+/**
+ * @param {Float32Array} pool     所有母本拼在一起的单声道样本
+ * @param {{sr:number, syllables:{off:number,len:number,f0:number}[], groups:{group:number,f0:number}[]}} idx
+ * @param {{start:number,dur:number,f0:number,amp:number}[]} notes
+ * @param {{sr:number, len:number, gain?:number, group?:number, progress?:Function}} opt
+ */
+export function renderBank(pool, idx, notes, opt) {
+  const sr = opt.sr;
+  const len = opt.len;
+  const gain = opt.gain == null ? 1 : opt.gain;
+  const group = Math.min(4, Math.max(1, opt.group || 2));
+  const progress = opt.progress || (() => {});
+  const out = new Float32Array(len);
+
+  // 该组的三个母本（idx.syllables 按顺序就是 4 组 × 3 个）
+  const base = (group - 1) * 3;
+  const mine = idx.syllables.slice(base, base + 3).map((s) => ({
+    data: pool.subarray(s.off, s.off + s.len),
+    f0: s.f0 || 400,
+  }));
+  if (!mine.length) return { data: out, count: 0 };
+
+  let count = 0;
+  for (let k = 0; k < notes.length; k++) {
+    const nt = notes[k];
+    if (k % 40 === 0) progress(0.2 + 0.7 * (k / notes.length));
+    const src = mine[k % mine.length];
+
+    const outLen = Math.max(Math.floor(0.09 * sr), Math.floor((nt.dur * 0.95 + 0.05) * sr));
+    const dst = psola(src.data, sr, src.f0, nt.f0, outLen);
+    if (!dst.length) continue;
+
+    let peak = 1e-6;
+    for (let i = 0; i < outLen; i++) peak = Math.max(peak, Math.abs(dst[i]));
+    const target = Math.min(0.95, Math.max(0.08, nt.amp * 1.2)) * gain;
+    const g = target / peak;
+
+    const at = Math.max(0, Math.floor(nt.start * sr));
+    const fadeIn = Math.min(Math.floor(0.003 * sr), outLen >> 3);
+    const fadeOut = Math.min(Math.floor(0.015 * sr), outLen >> 3);
+    for (let i = 0; i < outLen; i++) {
+      const j = at + i;
+      if (j >= len) break;
+      let w = 1;
+      if (i < fadeIn) w = i / fadeIn;
+      else if (i > outLen - fadeOut) w = (outLen - i) / fadeOut;
+      out[j] += dst[i] * g * w;
+    }
+    count++;
+  }
+  progress(0.95);
+  return { data: out, count };
+}

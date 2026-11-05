@@ -1,1 +1,21 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwpjb25zdCBTUj00NDEwMDsKY29uc3QgcmF3PW5ldyBGbG9hdDMyQXJyYXkoZnMucmVhZEZpbGVTeW5jKCd0ZXN0L3JlZi5mMzInKS5idWZmZXIuc2xpY2UoMCkpOwpjb25zdCBuPU1hdGguZmxvb3IocmF3Lmxlbmd0aC8yKTsKY29uc3QgbW9ubz1uZXcgRmxvYXQzMkFycmF5KG4pOwpmb3IobGV0IGk9MDtpPG47aSsrKSBtb25vW2ldPShyYXdbaSoyXStyYXdbaSoyKzFdKS8yOwpjb25zdCBob3A9TWF0aC5mbG9vcihTUiowLjAwNSk7CmNvbnN0IG91dD1bXTsKZm9yKGxldCBwPTA7cCtob3A8PW47cCs9aG9wKXsKICBsZXQgcz0wO2ZvcihsZXQgaT0wO2k8aG9wO2krKylzKz1tb25vW3AraV0qbW9ub1twK2ldOwogIG91dC5wdXNoKE1hdGguc3FydChzL2hvcCkpOwp9CmNvbnN0IG14PU1hdGgubWF4KC4uLm91dCk7CmxldCBsaW5lPScnOwpmb3IobGV0IGk9MDtpPG91dC5sZW5ndGg7aSsrKXsKICBjb25zdCB0PWkqMC4wMDU7CiAgY29uc3Qgdj1vdXRbaV0vbXg7CiAgY29uc3QgYmFyPScjJy5yZXBlYXQoTWF0aC5yb3VuZCh2KjMwKSk7CiAgaWYodD4wLjEwJiZ0PDEuMjApIGxpbmUrPWAke3QudG9GaXhlZCgzKX0gJHt2LnRvRml4ZWQoMikucGFkU3RhcnQoNSl9ICR7YmFyfVxuYDsKfQpjb25zb2xlLmxvZyhsaW5lKTsNCg==
+import fs from 'node:fs';
+const SR=44100;
+const raw=new Float32Array(fs.readFileSync('test/ref.f32').buffer.slice(0));
+const n=Math.floor(raw.length/2);
+const mono=new Float32Array(n);
+for(let i=0;i<n;i++) mono[i]=(raw[i*2]+raw[i*2+1])/2;
+const hop=Math.floor(SR*0.005);
+const out=[];
+for(let p=0;p+hop<=n;p+=hop){
+  let s=0;for(let i=0;i<hop;i++)s+=mono[p+i]*mono[p+i];
+  out.push(Math.sqrt(s/hop));
+}
+const mx=Math.max(...out);
+let line='';
+for(let i=0;i<out.length;i++){
+  const t=i*0.005;
+  const v=out[i]/mx;
+  const bar='#'.repeat(Math.round(v*30));
+  if(t>0.10&&t<1.20) line+=`${t.toFixed(3)} ${v.toFixed(2).padStart(5)} ${bar}\n`;
+}
+console.log(line);

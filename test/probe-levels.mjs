@@ -1,1 +1,17 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOwppbXBvcnQgeyBzZXBhcmF0ZSB9IGZyb20gJy4uL3NyYy92b2NhbHMuanMnOwppbXBvcnQgeyBiaXF1YWQgfSBmcm9tICcuLi9zcmMvcGNtLmpzJzsKY29uc3QgU1I9NDgwMDA7CmNvbnN0IHJhdz1uZXcgRmxvYXQzMkFycmF5KGZzLnJlYWRGaWxlU3luYygndGVzdC9zcmMxMTQuZjMyJykuYnVmZmVyLnNsaWNlKDApKTsKY29uc3QgZnJhbWVzPU1hdGguZmxvb3IocmF3Lmxlbmd0aC8yKTsKY29uc3QgY2hzPVtuZXcgRmxvYXQzMkFycmF5KGZyYW1lcyksbmV3IEZsb2F0MzJBcnJheShmcmFtZXMpXTsKZm9yKGxldCBpPTA7aTxmcmFtZXM7aSsrKXtjaHNbMF1baV09cmF3W2kqMl07Y2hzWzFdW2ldPXJhd1tpKjIrMV07fQpsZXQgcz0wO2ZvcihsZXQgaT0wO2k8ZnJhbWVzO2krPTcpcys9Y2hzWzBdW2ldKmNoc1swXVtpXTsKY29uc29sZS5sb2coJ29yaWcgcm1zJyxNYXRoLnNxcnQocy9NYXRoLmNlaWwoZnJhbWVzLzcpKS50b0ZpeGVkKDQpKTsKY29uc3Qgc2VwPXNlcGFyYXRlKGNocyxTUiwoKT0+e30pOwpjb25zdCBybXNPZj0oYSk9PntsZXQgcT0wO2ZvcihsZXQgaT0wO2k8YS5sZW5ndGg7aSs9MylxKz1hW2ldKmFbaV07cmV0dXJuIE1hdGguc3FydChxL01hdGgubWF4KDEsTWF0aC5jZWlsKGEubGVuZ3RoLzMpKSk7fTsKY29uc29sZS5sb2coJ3ZvY2FsIHJtcycscm1zT2Yoc2VwLnZvY2FsWzBdKS50b0ZpeGVkKDQpKTsKY29uc3QgaW5zdD1GbG9hdDMyQXJyYXkuZnJvbShjaHNbMF0pOwpmb3IobGV0IGk9MDtpPGZyYW1lcztpKyspIGluc3RbaV0tPXNlcC52b2NhbFswXVtpXSowLjkyOwpiaXF1YWQoaW5zdCxTUiwnaGlnaHBhc3MnLDIyLDAuNyk7CmNvbnNvbGUubG9nKCdpbnN0IHJtcycscm1zT2YoaW5zdCkudG9GaXhlZCg0KSk7DQo=
+import fs from 'node:fs';
+import { separate } from '../src/vocals.js';
+import { biquad } from '../src/pcm.js';
+const SR=48000;
+const raw=new Float32Array(fs.readFileSync('test/src114.f32').buffer.slice(0));
+const frames=Math.floor(raw.length/2);
+const chs=[new Float32Array(frames),new Float32Array(frames)];
+for(let i=0;i<frames;i++){chs[0][i]=raw[i*2];chs[1][i]=raw[i*2+1];}
+let s=0;for(let i=0;i<frames;i+=7)s+=chs[0][i]*chs[0][i];
+console.log('orig rms',Math.sqrt(s/Math.ceil(frames/7)).toFixed(4));
+const sep=separate(chs,SR,()=>{});
+const rmsOf=(a)=>{let q=0;for(let i=0;i<a.length;i+=3)q+=a[i]*a[i];return Math.sqrt(q/Math.max(1,Math.ceil(a.length/3)));};
+console.log('vocal rms',rmsOf(sep.vocal[0]).toFixed(4));
+const inst=Float32Array.from(chs[0]);
+for(let i=0;i<frames;i++) inst[i]-=sep.vocal[0][i]*0.92;
+biquad(inst,SR,'highpass',22,0.7);
+console.log('inst rms',rmsOf(inst).toFixed(4));

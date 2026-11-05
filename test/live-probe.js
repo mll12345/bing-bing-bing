@@ -1,1 +1,41 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdub2RlOmZzJyk7CmNvbnN0IExPRyA9ICd0ZXN0L3RyYWNlMi5sb2cnOwpmcy53cml0ZUZpbGVTeW5jKExPRywgJycpOwpjb25zdCBsb2cgPSAoLi4uYSkgPT4gZnMuYXBwZW5kRmlsZVN5bmMoTE9HLCBhLmpvaW4oJyAnKSArICdcbicpOwpwcm9jZXNzLm9uKCdleGl0JywgKGMpID0+IGxvZygnRVhJVCcsIGMpKTsKcHJvY2Vzcy5vbigndW5jYXVnaHRFeGNlcHRpb24nLCAoZSkgPT4geyBsb2coJ1VOQ0FVR0hUJywgZSAmJiBlLnN0YWNrKTsgcHJvY2Vzcy5leGl0KDkpOyB9KTsKcHJvY2Vzcy5vbigndW5oYW5kbGVkUmVqZWN0aW9uJywgKGUpID0+IGxvZygnVU5IQU5ETEVEJywgU3RyaW5nKGUgJiYgZS5zdGFjayB8fCBlKSkpOwpjb25zdCBodHRwID0gcmVxdWlyZSgnbm9kZTpodHRwJyk7CmNvbnN0IFBBR0UgPSBwcm9jZXNzLmFyZ3ZbMl07Cihhc3luYyAoKSA9PiB7CiAgbG9nKCdzdGFydCcsIFBBR0UpOwogIGNvbnN0IGxpc3QgPSBhd2FpdCBuZXcgUHJvbWlzZSgocmVzLCByZWopID0+IGh0dHAuZ2V0KHsgaG9zdDogJzEyNy4wLjAuMScsIHBvcnQ6IDkyMjIsIHBhdGg6ICcvanNvbi9saXN0JyB9LCAocikgPT4geyBsZXQgcyA9ICcnOyByLm9uKCdkYXRhJywgKGQpID0+IChzICs9IGQpKTsgci5vbignZW5kJywgKCkgPT4gcmVzKEpTT04ucGFyc2UocykpKTsgfSkub24oJ2Vycm9yJywgcmVqKSk7CiAgY29uc3QgaG9zdCA9IG5ldyBVUkwoUEFHRSkuaG9zdDsKICBjb25zdCB0ID0gbGlzdC5maW5kKCh4KSA9PiB4LnR5cGUgPT09ICdwYWdlJyAmJiB4LnVybC5pbmNsdWRlcyhob3N0KSk7CiAgbG9nKCd0YXJnZXQnLCB0ICYmIHQudXJsKTsKICBjb25zdCB3cyA9IG5ldyBXZWJTb2NrZXQodC53ZWJTb2NrZXREZWJ1Z2dlclVybCk7CiAgbGV0IGlkID0gMDsgY29uc3QgcGVuZCA9IG5ldyBNYXAoKTsKICBjb25zdCBzZW5kID0gKG0sIHEgPSB7fSkgPT4gbmV3IFByb21pc2UoKHIpID0+IHsgY29uc3QgaSA9ICsraWQ7IHBlbmQuc2V0KGksIHIpOyB3cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsgaWQ6IGksIG1ldGhvZDogbSwgcGFyYW1zOiBxIH0pKTsgfSk7CiAgd3Mub25tZXNzYWdlID0gKGUpID0+IHsgY29uc3QgbSA9IEpTT04ucGFyc2UoZS5kYXRhKTsgaWYgKG0uaWQgJiYgcGVuZC5oYXMobS5pZCkpIHsgcGVuZC5nZXQobS5pZCkobS5yZXN1bHQpOyBwZW5kLmRlbGV0ZShtLmlkKTsgfSB9OwogIGF3YWl0IG5ldyBQcm9taXNlKChyKSA9PiAod3Mub25vcGVuID0gcikpOwogIGxvZygnb3BlbicpOwogIGF3YWl0IHNlbmQoJ1BhZ2UuZW5hYmxlJyk7IGF3YWl0IHNlbmQoJ1J1bnRpbWUuZW5hYmxlJyk7IGF3YWl0IHNlbmQoJ0RPTS5lbmFibGUnKTsKICBsb2coJ2VuYWJsZWQnKTsKICBhd2FpdCBzZW5kKCdQYWdlLm5hdmlnYXRlJywgeyB1cmw6IFBBR0UgfSk7CiAgbG9nKCduYXZpZ2F0ZWQnKTsKICBhd2FpdCBuZXcgUHJvbWlzZSgocikgPT4gc2V0VGltZW91dChyLCAyMDAwKSk7CiAgY29uc3QgZG9jID0gYXdhaXQgc2VuZCgnRE9NLmdldERvY3VtZW50JywgeyBkZXB0aDogLTEgfSk7CiAgY29uc3QgcSA9IGF3YWl0IHNlbmQoJ0RPTS5xdWVyeVNlbGVjdG9yJywgeyBub2RlSWQ6IGRvYy5yb290Lm5vZGVJZCwgc2VsZWN0b3I6ICcjZmlsZUlucHV0JyB9KTsKICBsb2coJ2lucHV0IG5vZGUnLCBxICYmIHEubm9kZUlkKTsKICBhd2FpdCBzZW5kKCdET00uc2V0RmlsZUlucHV0RmlsZXMnLCB7IG5vZGVJZDogcS5ub2RlSWQsIGZpbGVzOiBbcmVxdWlyZSgnbm9kZTpwYXRoJykucmVzb2x2ZSgndGVzdC9zb25nNDUubXA0JyldIH0pOwogIGxvZygnZmlsZSBzZXQnKTsKICBmb3IgKGxldCBpID0gMDsgaSA8IDYwOyBpKyspIHsKICAgIGNvbnN0IHIgPSBhd2FpdCBzZW5kKCdSdW50aW1lLmV2YWx1YXRlJywgeyBleHByZXNzaW9uOiAnISEod2luZG93Ll9faWNlICYmIHdpbmRvdy5fX2ljZS5zdGF0ZSAmJiB3aW5kb3cuX19pY2Uuc3RhdGUuc3JjQnVmZmVyKScsIHJldHVybkJ5VmFsdWU6IHRydWUgfSk7CiAgICBpZiAociAmJiByLnJlc3VsdCAmJiByLnJlc3VsdC52YWx1ZSkgeyBsb2coJ2RlY29kZWQgYXQnLCBpICogMzAwLCAnbXMnKTsgYnJlYWs7IH0KICAgIGF3YWl0IG5ldyBQcm9taXNlKChyMikgPT4gc2V0VGltZW91dChyMiwgMzAwKSk7CiAgICBpZiAoaSA9PT0gNTkpIGxvZygnZGVjb2RlIFRJTUVPVVQnKTsKICB9CiAgbG9nKCdkb25lJyk7CiAgd3MuY2xvc2UoKTsKICBwcm9jZXNzLmV4aXQoMCk7Cn0pKCk7DQo=
+const fs = require('node:fs');
+const LOG = 'test/trace2.log';
+fs.writeFileSync(LOG, '');
+const log = (...a) => fs.appendFileSync(LOG, a.join(' ') + '\n');
+process.on('exit', (c) => log('EXIT', c));
+process.on('uncaughtException', (e) => { log('UNCAUGHT', e && e.stack); process.exit(9); });
+process.on('unhandledRejection', (e) => log('UNHANDLED', String(e && e.stack || e)));
+const http = require('node:http');
+const PAGE = process.argv[2];
+(async () => {
+  log('start', PAGE);
+  const list = await new Promise((res, rej) => http.get({ host: '127.0.0.1', port: 9222, path: '/json/list' }, (r) => { let s = ''; r.on('data', (d) => (s += d)); r.on('end', () => res(JSON.parse(s))); }).on('error', rej));
+  const host = new URL(PAGE).host;
+  const t = list.find((x) => x.type === 'page' && x.url.includes(host));
+  log('target', t && t.url);
+  const ws = new WebSocket(t.webSocketDebuggerUrl);
+  let id = 0; const pend = new Map();
+  const send = (m, q = {}) => new Promise((r) => { const i = ++id; pend.set(i, r); ws.send(JSON.stringify({ id: i, method: m, params: q })); });
+  ws.onmessage = (e) => { const m = JSON.parse(e.data); if (m.id && pend.has(m.id)) { pend.get(m.id)(m.result); pend.delete(m.id); } };
+  await new Promise((r) => (ws.onopen = r));
+  log('open');
+  await send('Page.enable'); await send('Runtime.enable'); await send('DOM.enable');
+  log('enabled');
+  await send('Page.navigate', { url: PAGE });
+  log('navigated');
+  await new Promise((r) => setTimeout(r, 2000));
+  const doc = await send('DOM.getDocument', { depth: -1 });
+  const q = await send('DOM.querySelector', { nodeId: doc.root.nodeId, selector: '#fileInput' });
+  log('input node', q && q.nodeId);
+  await send('DOM.setFileInputFiles', { nodeId: q.nodeId, files: [require('node:path').resolve('test/song45.mp4')] });
+  log('file set');
+  for (let i = 0; i < 60; i++) {
+    const r = await send('Runtime.evaluate', { expression: '!!(window.__ice && window.__ice.state && window.__ice.state.srcBuffer)', returnByValue: true });
+    if (r && r.result && r.result.value) { log('decoded at', i * 300, 'ms'); break; }
+    await new Promise((r2) => setTimeout(r2, 300));
+    if (i === 59) log('decode TIMEOUT');
+  }
+  log('done');
+  ws.close();
+  process.exit(0);
+})();

@@ -1,1 +1,327 @@
-Ly8gZW5naW5lLmpzIOKAlOKAlCDjgIzlhrDlhrDlhrDniYjjgI3moLjlv4PmuLLmn5MKLy8g5rWB56iL77ya5YiG56a75Lq65aOwIOKGkiDot5/ouKrml4vlvosg4oaSIOaKiuWOn+WUseavj+S4quWtl+eahOWFg+mfs+aUueaIkCAvaS/jgIHlsL7lt7TmlLnmiJAgL8WLL++8iOWAn+eUqOWOn+WUseWXk+WtkOWUseOAjOWGsOOAje+8iQovLyAgICAgICDihpIg5LiO5Ly05aWP5re36Z+zIOKGkiDmt7flk43mr43luKYKLy8g5LiN5ZCr5Lu75L2VIERKIOWkhOeQhu+8muS4jeWPmOmAn+OAgeS4jeWNh+iwg+OAgeS4jeWll+Wbm+Wbm+aLjem8k+acuuOAgeS4jeWBmuS+p+mTviBwdW1waW5nCmltcG9ydCB7IHJlc2FtcGxlLCBiaXF1YWQsIG5vcm1hbGl6ZSB9IGZyb20gJy4vcGNtLmpzJzsKaW1wb3J0IHsgc2VwYXJhdGUgfSBmcm9tICcuL3ZvY2Fscy5qcyc7CmltcG9ydCB7IHBpdGNoVHJhY2ssIHRvTm90ZXMgfSBmcm9tICcuL3ZvaWNlLmpzJzsKaW1wb3J0IHsgcmVuZGVyQmFuayB9IGZyb20gJy4vYmFuay5qcyc7CmltcG9ydCB7IGljZUNyYWNrLCBtYWtlSWNlSVIsIHNhdEN1cnZlIH0gZnJvbSAnLi9kc3AuanMnOwoKY29uc3QgY2xhbXAgPSAodiwgYSwgYikgPT4gTWF0aC5tYXgoYSwgTWF0aC5taW4oYiwgdikpOwoKLyoqCiAqIEBwYXJhbSB7QXVkaW9CdWZmZXJ9IHNyYyDljp/lp4vpn7PpopEKICogQHBhcmFtIHtvYmplY3R9IG9wdHMgeyB2b2ljZSwgdGltYnJlLCBrZWVwLCByZXYsIHNwYXJrbGUsIHNwZWVkLCBtYXhMZW4gfQogKiBAcGFyYW0geyhwOm51bWJlciwgbGFiZWw6c3RyaW5nKT0+dm9pZH0gcHJvZ3Jlc3MKICogQHJldHVybnMge1Byb21pc2U8e2J1ZmZlcjpBdWRpb0J1ZmZlciwgaW5mbzpvYmplY3R9Pn0KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZW5kZXJJY2Uoc3JjLCBvcHRzLCBwcm9ncmVzcyA9ICgpID0+IHt9KSB7CiAgY29uc3Qgc3IgPSBzcmMuc2FtcGxlUmF0ZTsKICBjb25zdCBzcGVlZCA9IGNsYW1wKG9wdHMuc3BlZWQgPT0gbnVsbCA/IDEgOiBvcHRzLnNwZWVkLCAxLCAxLjUpOwogIGNvbnN0IHZvaWNlR2FpbiA9IGNsYW1wKG9wdHMudm9pY2UgPT0gbnVsbCA/IDEgOiBvcHRzLnZvaWNlLCAwLCAyKTsKICBjb25zdCB0aW1icmUgPSBjbGFtcChNYXRoLnJvdW5kKG9wdHMudGltYnJlID09IG51bGwgPyAyIDogb3B0cy50aW1icmUpLCAxLCA0KTsKICBjb25zdCBrZWVwVm9jYWwgPSBjbGFtcChvcHRzLmtlZXAgPT0gbnVsbCA/IDAgOiBvcHRzLmtlZXAsIDAsIDEpOwogIGNvbnN0IHJldkFtdCA9IGNsYW1wKG9wdHMucmV2ID09IG51bGwgPyAwLjI1IDogb3B0cy5yZXYsIDAsIDEpOwogIGNvbnN0IHNwYXJrbGUgPSBjbGFtcChvcHRzLnNwYXJrbGUgPT0gbnVsbCA/IDAuMyA6IG9wdHMuc3BhcmtsZSwgMCwgMSk7CiAgY29uc3QgbWF4TGVuID0gY2xhbXAob3B0cy5tYXhMZW4gPT0gbnVsbCA/IDE4MCA6IG9wdHMubWF4TGVuLCA1LCA2MDApOwoKICBwcm9ncmVzcygwLjAyLCAn5oq95Y+W6Z+z6L2o4oCmJyk7CgogIC8vIC0tLS0tLS0tLS0gMS4g5aOw6YGTIOKGkiBGbG9hdDMyIC0tLS0tLS0tLS0KICBjb25zdCBjaENvdW50ID0gTWF0aC5taW4oMiwgc3JjLm51bWJlck9mQ2hhbm5lbHMpOwogIGNvbnN0IG9yaWdpbiA9IFtdOwogIGZvciAobGV0IGMgPSAwOyBjIDwgY2hDb3VudDsgYysrKSBvcmlnaW4ucHVzaChzcmMuZ2V0Q2hhbm5lbERhdGEoYykuc2xpY2UoKSk7CiAgY29uc3Qgc3JjTGVuU2VjID0gc3JjLmR1cmF0aW9uOwogIGNvbnN0IHVzZUxlbiA9IE1hdGgubWluKHNyY0xlblNlYywgbWF4TGVuKTsKICBjb25zdCB1c2VTYW1wbGVzID0gTWF0aC5mbG9vcih1c2VMZW4gKiBzcik7CiAgZm9yIChsZXQgYyA9IDA7IGMgPCBjaENvdW50OyBjKyspIG9yaWdpbltjXSA9IG9yaWdpbltjXS5zdWJhcnJheSgwLCB1c2VTYW1wbGVzKTsKCiAgLy8gLS0tLS0tLS0tLSAyLiDlj6/pgInlj5jpgJ/vvIjpu5jorqQgMS4wMO+8jOS4jeWKqOWOn+absu+8iSAtLS0tLS0tLS0tCiAgY29uc3Qgd29ya2luZyA9IHNwZWVkID4gMS4wMDAxCiAgICA/IG9yaWdpbi5tYXAoKGNoKSA9PiByZXNhbXBsZShjaCwgc3BlZWQpKQogICAgOiBvcmlnaW47CiAgY29uc3QgbGVuID0gd29ya2luZ1swXS5sZW5ndGg7CgogIC8vIC0tLS0tLS0tLS0gMy4g5Lq65aOwIC8g5Ly05aWP5YiG56a7IC0tLS0tLS0tLS0KICBwcm9ncmVzcygwLjA2LCAn5YiG56a75Lq65aOw4oCmJyk7CiAgY29uc3Qgc2VwID0gc2VwYXJhdGUod29ya2luZywgc3IsIChwLCBsYWJlbCkgPT4gcHJvZ3Jlc3MoMC4wNiArIHAgKiAwLjI0LCBsYWJlbCkpOwoKICAvLyDliIbnprvlh7rnmoTjgIzkurrlo7DjgI3ph4zmt7fnnYDooqvkuK3nva7nmoTlhajpg6jkvY7popHvvIhraWNrL+i0neaWr++8ie+8jAogIC8vIOebtOaOpeaVtOadoeWHj+aOieS8muaKiuS8tOWlj+aOj+epuuOAguaJgOS7peWFiOaKiuS6uuWjsOmZkOWIsOS6uuWjsOmikeaute+8iDE3MEh6IOS7peS4iu+8ie+8jAogIC8vIOWGjeaKiui/memDqOWIhuS7juWOn+absumHjOWHj+aOiSDigJTigJQg5L2O6aKR5Zug5q2k5a6M5pW055WZ5Zyo5Ly05aWP6YeM44CCCiAgY29uc3Qgdm9jSFAgPSBbXTsKICBjb25zdCBpbnN0ID0gW107CiAgZm9yIChsZXQgYyA9IDA7IGMgPCBjaENvdW50OyBjKyspIHsKICAgIGNvbnN0IHYgPSBzZXAudm9jYWwgPyBGbG9hdDMyQXJyYXkuZnJvbShzZXAudm9jYWxbTWF0aC5taW4oYywgc2VwLnZvY2FsLmxlbmd0aCAtIDEpXSkgOiBudWxsOwogICAgaWYgKHYpIGJpcXVhZCh2LCBzciwgJ2hpZ2hwYXNzJywgMTcwLCAwLjcpOwogICAgdm9jSFAucHVzaCh2KTsKICAgIGNvbnN0IGJhc2UgPSBGbG9hdDMyQXJyYXkuZnJvbSh3b3JraW5nW2NdKTsKICAgIGlmICh2KSB7CiAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgYmFzZS5sZW5ndGg7IGkrKykgYmFzZVtpXSAtPSB2W2ldICogMC45MjsKICAgICAgYmlxdWFkKGJhc2UsIHNyLCAnaGlnaHBhc3MnLCAyMiwgMC43KTsKICAgIH0KICAgIGluc3QucHVzaChiYXNlKTsKICB9CgogIC8vIC0tLS0tLS0tLS0gNC4g5peL5b6L6Lef6LiqIOKGkiDpn7PnrKbvvIjkuIDkuKrlrZfkuIDkuKrlhrDvvIkgLS0tLS0tLS0tLQogIHByb2dyZXNzKDAuMywgJ+WQrOaXi+W+i+KApicpOwogIGNvbnN0IHRyYWNrID0gcGl0Y2hUcmFjayh2b2NIUFswXSB8fCBzZXAubW9ubywgc3IsIChwLCBsYWJlbCkgPT4gcHJvZ3Jlc3MoMC4zICsgcCAqIDAuMjUsIGxhYmVsKSk7CiAgY29uc3Qgbm90ZXMgPSB0b05vdGVzKHRyYWNrLCB7IG1pbkR1cjogMC4wNywgY2xhcml0eU1pbjogMC4yNiB9KTsKCiAgLy8gLS0tLS0tLS0tLSA1LiDnlKjnnJ/kurrnmoTjgIzlhrDjgI3vvJrovb3lhaXmr43mnKzmsaDvvIzmjInpn7PnrKYgUFNPTEEg5Y+Y6LCD6ZO65ruhIC0tLS0tLS0tLS0KICBwcm9ncmVzcygwLjU1LCAn5ZSx5Yaw4oCmJyk7CiAgLy8g6ZyA6KaB5LiA5p2h5bmy5YeA55qE44CB6IO955u05o6l5ZCs5Yiw44CM5a2X44CN55qE5Lq65aOw77ya5Lit572u5YiG56a757uT5p6c6ZmQ5YiwIDEyMEh6IOS7peS4igogIGNvbnN0IHZvY2FsU3JjID0gdm9jSFBbMF0gPyBGbG9hdDMyQXJyYXkuZnJvbSh2b2NIUFswXSkgOiAoKCkgPT4gewogICAgY29uc3QgbSA9IG5ldyBGbG9hdDMyQXJyYXkobGVuKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgbGVuOyBpKyspIG1baV0gPSAod29ya2luZ1swXVtpXSArIHdvcmtpbmdbTWF0aC5taW4oMSwgd29ya2luZy5sZW5ndGggLSAxKV1baV0pIC8gMjsKICAgIHJldHVybiBtOwogIH0pKCk7CiAgYmlxdWFkKHZvY2FsU3JjLCBzciwgJ2hpZ2hwYXNzJywgMTIwLCAwLjcpOwoKICBjb25zdCBiYW5rID0gYXdhaXQgbG9hZEJhbmsoc3IpOwogIGNvbnN0IGJpbmcgPSBiYW5rCiAgICA/IHJlbmRlckJhbmsoYmFuay5wb29sLCBiYW5rLmlkeCwgbm90ZXMsIHsgc3IsIGxlbiwgZ2FpbjogMSwgZ3JvdXA6IHRpbWJyZSwgcHJvZ3Jlc3M6IChwKSA9PiBwcm9ncmVzcyhwKSB9KQogICAgOiB7IGRhdGE6IG5ldyBGbG9hdDMyQXJyYXkobGVuKSwgY291bnQ6IDAgfTsKICAvLyBQU09MQSDmi7zmjqXovrnnlYzkvJrluKbkuIDngrnpq5jpopHmr5vliLrvvIjlkKzmhJ/lg4/jgIzmspnjgI3vvInvvIzljovmjokgN2sg5Lul5LiK55qE6b2/6Z+zCiAgaWYgKGJpbmcuY291bnQpIHsKICAgIGJpcXVhZChiaW5nLmRhdGEsIHNyLCAnaGlnaHNoZWxmJywgNzAwMCwgMC43LCAtNS41KTsKICAgIGJpcXVhZChiaW5nLmRhdGEsIHNyLCAnaGlnaHBhc3MnLCAxNTAsIDAuNyk7CiAgfQoKICAvLyAtLS0tLS0tLS0tIDYuIOe6ryBKUyDmt7flupXvvJrkvLTlpY8gKyDmrovnlZnljp/llLEgKyDlhrDlo7AgLS0tLS0tLS0tLQogIHByb2dyZXNzKDAuOCwgJ+a3t+WQiOKApicpOwogIGNvbnN0IG91dHJvU2VjID0gMS40OwogIGNvbnN0IG91dExlbiA9IGxlbiArIE1hdGguY2VpbChvdXRyb1NlYyAqIHNyKTsKCiAgLy8g5Yaw5aOw5oyJ5Ly05aWP6IO96YeP5a6a5qCH77yM5L+d6K+B5LiN566h5Y6f5puy5aSa6L275aSa5ZON77yM44CM5Yaw44CN5LiO5Ly05aWP55qE5q+U5L6L5oGS5a6aCiAgY29uc3Qgcm1zT2YgPSAoYSkgPT4gewogICAgbGV0IHMgPSAwOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBhLmxlbmd0aDsgaSArPSAzKSBzICs9IGFbaV0gKiBhW2ldOwogICAgcmV0dXJuIE1hdGguc3FydChzIC8gTWF0aC5tYXgoMSwgTWF0aC5jZWlsKGEubGVuZ3RoIC8gMykpKTsKICB9OwogIGNvbnN0IGluc3RSbXMgPSAwLjUgKiAocm1zT2YoaW5zdFswXSkgKyBybXNPZihpbnN0W2luc3QubGVuZ3RoIC0gMV0pKTsKICAvLyDlhrDlo7Dlj6rlnKjpn7PnrKblpITlj5Hlo7DvvIzmjInjgIzlj5Hlo7DljLrpl7TlhoXnmoQgcm1z44CN5a6a5qCH77yM5ZCm5YiZ5Lya6KKr5aSn6YeP6Z2Z6Z+z5pGK6JaECiAgbGV0IGJzID0gMDsgbGV0IGJuID0gMDsKICBmb3IgKGNvbnN0IG50IG9mIG5vdGVzKSB7CiAgICBjb25zdCBhID0gTWF0aC5tYXgoMCwgTWF0aC5mbG9vcihudC5zdGFydCAqIHNyKSk7CiAgICBjb25zdCBiID0gTWF0aC5taW4obGVuLCBhICsgTWF0aC5mbG9vcigobnQuZHVyICsgMC4wNikgKiBzcikpOwogICAgZm9yIChsZXQgaSA9IGE7IGkgPCBiOyBpICs9IDIpIHsgYnMgKz0gYmluZy5kYXRhW2ldICogYmluZy5kYXRhW2ldOyBibisrOyB9CiAgfQogIGNvbnN0IGJpbmdSbXMgPSBibiA/IE1hdGguc3FydChicyAvIGJuKSA6IDA7CiAgY29uc3QgYmluZ1NjYWxlID0gYmluZ1JtcyA+IDFlLTYgPyAoKGluc3RSbXMgKiAwLjg1KSAvIGJpbmdSbXMpICogY2xhbXAodm9pY2VHYWluLCAwLCAyKSA6IDA7CgogIGNvbnN0IG1peCA9IFtdOwogIGZvciAobGV0IGMgPSAwOyBjIDwgMjsgYysrKSB7CiAgICBjb25zdCBkID0gbmV3IEZsb2F0MzJBcnJheShvdXRMZW4pOwogICAgY29uc3Qgc3JjMCA9IGluc3RbTWF0aC5taW4oYywgaW5zdC5sZW5ndGggLSAxKV07CiAgICBjb25zdCB2b2MgPSB2b2NIUFtNYXRoLm1pbihjLCB2b2NIUC5sZW5ndGggLSAxKV07CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGxlbjsgaSsrKSB7CiAgICAgIGRbaV0gPSBzcmMwW2ldICsgKHZvYyA/IHZvY1tpXSAqIGtlZXBWb2NhbCA6IDApICsgYmluZy5kYXRhW2ldICogYmluZ1NjYWxlOwogICAgfQogICAgbWl4LnB1c2goZCk7CiAgfQogIGZvciAoY29uc3QgZCBvZiBtaXgpIG5vcm1hbGl6ZShkLCAwLjkpOwoKICAvLyAtLS0tLS0tLS0tIDcuIOemu+e6v+a4suafk++8muWGsOijgiArIOa3t+WTjSArIOavjeW4piAtLS0tLS0tLS0tCiAgY29uc3QgT0FDID0gd2luZG93Lk9mZmxpbmVBdWRpb0NvbnRleHQgfHwgd2luZG93LndlYmtpdE9mZmxpbmVBdWRpb0NvbnRleHQ7CiAgY29uc3Qgb2N0eCA9IG5ldyBPQUMoMiwgb3V0TGVuLCBzcik7CgogIGNvbnN0IHNyY0J1ZiA9IG9jdHguY3JlYXRlQnVmZmVyKDIsIG91dExlbiwgc3IpOwogIGZvciAobGV0IGMgPSAwOyBjIDwgMjsgYysrKSBzcmNCdWYuZ2V0Q2hhbm5lbERhdGEoYykuc2V0KG1peFtjXSk7CiAgY29uc3QgbWFpbiA9IG9jdHguY3JlYXRlQnVmZmVyU291cmNlKCk7CiAgbWFpbi5idWZmZXIgPSBzcmNCdWY7CgogIGNvbnN0IG1hc3RlciA9IG9jdHguY3JlYXRlR2FpbigpOwogIG1hc3Rlci5nYWluLnZhbHVlID0gMC45MjsKCiAgY29uc3QgaHAgPSBvY3R4LmNyZWF0ZUJpcXVhZEZpbHRlcigpOwogIGhwLnR5cGUgPSAnaGlnaHBhc3MnOwogIGhwLmZyZXF1ZW5jeS52YWx1ZSA9IDI0OwoKICBjb25zdCBhaXIgPSBvY3R4LmNyZWF0ZUJpcXVhZEZpbHRlcigpOwogIGFpci50eXBlID0gJ2hpZ2hzaGVsZic7CiAgYWlyLmZyZXF1ZW5jeS52YWx1ZSA9IDkwMDA7CiAgYWlyLmdhaW4udmFsdWUgPSAxLjY7CgogIGNvbnN0IHNhdCA9IG9jdHguY3JlYXRlV2F2ZVNoYXBlcigpOwogIHNhdC5jdXJ2ZSA9IHNhdEN1cnZlKDEuMTIpOwogIHNhdC5vdmVyc2FtcGxlID0gJzJ4JzsKCiAgY29uc3QgY29tcCA9IG9jdHguY3JlYXRlRHluYW1pY3NDb21wcmVzc29yKCk7CiAgY29tcC50aHJlc2hvbGQudmFsdWUgPSAtMTg7CiAgY29tcC5rbmVlLnZhbHVlID0gMTA7CiAgY29tcC5yYXRpby52YWx1ZSA9IDIuNjsKICBjb21wLmF0dGFjay52YWx1ZSA9IDAuMDEyOwogIGNvbXAucmVsZWFzZS52YWx1ZSA9IDAuMjI7CgogIGNvbnN0IGxpbWl0ID0gb2N0eC5jcmVhdGVEeW5hbWljc0NvbXByZXNzb3IoKTsKICBsaW1pdC50aHJlc2hvbGQudmFsdWUgPSAtMi40OwogIGxpbWl0LmtuZWUudmFsdWUgPSAwOwogIGxpbWl0LnJhdGlvLnZhbHVlID0gMjA7CiAgbGltaXQuYXR0YWNrLnZhbHVlID0gMC4wMDI7CiAgbGltaXQucmVsZWFzZS52YWx1ZSA9IDAuMTsKCiAgbWFpbi5jb25uZWN0KGhwKS5jb25uZWN0KGFpcikuY29ubmVjdChzYXQpLmNvbm5lY3QoY29tcCkuY29ubmVjdChsaW1pdCk7CiAgbGltaXQuY29ubmVjdChtYXN0ZXIpLmNvbm5lY3Qob2N0eC5kZXN0aW5hdGlvbik7CiAgbWFpbi5zdGFydCgwKTsKCiAgLy8g5Yaw5rSe5re35ZONCiAgY29uc3QgdmVyYiA9IG9jdHguY3JlYXRlQ29udm9sdmVyKCk7CiAgdmVyYi5idWZmZXIgPSBtYWtlSWNlSVIob2N0eCwgMi4wLCAzLjIpOwogIGNvbnN0IHZlcmJHYWluID0gb2N0eC5jcmVhdGVHYWluKCk7CiAgdmVyYkdhaW4uZ2Fpbi52YWx1ZSA9IDAuMDQgKyByZXZBbXQgKiAwLjQyOwogIHZlcmIuY29ubmVjdCh2ZXJiR2FpbikuY29ubmVjdChtYXN0ZXIpOwoKICAvLyDlhrDlo7DpgIHkuIDngrnmt7flk43vvIzorqnjgIzlhrDjgI3lnKjlhrDmtJ7ph4zlm57lk40KICBpZiAocmV2QW10ID4gMC4wMSkgewogICAgY29uc3QgYmluZ1ZlcmIgPSBvY3R4LmNyZWF0ZUdhaW4oKTsKICAgIGJpbmdWZXJiLmdhaW4udmFsdWUgPSAwLjE0ICsgcmV2QW10ICogMC4zOwogICAgYmluZ1ZlcmIuY29ubmVjdCh2ZXJiKTsKICAgIC8vIOWGsOWjsOW3sue7j+a3t+WcqOS4u+i9qOmHjO+8jOi/memHjOeUqOS4gOS4qumrmOmAmueJiOacrOWGjemAgeS4gOmBje+8jOWItumAoOOAjOWGsOOAjeeahOepuuawlOaEnwogICAgY29uc3QgaHB2ID0gb2N0eC5jcmVhdGVCaXF1YWRGaWx0ZXIoKTsKICAgIGhwdi50eXBlID0gJ2hpZ2hwYXNzJzsKICAgIGhwdi5mcmVxdWVuY3kudmFsdWUgPSA3MDA7CiAgICBtYWluLmNvbm5lY3QoaHB2KS5jb25uZWN0KGJpbmdWZXJiKTsKICB9CgogIC8vIC0tLS0g5Yaw6KOC54K557yA77ya6JC95Zyo5q+P5Liq6Z+z56ym55qE5by65ouN5LiK77yM6L276L275LiA5bGCIC0tLS0KICBjb25zdCBmeEJ1cyA9IG9jdHguY3JlYXRlR2FpbigpOwogIGZ4QnVzLmdhaW4udmFsdWUgPSAxOwogIGZ4QnVzLmNvbm5lY3QobGltaXQpOwogIGlmIChzcGFya2xlID4gMC4wMikgewogICAgY29uc3QgZXZlcnkgPSBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKG5vdGVzLmxlbmd0aCAvIDI2KSk7CiAgICBub3Rlcy5mb3JFYWNoKChudCwgaSkgPT4gewogICAgICBpZiAoaSAlIGV2ZXJ5ICE9PSAwKSByZXR1cm47CiAgICAgIGNvbnN0IGcgPSAoMC4wNiArIHNwYXJrbGUgKiAwLjE2KSAqICgwLjYgKyBNYXRoLm1pbigxLCBudC5hbXAgKiA2KSAqIDAuNCk7CiAgICAgIGljZUNyYWNrKG9jdHgsIGZ4QnVzLCBNYXRoLm1heCgwLCBudC5zdGFydCAtIDAuMDEpLCBnLCB2ZXJiKTsKICAgIH0pOwogIH0KCiAgLy8g5bC+5q615reh5Ye6CiAgY29uc3QgZW5kID0gbGVuIC8gc3I7CiAgbWFzdGVyLmdhaW4uc2V0VmFsdWVBdFRpbWUoMC45MiwgTWF0aC5tYXgoMCwgZW5kIC0gMC4xNSkpOwogIG1hc3Rlci5nYWluLmxpbmVhclJhbXBUb1ZhbHVlQXRUaW1lKDAuNDUsIGVuZCArIDAuNyk7CiAgbWFzdGVyLmdhaW4ubGluZWFyUmFtcFRvVmFsdWVBdFRpbWUoMC4wMDAxLCBNYXRoLm1pbihvdXRMZW4gLyBzciAtIDAuMDIsIGVuZCArIG91dHJvU2VjKSk7CgogIHByb2dyZXNzKDAuOSwgJ+a3t+mfs+avjeW4puKApicpOwogIGNvbnN0IHJlbmRlcmVkID0gYXdhaXQgb2N0eC5zdGFydFJlbmRlcmluZygpOwoKICAvLyAtLS0tLS0tLS0tIDguIOaUtuWwvuaVtOeQhiAtLS0tLS0tLS0tCiAgY29uc3Qgb3V0ID0gW107CiAgZm9yIChsZXQgYyA9IDA7IGMgPCAyOyBjKyspIHsKICAgIGNvbnN0IGQgPSByZW5kZXJlZC5nZXRDaGFubmVsRGF0YShjKS5zbGljZSgpOwogICAgZmFkZUVkZ2VzKGQsIHNyLCAwLjAyLCAwLjA1KTsKICAgIG91dC5wdXNoKGQpOwogIH0KICBsZXQgcGVhayA9IDA7CiAgZm9yIChjb25zdCBkIG9mIG91dCkgZm9yIChsZXQgaSA9IDA7IGkgPCBkLmxlbmd0aDsgaSsrKSBwZWFrID0gTWF0aC5tYXgocGVhaywgTWF0aC5hYnMoZFtpXSkpOwogIC8vIOi9r+iGneeblumZkOW5he+8muaKiuWwluWzsOWOi+i/m+WOu++8jOWGjeaVtOS9k+aPkOWTjeW6pu+8jOmBv+WFjeOAjOWPquacieWGsOWjsOW+iOWTjeOAgeaVtOi9qOWNtOW+iOWwj+WjsOOAjQogIGlmIChwZWFrID4gMC4wMDAxKSB7CiAgICBjb25zdCBwcmUgPSAwLjg2IC8gcGVhazsKICAgIGNvbnN0IGtuZWUgPSAwLjY2OwogICAgZm9yIChjb25zdCBkIG9mIG91dCkgewogICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGQubGVuZ3RoOyBpKyspIHsKICAgICAgICBsZXQgdiA9IGRbaV0gKiBwcmU7CiAgICAgICAgY29uc3QgYSA9IE1hdGguYWJzKHYpOwogICAgICAgIGlmIChhID4ga25lZSkgdiA9IE1hdGguc2lnbih2KSAqIChrbmVlICsgKDEgLSBrbmVlKSAqIE1hdGgudGFuaCgoYSAtIGtuZWUpIC8gKDEgLSBrbmVlKSkpOwogICAgICAgIGRbaV0gPSB2OwogICAgICB9CiAgICB9CiAgICBsZXQgcGVhazIgPSAwOwogICAgZm9yIChjb25zdCBkIG9mIG91dCkgZm9yIChsZXQgaSA9IDA7IGkgPCBkLmxlbmd0aDsgaSsrKSBwZWFrMiA9IE1hdGgubWF4KHBlYWsyLCBNYXRoLmFicyhkW2ldKSk7CiAgICBjb25zdCBnID0gcGVhazIgPiAwLjAwMDEgPyAwLjk4NSAvIHBlYWsyIDogMTsKICAgIGZvciAoY29uc3QgZCBvZiBvdXQpIGZvciAobGV0IGkgPSAwOyBpIDwgZC5sZW5ndGg7IGkrKykgZFtpXSAqPSBnOwogIH0KCiAgY29uc3QgYnVmZmVyID0gbWFrZUF1ZGlvQnVmZmVyKG91dCwgc3IpOwogIHByb2dyZXNzKDEsICflrozmiJAnKTsKCiAgY29uc3QgaW5mbyA9IHsKICAgIG5vdGVzOiBiaW5nLmNvdW50LAogICAgdGltYnJlLAogICAgdm9pY2U6IHZvaWNlR2FpbiwKICAgIGtlcHRWb2NhbDoga2VlcFZvY2FsLAogICAgc3BlZWQsCiAgICBzcGFya2xlLAogICAgaW5TZWM6IE1hdGgucm91bmQoc3JjTGVuU2VjICogMTApIC8gMTAsCiAgICBvdXRTZWM6IE1hdGgucm91bmQoKGJ1ZmZlci5kdXJhdGlvbikgKiAxMCkgLyAxMCwKICAgIHNlcGFyYXRlZDogc2VwLmNlbnRlcmVkLAogIH07CiAgd2luZG93Ll9faWNlSW5mbyA9IGluZm87CiAgcmV0dXJuIHsgYnVmZmVyLCBpbmZvIH07Cn0KCi8qIC0tLS0tLS0tLS0tLS0tLS0g5q+N5pys5rGg77yI55yf5Lq655qE44CM5Yaw44CN77yJIC0tLS0tLS0tLS0tLS0tLS0gKi8KCmxldCBiYW5rQ2FjaGUgPSBudWxsOwpsZXQgYmFua1Rhc2sgPSBudWxsOwoKLyoqCiAqIOi9veWFpSBzYW1wbGVzL2JpbmctYmFuay5iaW4gKyAuanNvbu+8jOW5tuaMieW8leaTjumHh+agt+eOh+mHjemHh+agt+OAggogKiDlpLHotKXml7bov5Tlm54gbnVsbO+8jOW8leaTjuS8mumAgOWbnuWIsOOAjOayoeacieS6uuWjsOOAjeeahOaooeW8j++8iOS8tOWljyArIOWGsOijgu+8ie+8jOS4jeS8muaKm+mUmeOAggogKi8KYXN5bmMgZnVuY3Rpb24gbG9hZEJhbmsoc3IpIHsKICBpZiAoYmFua0NhY2hlICYmIGJhbmtDYWNoZS5zciA9PT0gc3IpIHJldHVybiBiYW5rQ2FjaGU7CiAgaWYgKGJhbmtUYXNrKSByZXR1cm4gYmFua1Rhc2s7CiAgYmFua1Rhc2sgPSAoYXN5bmMgKCkgPT4gewogICAgY29uc3QgYmFzZSA9IG5ldyBVUkwoJy4uL3NhbXBsZXMvJywgaW1wb3J0Lm1ldGEudXJsKTsKICAgIGNvbnN0IFttZXRhUmVzLCBiaW5SZXNdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBmZXRjaChuZXcgVVJMKCdiaW5nLWJhbmsuanNvbicsIGJhc2UpKSwKICAgICAgZmV0Y2gobmV3IFVSTCgnYmluZy1iYW5rLmJpbicsIGJhc2UpKSwKICAgIF0pOwogICAgaWYgKCFtZXRhUmVzLm9rIHx8ICFiaW5SZXMub2spIHJldHVybiBudWxsOwogICAgY29uc3QgbWV0YSA9IGF3YWl0IG1ldGFSZXMuanNvbigpOwogICAgY29uc3QgYnVmID0gYXdhaXQgYmluUmVzLmFycmF5QnVmZmVyKCk7CiAgICBjb25zdCBpMTYgPSBuZXcgSW50MTZBcnJheShidWYpOwogICAgY29uc3QgcmF3ID0gbmV3IEZsb2F0MzJBcnJheShpMTYubGVuZ3RoKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgaTE2Lmxlbmd0aDsgaSsrKSByYXdbaV0gPSBpMTZbaV0gLyAzMjc2ODsKCiAgICAvLyA0NC4xayDihpIgc3IKICAgIGxldCBwb29sID0gcmF3OwogICAgaWYgKG1ldGEuc3IgIT09IHNyKSB7CiAgICAgIGNvbnN0IHJhdGlvID0gbWV0YS5zciAvIHNyOwogICAgICBjb25zdCBuT3V0ID0gTWF0aC5mbG9vcihyYXcubGVuZ3RoIC8gcmF0aW8pOwogICAgICBwb29sID0gbmV3IEZsb2F0MzJBcnJheShuT3V0KTsKICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBuT3V0OyBpKyspIHsKICAgICAgICBjb25zdCB4ID0gaSAqIHJhdGlvOwogICAgICAgIGNvbnN0IGkwID0geCB8IDA7CiAgICAgICAgY29uc3QgZiA9IHggLSBpMDsKICAgICAgICBwb29sW2ldID0gKHJhd1tpMF0gfHwgMCkgKiAoMSAtIGYpICsgKHJhd1tpMCArIDFdIHx8IDApICogZjsKICAgICAgfQogICAgICBtZXRhLnN5bGxhYmxlcyA9IG1ldGEuc3lsbGFibGVzLm1hcCgocykgPT4gKHsKICAgICAgICBvZmY6IE1hdGgucm91bmQocy5vZmYgLyByYXRpbyksCiAgICAgICAgbGVuOiBNYXRoLnJvdW5kKHMubGVuIC8gcmF0aW8pLAogICAgICAgIGYwOiBzLmYwLAogICAgICB9KSk7CiAgICAgIG1ldGEuc3IgPSBzcjsKICAgIH0KICAgIGJhbmtDYWNoZSA9IHsgcG9vbCwgaWR4OiBtZXRhLCBzciB9OwogICAgcmV0dXJuIGJhbmtDYWNoZTsKICB9KSgpOwogIHRyeSB7CiAgICByZXR1cm4gYXdhaXQgYmFua1Rhc2s7CiAgfSBjYXRjaCAoZSkgewogICAgY29uc29sZS53YXJuKCfmr43mnKzliqDovb3lpLHotKUnLCBlKTsKICAgIHJldHVybiBudWxsOwogIH0KfQoKLyogLS0tLS0tLS0tLS0tLS0tLSDlsI/lt6XlhbcgLS0tLS0tLS0tLS0tLS0tLSAqLwoKZnVuY3Rpb24gZmFkZUVkZ2VzKGQsIHNyLCBmaW4sIGZvdXQpIHsKICBjb25zdCBhID0gTWF0aC5tYXgoMSwgTWF0aC5mbG9vcihmaW4gKiBzcikpOwogIGNvbnN0IGIgPSBNYXRoLm1heCgxLCBNYXRoLmZsb29yKGZvdXQgKiBzcikpOwogIGNvbnN0IG4gPSBkLmxlbmd0aDsKICBmb3IgKGxldCBpID0gMDsgaSA8IE1hdGgubWluKGEsIG4pOyBpKyspIGRbaV0gKj0gaSAvIGE7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBNYXRoLm1pbihiLCBuKTsgaSsrKSBkW24gLSAxIC0gaV0gKj0gaSAvIGI7Cn0KCmZ1bmN0aW9uIG1ha2VBdWRpb0J1ZmZlcihjaHMsIHNyKSB7CiAgY29uc3QgT0FDID0gd2luZG93Lk9mZmxpbmVBdWRpb0NvbnRleHQgfHwgd2luZG93LndlYmtpdE9mZmxpbmVBdWRpb0NvbnRleHQ7CiAgY29uc3QgbiA9IGNoc1swXS5sZW5ndGg7CiAgY29uc3QgY3R4ID0gbmV3IE9BQygyLCBNYXRoLm1heCgxLCBNYXRoLm1pbihuLCA0NDEwMCkpLCBzcik7CiAgY29uc3QgYnVmID0gY3R4LmNyZWF0ZUJ1ZmZlcigyLCBuLCBzcik7CiAgZm9yIChsZXQgYyA9IDA7IGMgPCAyOyBjKyspIGJ1Zi5nZXRDaGFubmVsRGF0YShjKS5zZXQoY2hzW2NdKTsKICByZXR1cm4gYnVmOwp9Cg==
+// engine.js —— 「冰冰冰版」核心渲染
+// 流程：分离人声 → 跟踪旋律 → 把原唱每个字的元音改成 /i/、尾巴改成 /ŋ/（借用原唱嗓子唱「冰」）
+//       → 与伴奏混音 → 混响母带
+// 不含任何 DJ 处理：不变速、不升调、不套四四拍鼓机、不做侧链 pumping
+import { resample, biquad, normalize } from './pcm.js';
+import { separate } from './vocals.js';
+import { pitchTrack, toNotes } from './voice.js';
+import { renderBank } from './bank.js';
+import { iceCrack, makeIceIR, satCurve } from './dsp.js';
+
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+
+/**
+ * @param {AudioBuffer} src 原始音频
+ * @param {object} opts { voice, timbre, keep, rev, sparkle, speed, maxLen }
+ * @param {(p:number, label:string)=>void} progress
+ * @returns {Promise<{buffer:AudioBuffer, info:object}>}
+ */
+export async function renderIce(src, opts, progress = () => {}) {
+  const sr = src.sampleRate;
+  const speed = clamp(opts.speed == null ? 1 : opts.speed, 1, 1.5);
+  const voiceGain = clamp(opts.voice == null ? 1 : opts.voice, 0, 2);
+  const timbre = clamp(Math.round(opts.timbre == null ? 2 : opts.timbre), 1, 4);
+  const keepVocal = clamp(opts.keep == null ? 0 : opts.keep, 0, 1);
+  const revAmt = clamp(opts.rev == null ? 0.25 : opts.rev, 0, 1);
+  const sparkle = clamp(opts.sparkle == null ? 0.3 : opts.sparkle, 0, 1);
+  const maxLen = clamp(opts.maxLen == null ? 180 : opts.maxLen, 5, 600);
+
+  progress(0.02, '抽取音轨…');
+
+  // ---------- 1. 声道 → Float32 ----------
+  const chCount = Math.min(2, src.numberOfChannels);
+  const origin = [];
+  for (let c = 0; c < chCount; c++) origin.push(src.getChannelData(c).slice());
+  const srcLenSec = src.duration;
+  const useLen = Math.min(srcLenSec, maxLen);
+  const useSamples = Math.floor(useLen * sr);
+  for (let c = 0; c < chCount; c++) origin[c] = origin[c].subarray(0, useSamples);
+
+  // ---------- 2. 可选变速（默认 1.00，不动原曲） ----------
+  const working = speed > 1.0001
+    ? origin.map((ch) => resample(ch, speed))
+    : origin;
+  const len = working[0].length;
+
+  // ---------- 3. 人声 / 伴奏分离 ----------
+  progress(0.06, '分离人声…');
+  const sep = separate(working, sr, (p, label) => progress(0.06 + p * 0.24, label));
+
+  // 分离出的「人声」里混着被中置的全部低频（kick/贝斯），
+  // 直接整条减掉会把伴奏掏空。所以先把人声限到人声频段（170Hz 以上），
+  // 再把这部分从原曲里减掉 —— 低频因此完整留在伴奏里。
+  const vocHP = [];
+  const inst = [];
+  for (let c = 0; c < chCount; c++) {
+    const v = sep.vocal ? Float32Array.from(sep.vocal[Math.min(c, sep.vocal.length - 1)]) : null;
+    if (v) biquad(v, sr, 'highpass', 170, 0.7);
+    vocHP.push(v);
+    const base = Float32Array.from(working[c]);
+    if (v) {
+      for (let i = 0; i < base.length; i++) base[i] -= v[i] * 0.92;
+      biquad(base, sr, 'highpass', 22, 0.7);
+    }
+    inst.push(base);
+  }
+
+  // ---------- 4. 旋律跟踪 → 音符（一个字一个冰） ----------
+  progress(0.3, '听旋律…');
+  const track = pitchTrack(vocHP[0] || sep.mono, sr, (p, label) => progress(0.3 + p * 0.25, label));
+  const notes = toNotes(track, { minDur: 0.07, clarityMin: 0.26 });
+
+  // ---------- 5. 用真人的「冰」：载入母本池，按音符 PSOLA 变调铺满 ----------
+  progress(0.55, '唱冰…');
+  // 需要一条干净的、能直接听到「字」的人声：中置分离结果限到 120Hz 以上
+  const vocalSrc = vocHP[0] ? Float32Array.from(vocHP[0]) : (() => {
+    const m = new Float32Array(len);
+    for (let i = 0; i < len; i++) m[i] = (working[0][i] + working[Math.min(1, working.length - 1)][i]) / 2;
+    return m;
+  })();
+  biquad(vocalSrc, sr, 'highpass', 120, 0.7);
+
+  const bank = await loadBank(sr);
+  const bing = bank
+    ? renderBank(bank.pool, bank.idx, notes, { sr, len, gain: 1, group: timbre, progress: (p) => progress(p) })
+    : { data: new Float32Array(len), count: 0 };
+  // PSOLA 拼接边界会带一点高频毛刺（听感像「沙」），压掉 7k 以上的齿音
+  if (bing.count) {
+    biquad(bing.data, sr, 'highshelf', 7000, 0.7, -5.5);
+    biquad(bing.data, sr, 'highpass', 150, 0.7);
+  }
+
+  // ---------- 6. 纯 JS 混底：伴奏 + 残留原唱 + 冰声 ----------
+  progress(0.8, '混合…');
+  const outroSec = 1.4;
+  const outLen = len + Math.ceil(outroSec * sr);
+
+  // 冰声按伴奏能量定标，保证不管原曲多轻多响，「冰」与伴奏的比例恒定
+  const rmsOf = (a) => {
+    let s = 0;
+    for (let i = 0; i < a.length; i += 3) s += a[i] * a[i];
+    return Math.sqrt(s / Math.max(1, Math.ceil(a.length / 3)));
+  };
+  const instRms = 0.5 * (rmsOf(inst[0]) + rmsOf(inst[inst.length - 1]));
+  // 冰声只在音符处发声，按「发声区间内的 rms」定标，否则会被大量静音摊薄
+  let bs = 0; let bn = 0;
+  for (const nt of notes) {
+    const a = Math.max(0, Math.floor(nt.start * sr));
+    const b = Math.min(len, a + Math.floor((nt.dur + 0.06) * sr));
+    for (let i = a; i < b; i += 2) { bs += bing.data[i] * bing.data[i]; bn++; }
+  }
+  const bingRms = bn ? Math.sqrt(bs / bn) : 0;
+  const bingScale = bingRms > 1e-6 ? ((instRms * 0.85) / bingRms) * clamp(voiceGain, 0, 2) : 0;
+
+  const mix = [];
+  for (let c = 0; c < 2; c++) {
+    const d = new Float32Array(outLen);
+    const src0 = inst[Math.min(c, inst.length - 1)];
+    const voc = vocHP[Math.min(c, vocHP.length - 1)];
+    for (let i = 0; i < len; i++) {
+      d[i] = src0[i] + (voc ? voc[i] * keepVocal : 0) + bing.data[i] * bingScale;
+    }
+    mix.push(d);
+  }
+  for (const d of mix) normalize(d, 0.9);
+
+  // ---------- 7. 离线渲染：冰裂 + 混响 + 母带 ----------
+  const OAC = window.OfflineAudioContext || window.webkitOfflineAudioContext;
+  const octx = new OAC(2, outLen, sr);
+
+  const srcBuf = octx.createBuffer(2, outLen, sr);
+  for (let c = 0; c < 2; c++) srcBuf.getChannelData(c).set(mix[c]);
+  const main = octx.createBufferSource();
+  main.buffer = srcBuf;
+
+  const master = octx.createGain();
+  master.gain.value = 0.92;
+
+  const hp = octx.createBiquadFilter();
+  hp.type = 'highpass';
+  hp.frequency.value = 24;
+
+  const air = octx.createBiquadFilter();
+  air.type = 'highshelf';
+  air.frequency.value = 9000;
+  air.gain.value = 1.6;
+
+  const sat = octx.createWaveShaper();
+  sat.curve = satCurve(1.12);
+  sat.oversample = '2x';
+
+  const comp = octx.createDynamicsCompressor();
+  comp.threshold.value = -18;
+  comp.knee.value = 10;
+  comp.ratio.value = 2.6;
+  comp.attack.value = 0.012;
+  comp.release.value = 0.22;
+
+  const limit = octx.createDynamicsCompressor();
+  limit.threshold.value = -2.4;
+  limit.knee.value = 0;
+  limit.ratio.value = 20;
+  limit.attack.value = 0.002;
+  limit.release.value = 0.1;
+
+  main.connect(hp).connect(air).connect(sat).connect(comp).connect(limit);
+  limit.connect(master).connect(octx.destination);
+  main.start(0);
+
+  // 冰洞混响
+  const verb = octx.createConvolver();
+  verb.buffer = makeIceIR(octx, 2.0, 3.2);
+  const verbGain = octx.createGain();
+  verbGain.gain.value = 0.04 + revAmt * 0.42;
+  verb.connect(verbGain).connect(master);
+
+  // 冰声送一点混响，让「冰」在冰洞里回响
+  if (revAmt > 0.01) {
+    const bingVerb = octx.createGain();
+    bingVerb.gain.value = 0.14 + revAmt * 0.3;
+    bingVerb.connect(verb);
+    // 冰声已经混在主轨里，这里用一个高通版本再送一遍，制造「冰」的空气感
+    const hpv = octx.createBiquadFilter();
+    hpv.type = 'highpass';
+    hpv.frequency.value = 700;
+    main.connect(hpv).connect(bingVerb);
+  }
+
+  // ---- 冰裂点缀：落在每个音符的强拍上，轻轻一层 ----
+  const fxBus = octx.createGain();
+  fxBus.gain.value = 1;
+  fxBus.connect(limit);
+  if (sparkle > 0.02) {
+    const every = Math.max(1, Math.round(notes.length / 26));
+    notes.forEach((nt, i) => {
+      if (i % every !== 0) return;
+      const g = (0.06 + sparkle * 0.16) * (0.6 + Math.min(1, nt.amp * 6) * 0.4);
+      iceCrack(octx, fxBus, Math.max(0, nt.start - 0.01), g, verb);
+    });
+  }
+
+  // 尾段淡出
+  const end = len / sr;
+  master.gain.setValueAtTime(0.92, Math.max(0, end - 0.15));
+  master.gain.linearRampToValueAtTime(0.45, end + 0.7);
+  master.gain.linearRampToValueAtTime(0.0001, Math.min(outLen / sr - 0.02, end + outroSec));
+
+  progress(0.9, '混音母带…');
+  const rendered = await octx.startRendering();
+
+  // ---------- 8. 收尾整理 ----------
+  const out = [];
+  for (let c = 0; c < 2; c++) {
+    const d = rendered.getChannelData(c).slice();
+    fadeEdges(d, sr, 0.02, 0.05);
+    out.push(d);
+  }
+  let peak = 0;
+  for (const d of out) for (let i = 0; i < d.length; i++) peak = Math.max(peak, Math.abs(d[i]));
+  // 软膝盖限幅：把尖峰压进去，再整体提响度，避免「只有冰声很响、整轨却很小声」
+  if (peak > 0.0001) {
+    const pre = 0.86 / peak;
+    const knee = 0.66;
+    for (const d of out) {
+      for (let i = 0; i < d.length; i++) {
+        let v = d[i] * pre;
+        const a = Math.abs(v);
+        if (a > knee) v = Math.sign(v) * (knee + (1 - knee) * Math.tanh((a - knee) / (1 - knee)));
+        d[i] = v;
+      }
+    }
+    let peak2 = 0;
+    for (const d of out) for (let i = 0; i < d.length; i++) peak2 = Math.max(peak2, Math.abs(d[i]));
+    const g = peak2 > 0.0001 ? 0.985 / peak2 : 1;
+    for (const d of out) for (let i = 0; i < d.length; i++) d[i] *= g;
+  }
+
+  const buffer = makeAudioBuffer(out, sr);
+  progress(1, '完成');
+
+  const info = {
+    notes: bing.count,
+    timbre,
+    voice: voiceGain,
+    keptVocal: keepVocal,
+    speed,
+    sparkle,
+    inSec: Math.round(srcLenSec * 10) / 10,
+    outSec: Math.round((buffer.duration) * 10) / 10,
+    separated: sep.centered,
+  };
+  window.__iceInfo = info;
+  return { buffer, info };
+}
+
+/* ---------------- 母本池（真人的「冰」） ---------------- */
+
+let bankCache = null;
+let bankTask = null;
+
+/**
+ * 载入 samples/bing-bank.bin + .json，并按引擎采样率重采样。
+ * 失败时返回 null，引擎会退回到「没有人声」的模式（伴奏 + 冰裂），不会抛错。
+ */
+async function loadBank(sr) {
+  if (bankCache && bankCache.sr === sr) return bankCache;
+  if (bankTask) return bankTask;
+  bankTask = (async () => {
+    const base = new URL('../samples/', import.meta.url);
+    const [metaRes, binRes] = await Promise.all([
+      fetch(new URL('bing-bank.json', base)),
+      fetch(new URL('bing-bank.bin', base)),
+    ]);
+    if (!metaRes.ok || !binRes.ok) return null;
+    const meta = await metaRes.json();
+    const buf = await binRes.arrayBuffer();
+    const i16 = new Int16Array(buf);
+    const raw = new Float32Array(i16.length);
+    for (let i = 0; i < i16.length; i++) raw[i] = i16[i] / 32768;
+
+    // 44.1k → sr
+    let pool = raw;
+    if (meta.sr !== sr) {
+      const ratio = meta.sr / sr;
+      const nOut = Math.floor(raw.length / ratio);
+      pool = new Float32Array(nOut);
+      for (let i = 0; i < nOut; i++) {
+        const x = i * ratio;
+        const i0 = x | 0;
+        const f = x - i0;
+        pool[i] = (raw[i0] || 0) * (1 - f) + (raw[i0 + 1] || 0) * f;
+      }
+      meta.syllables = meta.syllables.map((s) => ({
+        off: Math.round(s.off / ratio),
+        len: Math.round(s.len / ratio),
+        f0: s.f0,
+      }));
+      meta.sr = sr;
+    }
+    bankCache = { pool, idx: meta, sr };
+    return bankCache;
+  })();
+  try {
+    return await bankTask;
+  } catch (e) {
+    console.warn('母本加载失败', e);
+    return null;
+  }
+}
+
+/* ---------------- 小工具 ---------------- */
+
+function fadeEdges(d, sr, fin, fout) {
+  const a = Math.max(1, Math.floor(fin * sr));
+  const b = Math.max(1, Math.floor(fout * sr));
+  const n = d.length;
+  for (let i = 0; i < Math.min(a, n); i++) d[i] *= i / a;
+  for (let i = 0; i < Math.min(b, n); i++) d[n - 1 - i] *= i / b;
+}
+
+function makeAudioBuffer(chs, sr) {
+  const OAC = window.OfflineAudioContext || window.webkitOfflineAudioContext;
+  const n = chs[0].length;
+  const ctx = new OAC(2, Math.max(1, Math.min(n, 44100)), sr);
+  const buf = ctx.createBuffer(2, n, sr);
+  for (let c = 0; c < 2; c++) buf.getChannelData(c).set(chs[c]);
+  return buf;
+}

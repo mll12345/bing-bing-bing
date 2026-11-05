@@ -1,1 +1,45 @@
-Ly8gbWFrZS1iYW5rLWFzc2V0Lm1qcyDigJTigJQg5oqK5Y+C6ICD6Z+z6aKR5YiH5Ye655qE55yf5q+N5pys5a+85Ye65oiQ572R6aG15Y+v5Yqg6L2955qE6Z2Z5oCB6LWE5rqQCi8vIOS6p+eJqe+8mnNhbXBsZXMvYmluZy1iYW5rLmJpbu+8iGludDE2IFBDTe+8iSsgc2FtcGxlcy9iaW5nLWJhbmsuanNvbu+8iOWFg+aVsOaNru+8iQppbXBvcnQgZnMgZnJvbSAnbm9kZTpmcyc7CmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCc7Cgpjb25zdCBTUiA9IDQ0MTAwOwpjb25zdCBwb29sUmF3ID0gbmV3IEZsb2F0MzJBcnJheShmcy5yZWFkRmlsZVN5bmMoJ3Rlc3Qvb3V0L3JlZi1wb29sLmYzMicpLmJ1ZmZlci5zbGljZSgwKSk7CmNvbnN0IGlkeCA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKCd0ZXN0L291dC9yZWYtcG9vbC5pZHguanNvbicsICd1dGY4JykpOwoKLy8g5L+d55WZIDEyIOS4quavjeacrO+8jOaMiemfs+mikemHjOWHuueOsOeahOWFiOWQjumhuuW6j+WIhue7hO+8iOS4juWOn+WPguiAg+eahCA0IOe7hOS4iei/nuS4gOS4gOWvueW6lO+8iQpjb25zdCBrZWVwID0gaWR4LnN5bGxhYmxlcy5zbGljZSgwLCAxMik7CgpsZXQgdG90YWwgPSAwOwpmb3IgKGNvbnN0IHMgb2Yga2VlcCkgdG90YWwgKz0gcy5sZW47CmNvbnN0IHBjbSA9IEJ1ZmZlci5hbGxvYyh0b3RhbCAqIDIpOwpjb25zdCBvdXQgPSBbXTsKbGV0IG9mZiA9IDA7CmZvciAobGV0IGkgPSAwOyBpIDwga2VlcC5sZW5ndGg7IGkrKykgewogIGNvbnN0IHMgPSBrZWVwW2ldOwogIGZvciAobGV0IGsgPSAwOyBrIDwgcy5sZW47IGsrKykgewogICAgY29uc3QgdiA9IE1hdGgubWF4KC0xLCBNYXRoLm1pbigxLCBwb29sUmF3W3Mub2ZmICsga10pKTsKICAgIHBjbS53cml0ZUludDE2TEUoTWF0aC5yb3VuZCh2ICogMzI3NjcpLCAob2ZmICsgaykgKiAyKTsKICB9CiAgb3V0LnB1c2goeyBvZmYsIGxlbjogcy5sZW4sIGYwOiBzLmYwIH0pOwogIG9mZiArPSBzLmxlbjsKfQoKY29uc3QgZ3JvdXBzID0gW107CmZvciAobGV0IGcgPSAwOyBnIDwgNDsgZysrKSB7CiAgY29uc3QgdHJpID0gb3V0LnNsaWNlKGcgKiAzLCBnICogMyArIDMpOwogIGlmICh0cmkubGVuZ3RoIDwgMykgYnJlYWs7CiAgY29uc3QgZjAgPSBNYXRoLnJvdW5kKHRyaS5yZWR1Y2UoKGEsIGIpID0+IGEgKyAoYi5mMCB8fCA0MDApLCAwKSAvIDMpOwogIGdyb3Vwcy5wdXNoKHsgZ3JvdXA6IGcgKyAxLCBmMCB9KTsKfQoKZnMubWtkaXJTeW5jKCdzYW1wbGVzJywgeyByZWN1cnNpdmU6IHRydWUgfSk7CmZzLndyaXRlRmlsZVN5bmMocGF0aC5qb2luKCdzYW1wbGVzJywgJ2JpbmctYmFuay5iaW4nKSwgcGNtKTsKZnMud3JpdGVGaWxlU3luYyhwYXRoLmpvaW4oJ3NhbXBsZXMnLCAnYmluZy1iYW5rLmpzb24nKSwgSlNPTi5zdHJpbmdpZnkoewogIHNyOiBTUiwKICBncm91cHMsCiAgc3lsbGFibGVzOiBvdXQsCn0sIG51bGwsIDIpKTsKCmNvbnNvbGUubG9nKCdiaW4nLCAocGNtLmxlbmd0aCAvIDEwMjQpLnRvRml4ZWQoMCkgKyAnS0InLCAnc3lsbGFibGVzJywgb3V0Lmxlbmd0aCwgJ2R1cicsICh0b3RhbCAvIFNSKS50b0ZpeGVkKDIpICsgJ3MnKTsKY29uc29sZS5sb2coSlNPTi5zdHJpbmdpZnkoZ3JvdXBzKSk7Cg==
+// make-bank-asset.mjs —— 把参考音频切出的真母本导出成网页可加载的静态资源
+// 产物：samples/bing-bank.bin（int16 PCM）+ samples/bing-bank.json（元数据）
+import fs from 'node:fs';
+import path from 'node:path';
+
+const SR = 44100;
+const poolRaw = new Float32Array(fs.readFileSync('test/out/ref-pool.f32').buffer.slice(0));
+const idx = JSON.parse(fs.readFileSync('test/out/ref-pool.idx.json', 'utf8'));
+
+// 保留 12 个母本，按音频里出现的先后顺序分组（与原参考的 4 组三连一一对应）
+const keep = idx.syllables.slice(0, 12);
+
+let total = 0;
+for (const s of keep) total += s.len;
+const pcm = Buffer.alloc(total * 2);
+const out = [];
+let off = 0;
+for (let i = 0; i < keep.length; i++) {
+  const s = keep[i];
+  for (let k = 0; k < s.len; k++) {
+    const v = Math.max(-1, Math.min(1, poolRaw[s.off + k]));
+    pcm.writeInt16LE(Math.round(v * 32767), (off + k) * 2);
+  }
+  out.push({ off, len: s.len, f0: s.f0 });
+  off += s.len;
+}
+
+const groups = [];
+for (let g = 0; g < 4; g++) {
+  const tri = out.slice(g * 3, g * 3 + 3);
+  if (tri.length < 3) break;
+  const f0 = Math.round(tri.reduce((a, b) => a + (b.f0 || 400), 0) / 3);
+  groups.push({ group: g + 1, f0 });
+}
+
+fs.mkdirSync('samples', { recursive: true });
+fs.writeFileSync(path.join('samples', 'bing-bank.bin'), pcm);
+fs.writeFileSync(path.join('samples', 'bing-bank.json'), JSON.stringify({
+  sr: SR,
+  groups,
+  syllables: out,
+}, null, 2));
+
+console.log('bin', (pcm.length / 1024).toFixed(0) + 'KB', 'syllables', out.length, 'dur', (total / SR).toFixed(2) + 's');
+console.log(JSON.stringify(groups));

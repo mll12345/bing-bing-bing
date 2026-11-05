@@ -1,1 +1,52 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdub2RlOmZzJyk7CmNvbnN0IHBhdGggPSByZXF1aXJlKCdub2RlOnBhdGgnKTsKY29uc3QgTE9HID0gJ3Rlc3QvdHJhY2UzLmxvZyc7CmZzLndyaXRlRmlsZVN5bmMoTE9HLCAnJyk7CmNvbnN0IGxvZyA9ICguLi5hKSA9PiBmcy5hcHBlbmRGaWxlU3luYyhMT0csIGEuam9pbignICcpICsgJ1xuJyk7CnByb2Nlc3Mub24oJ2V4aXQnLCAoYykgPT4gbG9nKCdFWElUJywgYykpOwpwcm9jZXNzLm9uKCd1bmNhdWdodEV4Y2VwdGlvbicsIChlKSA9PiB7IGxvZygnVU5DQVVHSFQnLCBTdHJpbmcoZSAmJiBlLnN0YWNrIHx8IGUpKTsgcHJvY2Vzcy5leGl0KDkpOyB9KTsKY29uc3QgaHR0cCA9IHJlcXVpcmUoJ25vZGU6aHR0cCcpOwpjb25zdCBQQUdFID0gcHJvY2Vzcy5hcmd2WzJdOwpjb25zdCBUSU1CUkUgPSBOdW1iZXIocHJvY2Vzcy5hcmd2WzNdIHx8IDIpOwooYXN5bmMgKCkgPT4gewogIGNvbnN0IGxpc3QgPSBhd2FpdCBuZXcgUHJvbWlzZSgocmVzLCByZWopID0+IGh0dHAuZ2V0KHsgaG9zdDogJzEyNy4wLjAuMScsIHBvcnQ6IDkyMjIsIHBhdGg6ICcvanNvbi9saXN0JyB9LCAocikgPT4geyBsZXQgcyA9ICcnOyByLm9uKCdkYXRhJywgKGQpID0+IChzICs9IGQpKTsgci5vbignZW5kJywgKCkgPT4gcmVzKEpTT04ucGFyc2UocykpKTsgfSkub24oJ2Vycm9yJywgcmVqKSk7CiAgY29uc3QgaG9zdCA9IG5ldyBVUkwoUEFHRSkuaG9zdDsKICBjb25zdCB0ID0gbGlzdC5maW5kKCh4KSA9PiB4LnR5cGUgPT09ICdwYWdlJyAmJiB4LnVybC5pbmNsdWRlcyhob3N0KSk7CiAgY29uc3Qgd3MgPSBuZXcgV2ViU29ja2V0KHQud2ViU29ja2V0RGVidWdnZXJVcmwpOwogIGxldCBpZCA9IDA7IGNvbnN0IHBlbmQgPSBuZXcgTWFwKCk7CiAgY29uc3Qgc2VuZCA9IChtLCBxID0ge30pID0+IG5ldyBQcm9taXNlKChyKSA9PiB7IGNvbnN0IGkgPSArK2lkOyBwZW5kLnNldChpLCByKTsgd3Muc2VuZChKU09OLnN0cmluZ2lmeSh7IGlkOiBpLCBtZXRob2Q6IG0sIHBhcmFtczogcSB9KSk7IH0pOwogIHdzLm9ubWVzc2FnZSA9IChlKSA9PiB7IGNvbnN0IG0gPSBKU09OLnBhcnNlKGUuZGF0YSk7IGlmIChtLmlkICYmIHBlbmQuaGFzKG0uaWQpKSB7IHBlbmQuZ2V0KG0uaWQpKG0ucmVzdWx0KTsgcGVuZC5kZWxldGUobS5pZCk7IH0gfTsKICBhd2FpdCBuZXcgUHJvbWlzZSgocikgPT4gKHdzLm9ub3BlbiA9IHIpKTsKICBhd2FpdCBzZW5kKCdQYWdlLmVuYWJsZScpOyBhd2FpdCBzZW5kKCdSdW50aW1lLmVuYWJsZScpOyBhd2FpdCBzZW5kKCdET00uZW5hYmxlJyk7CiAgYXdhaXQgc2VuZCgnTmV0d29yay5lbmFibGUnKTsgYXdhaXQgc2VuZCgnTmV0d29yay5zZXRDYWNoZURpc2FibGVkJywgeyBjYWNoZURpc2FibGVkOiB0cnVlIH0pOwogIGF3YWl0IHNlbmQoJ1BhZ2UubmF2aWdhdGUnLCB7IHVybDogUEFHRSArICc/Y2I9JyArIERhdGUubm93KCkgfSk7CiAgYXdhaXQgbmV3IFByb21pc2UoKHIpID0+IHNldFRpbWVvdXQociwgMjUwMCkpOwogIGNvbnN0IGRvYyA9IGF3YWl0IHNlbmQoJ0RPTS5nZXREb2N1bWVudCcsIHsgZGVwdGg6IC0xIH0pOwogIGNvbnN0IHEgPSBhd2FpdCBzZW5kKCdET00ucXVlcnlTZWxlY3RvcicsIHsgbm9kZUlkOiBkb2Mucm9vdC5ub2RlSWQsIHNlbGVjdG9yOiAnI2ZpbGVJbnB1dCcgfSk7CiAgYXdhaXQgc2VuZCgnRE9NLnNldEZpbGVJbnB1dEZpbGVzJywgeyBub2RlSWQ6IHEubm9kZUlkLCBmaWxlczogW3BhdGgucmVzb2x2ZSgndGVzdC9zb25nNDUubXA0JyldIH0pOwogIGZvciAobGV0IGkgPSAwOyBpIDwgMjAwOyBpKyspIHsKICAgIGNvbnN0IHIgPSBhd2FpdCBzZW5kKCdSdW50aW1lLmV2YWx1YXRlJywgeyBleHByZXNzaW9uOiAnISEod2luZG93Ll9faWNlJiZ3aW5kb3cuX19pY2Uuc3RhdGUmJndpbmRvdy5fX2ljZS5zdGF0ZS5zcmNCdWZmZXIpJywgcmV0dXJuQnlWYWx1ZTogdHJ1ZSB9KTsKICAgIGlmIChyICYmIHIucmVzdWx0ICYmIHIucmVzdWx0LnZhbHVlKSBicmVhazsKICAgIGF3YWl0IG5ldyBQcm9taXNlKChyMikgPT4gc2V0VGltZW91dChyMiwgMzAwKSk7CiAgfQogIGxvZygnZGVjb2RlZCcpOwogIGF3YWl0IHNlbmQoJ1J1bnRpbWUuZXZhbHVhdGUnLCB7IGV4cHJlc3Npb246IGAoKCk9Pntjb25zdCBzPShpLHYpPT57Y29uc3QgZT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZChpKTtpZihlKXtlLnZhbHVlPXY7ZS5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnaW5wdXQnLHtidWJibGVzOnRydWV9KSl9fTtzKCd2b2ljZScsMSk7cygndGltYnJlJywke1RJTUJSRX0pO3MoJ2tlZXAnLDApO3MoJ3JldicsMC4yNSk7cygnc3BhcmtsZScsMC4zKTtzKCdtYXhMZW4nLDE4MCk7ZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmdyb3VwLWJ0bltkYXRhLWc9IiR7VElNQlJFfSJdJykuY2xpY2soKTtyZXR1cm4gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3ZUaW1icmUnKS50ZXh0Q29udGVudH0pKClgICwgcmV0dXJuQnlWYWx1ZTogdHJ1ZSB9KTsKICBsb2coJ3BhcmFtcyBzZXQnKTsKICBhd2FpdCBzZW5kKCdSdW50aW1lLmV2YWx1YXRlJywgeyBleHByZXNzaW9uOiBgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2J0blJlbmRlcicpLmNsaWNrKClgIH0pOwogIGxldCBpbmZvID0gbnVsbDsKICBmb3IgKGxldCBpID0gMDsgaSA8IDYwMDsgaSsrKSB7CiAgICBjb25zdCByID0gYXdhaXQgc2VuZCgnUnVudGltZS5ldmFsdWF0ZScsIHsgZXhwcmVzc2lvbjogJ3dpbmRvdy5fX2ljZSYmd2luZG93Ll9faWNlLnN0YXRlJiZ3aW5kb3cuX19pY2Uuc3RhdGUub3V0QnVmZmVyP0pTT04uc3RyaW5naWZ5KHdpbmRvdy5fX2ljZS5zdGF0ZS5vdXRJbmZvKToiIicsIHJldHVybkJ5VmFsdWU6IHRydWUgfSk7CiAgICBjb25zdCB2ID0gciAmJiByLnJlc3VsdCAmJiByLnJlc3VsdC52YWx1ZTsKICAgIGlmICh2KSB7IGluZm8gPSB2OyBicmVhazsgfQogICAgYXdhaXQgbmV3IFByb21pc2UoKHIyKSA9PiBzZXRUaW1lb3V0KHIyLCA1MDApKTsKICB9CiAgbG9nKCdpbmZvJywgaW5mbyk7CiAgY29uc3Qgc3RhdHMgPSBhd2FpdCBzZW5kKCdSdW50aW1lLmV2YWx1YXRlJywgeyBleHByZXNzaW9uOiBgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3N0YXRzJyk/ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3N0YXRzJykuaW5uZXJUZXh0LnJlcGxhY2UoL1xcbi9nLCcgJyk6JydgLCByZXR1cm5CeVZhbHVlOiB0cnVlIH0pOwogIGxvZygnc3RhdHMnLCBzdGF0cyAmJiBzdGF0cy5yZXN1bHQgJiYgc3RhdHMucmVzdWx0LnZhbHVlKTsKICBjb25zdCBlcnIgPSBhd2FpdCBzZW5kKCdSdW50aW1lLmV2YWx1YXRlJywgeyBleHByZXNzaW9uOiBgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2VyckJveCcpP2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdlcnJCb3gnKS5pbm5lclRleHQ6JydgLCByZXR1cm5CeVZhbHVlOiB0cnVlIH0pOwogIGxvZygnZXJyJywgSlNPTi5zdHJpbmdpZnkoZXJyICYmIGVyci5yZXN1bHQgJiYgZXJyLnJlc3VsdC52YWx1ZSkpOwogIGNvbnNvbGUubG9nKCdJTkZPJywgaW5mbyk7CiAgY29uc29sZS5sb2coJ1NUQVRTJywgc3RhdHMgJiYgc3RhdHMucmVzdWx0ICYmIHN0YXRzLnJlc3VsdC52YWx1ZSk7CiAgd3MuY2xvc2UoKTsKICBwcm9jZXNzLmV4aXQoMCk7Cn0pKCk7DQo=
+const fs = require('node:fs');
+const path = require('node:path');
+const LOG = 'test/trace3.log';
+fs.writeFileSync(LOG, '');
+const log = (...a) => fs.appendFileSync(LOG, a.join(' ') + '\n');
+process.on('exit', (c) => log('EXIT', c));
+process.on('uncaughtException', (e) => { log('UNCAUGHT', String(e && e.stack || e)); process.exit(9); });
+const http = require('node:http');
+const PAGE = process.argv[2];
+const TIMBRE = Number(process.argv[3] || 2);
+(async () => {
+  const list = await new Promise((res, rej) => http.get({ host: '127.0.0.1', port: 9222, path: '/json/list' }, (r) => { let s = ''; r.on('data', (d) => (s += d)); r.on('end', () => res(JSON.parse(s))); }).on('error', rej));
+  const host = new URL(PAGE).host;
+  const t = list.find((x) => x.type === 'page' && x.url.includes(host));
+  const ws = new WebSocket(t.webSocketDebuggerUrl);
+  let id = 0; const pend = new Map();
+  const send = (m, q = {}) => new Promise((r) => { const i = ++id; pend.set(i, r); ws.send(JSON.stringify({ id: i, method: m, params: q })); });
+  ws.onmessage = (e) => { const m = JSON.parse(e.data); if (m.id && pend.has(m.id)) { pend.get(m.id)(m.result); pend.delete(m.id); } };
+  await new Promise((r) => (ws.onopen = r));
+  await send('Page.enable'); await send('Runtime.enable'); await send('DOM.enable');
+  await send('Network.enable'); await send('Network.setCacheDisabled', { cacheDisabled: true });
+  await send('Page.navigate', { url: PAGE + '?cb=' + Date.now() });
+  await new Promise((r) => setTimeout(r, 2500));
+  const doc = await send('DOM.getDocument', { depth: -1 });
+  const q = await send('DOM.querySelector', { nodeId: doc.root.nodeId, selector: '#fileInput' });
+  await send('DOM.setFileInputFiles', { nodeId: q.nodeId, files: [path.resolve('test/song45.mp4')] });
+  for (let i = 0; i < 200; i++) {
+    const r = await send('Runtime.evaluate', { expression: '!!(window.__ice&&window.__ice.state&&window.__ice.state.srcBuffer)', returnByValue: true });
+    if (r && r.result && r.result.value) break;
+    await new Promise((r2) => setTimeout(r2, 300));
+  }
+  log('decoded');
+  await send('Runtime.evaluate', { expression: `(()=>{const s=(i,v)=>{const e=document.getElementById(i);if(e){e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}))}};s('voice',1);s('timbre',${TIMBRE});s('keep',0);s('rev',0.25);s('sparkle',0.3);s('maxLen',180);document.querySelector('.group-btn[data-g="${TIMBRE}"]').click();return document.getElementById('vTimbre').textContent})()` , returnByValue: true });
+  log('params set');
+  await send('Runtime.evaluate', { expression: `document.getElementById('btnRender').click()` });
+  let info = null;
+  for (let i = 0; i < 600; i++) {
+    const r = await send('Runtime.evaluate', { expression: 'window.__ice&&window.__ice.state&&window.__ice.state.outBuffer?JSON.stringify(window.__ice.state.outInfo):""', returnByValue: true });
+    const v = r && r.result && r.result.value;
+    if (v) { info = v; break; }
+    await new Promise((r2) => setTimeout(r2, 500));
+  }
+  log('info', info);
+  const stats = await send('Runtime.evaluate', { expression: `document.getElementById('stats')?document.getElementById('stats').innerText.replace(/\\n/g,' '):''`, returnByValue: true });
+  log('stats', stats && stats.result && stats.result.value);
+  const err = await send('Runtime.evaluate', { expression: `document.getElementById('errBox')?document.getElementById('errBox').innerText:''`, returnByValue: true });
+  log('err', JSON.stringify(err && err.result && err.result.value));
+  console.log('INFO', info);
+  console.log('STATS', stats && stats.result && stats.result.value);
+  ws.close();
+  process.exit(0);
+})();

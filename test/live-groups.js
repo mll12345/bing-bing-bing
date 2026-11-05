@@ -1,1 +1,32 @@
-Y29uc3QgUEFHRSA9IHByb2Nlc3MuYXJndlsyXTsKKGFzeW5jICgpID0+IHsKICBjb25zdCBsaXN0ID0gYXdhaXQgKGF3YWl0IGZldGNoKCdodHRwOi8vMTI3LjAuMC4xOjkyMjIvanNvbi9saXN0JykpLmpzb24oKTsKICBjb25zdCBob3N0ID0gbmV3IFVSTChQQUdFKS5ob3N0OwogIGNvbnN0IHQgPSBsaXN0LmZpbmQoKHgpID0+IHgudHlwZSA9PT0gJ3BhZ2UnICYmIHgudXJsLmluY2x1ZGVzKGhvc3QpKSB8fCBsaXN0LmZpbmQoKHgpID0+IHgudHlwZSA9PT0gJ3BhZ2UnKTsKICBjb25zdCB3cyA9IG5ldyBXZWJTb2NrZXQodC53ZWJTb2NrZXREZWJ1Z2dlclVybCk7CiAgbGV0IGlkID0gMDsgY29uc3Qgd2FpdCA9IG5ldyBNYXAoKTsKICB3cy5vbm1lc3NhZ2UgPSAoZSkgPT4geyBjb25zdCBtID0gSlNPTi5wYXJzZShlLmRhdGEpOyBpZiAobS5pZCAmJiB3YWl0LmhhcyhtLmlkKSkgeyB3YWl0LmdldChtLmlkKShtKTsgd2FpdC5kZWxldGUobS5pZCk7IH0gfTsKICBjb25zdCBzZW5kID0gKG1ldGhvZCwgcGFyYW1zID0ge30pID0+IG5ldyBQcm9taXNlKChyKSA9PiB7IGNvbnN0IGkgPSArK2lkOyB3YWl0LnNldChpLCByKTsgd3Muc2VuZChKU09OLnN0cmluZ2lmeSh7IGlkOiBpLCBtZXRob2QsIHBhcmFtcyB9KSk7IH0pOwogIGF3YWl0IG5ldyBQcm9taXNlKChyKSA9PiAod3Mub25vcGVuID0gcikpOwogIGF3YWl0IHNlbmQoJ1BhZ2UuZW5hYmxlJyk7IGF3YWl0IHNlbmQoJ1J1bnRpbWUuZW5hYmxlJyk7CiAgYXdhaXQgc2VuZCgnTmV0d29yay5lbmFibGUnKTsgYXdhaXQgc2VuZCgnTmV0d29yay5zZXRDYWNoZURpc2FibGVkJywgeyBjYWNoZURpc2FibGVkOiB0cnVlIH0pOwogIGF3YWl0IHNlbmQoJ1BhZ2UubmF2aWdhdGUnLCB7IHVybDogUEFHRSArIChQQUdFLmluY2x1ZGVzKCc/JykgPyAnJicgOiAnPycpICsgJ2NiPScgKyBEYXRlLm5vdygpIH0pOwogIGF3YWl0IG5ldyBQcm9taXNlKChyKSA9PiBzZXRUaW1lb3V0KHIsIDM1MDApKTsKICBjb25zdCBldiA9IGFzeW5jIChleHByKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgc2VuZCgnUnVudGltZS5ldmFsdWF0ZScsIHsgZXhwcmVzc2lvbjogZXhwciwgYXdhaXRQcm9taXNlOiB0cnVlLCByZXR1cm5CeVZhbHVlOiB0cnVlIH0pOwogICAgcmV0dXJuIHIucmVzdWx0Py5yZXN1bHQ/LnZhbHVlOwogIH07CiAgY29uc29sZS5sb2coJ2dyb3VwIGJ1dHRvbnM6JywgYXdhaXQgZXYoYGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5ncm91cC1idG4nKS5sZW5ndGhgKSk7CiAgY29uc29sZS5sb2coJ2xhYmVsIGRlZmF1bHQ6JywgYXdhaXQgZXYoYGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd2VGltYnJlJykudGV4dENvbnRlbnRgKSk7CiAgLy8g54K556ysIDMg57uECiAgYXdhaXQgZXYoYGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5ncm91cC1idG5bZGF0YS1nPSIzIl0nKS5jbGljaygpYCk7CiAgYXdhaXQgbmV3IFByb21pc2UoKHIpID0+IHNldFRpbWVvdXQociwgMTIwMCkpOwogIGNvbnNvbGUubG9nKCdhZnRlciBjbGljayBsYWJlbDonLCBhd2FpdCBldihgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3ZUaW1icmUnKS50ZXh0Q29udGVudGApKTsKICBjb25zb2xlLmxvZygnc2xpZGVyIHZhbHVlOicsIGF3YWl0IGV2KGBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgndGltYnJlJykudmFsdWVgKSk7CiAgY29uc29sZS5sb2coJ2F1ZGlvIHNyYzonLCBhd2FpdCBldihgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2dyb3VwQXVkaW8nKS5zcmMuc3BsaXQoJy8nKS5zbGljZSgtMSlbMF1gKSk7CiAgY29uc29sZS5sb2coJ2F1ZGlvIHJlYWR5U3RhdGUvZHVyOicsIGF3YWl0IGV2KGAoYT0+YS5yZWFkeVN0YXRlKycvJythLmR1cmF0aW9uLnRvRml4ZWQoMikpKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdncm91cEF1ZGlvJykpYCkpOwogIGNvbnNvbGUubG9nKCdwbGF5aW5nIHN0YXRlOicsIGF3YWl0IGV2KGAoYT0+YS5wYXVzZWQ/J3BhdXNlZCc6J3BsYXlpbmcnKShkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZ3JvdXBBdWRpbycpKWApKTsKICBjb25zb2xlLmxvZygnb24gY2xhc3MgY291bnQ6JywgYXdhaXQgZXYoYGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5ncm91cC1idG4ub24nKS5sZW5ndGhgKSk7CiAgd3MuY2xvc2UoKTsKICBwcm9jZXNzLmV4aXQoMCk7Cn0pKCk7DQo=
+const PAGE = process.argv[2];
+(async () => {
+  const list = await (await fetch('http://127.0.0.1:9222/json/list')).json();
+  const host = new URL(PAGE).host;
+  const t = list.find((x) => x.type === 'page' && x.url.includes(host)) || list.find((x) => x.type === 'page');
+  const ws = new WebSocket(t.webSocketDebuggerUrl);
+  let id = 0; const wait = new Map();
+  ws.onmessage = (e) => { const m = JSON.parse(e.data); if (m.id && wait.has(m.id)) { wait.get(m.id)(m); wait.delete(m.id); } };
+  const send = (method, params = {}) => new Promise((r) => { const i = ++id; wait.set(i, r); ws.send(JSON.stringify({ id: i, method, params })); });
+  await new Promise((r) => (ws.onopen = r));
+  await send('Page.enable'); await send('Runtime.enable');
+  await send('Network.enable'); await send('Network.setCacheDisabled', { cacheDisabled: true });
+  await send('Page.navigate', { url: PAGE + (PAGE.includes('?') ? '&' : '?') + 'cb=' + Date.now() });
+  await new Promise((r) => setTimeout(r, 3500));
+  const ev = async (expr) => {
+    const r = await send('Runtime.evaluate', { expression: expr, awaitPromise: true, returnByValue: true });
+    return r.result?.result?.value;
+  };
+  console.log('group buttons:', await ev(`document.querySelectorAll('.group-btn').length`));
+  console.log('label default:', await ev(`document.getElementById('vTimbre').textContent`));
+  // 点第 3 组
+  await ev(`document.querySelector('.group-btn[data-g="3"]').click()`);
+  await new Promise((r) => setTimeout(r, 1200));
+  console.log('after click label:', await ev(`document.getElementById('vTimbre').textContent`));
+  console.log('slider value:', await ev(`document.getElementById('timbre').value`));
+  console.log('audio src:', await ev(`document.getElementById('groupAudio').src.split('/').slice(-1)[0]`));
+  console.log('audio readyState/dur:', await ev(`(a=>a.readyState+'/'+a.duration.toFixed(2))(document.getElementById('groupAudio'))`));
+  console.log('playing state:', await ev(`(a=>a.paused?'paused':'playing')(document.getElementById('groupAudio'))`));
+  console.log('on class count:', await ev(`document.querySelectorAll('.group-btn.on').length`));
+  ws.close();
+  process.exit(0);
+})();

@@ -1,1 +1,195 @@
-Ly8gcmVzbGljZS5qcyDigJTigJQg5LiN5YGa6aKR6LCx5ZCI5oiQ77yM5Y+q5YGa44CM5YCf44CN77yaCi8vIOS7juWOn+WUsemHjOaMkeWHuuacgOWDj+OAjOWGsOOAjeeahOWHoOS4quecn+Wunumfs+iKguW9k+avjeacrO+8jOWGjeeUqCBQU09MQSDmiorlroPku6zmi4nliLDmr4/kuKrpn7PnrKbnmoTpn7Ppq5jkuIrlpI3nlKjjgIIKLy8g5q+P5Liq44CM5Yaw44CN6YO95piv5LuO5Y6f5ZSx6Lqr5LiK55yf5a6e5b2V5LiL5p2l55qE5rOi5b2i77yM5Y+q5pS56Z+z6auY5ZKM6ZW/5bqm77yM5LiN5pS56aKR6LCx5YyF57uc77yM5omA5Lul5LiN5Lya5Ye6546w44CM6Zu36ZyGIC8g55S15ZGz44CN44CCCgppbXBvcnQgeyBtYWtlRkZUIH0gZnJvbSAnLi9mZnQuanMnOwoKY29uc3QgQkFORFMgPSB7CiAgZjE6IFsyMzAsIDQzMF0sCiAgZjI6IFsyMDUwLCAyNzUwXSwKICBmMzogWzI4NTAsIDM1NTBdLAogIGhpOiBbMzYwMCwgNjUwMF0sCn07CgovKiog566A5Y2V5rGJ5a6B56qXICovCmZ1bmN0aW9uIGhhbm4obikgewogIGNvbnN0IHcgPSBuZXcgRmxvYXQzMkFycmF5KG4pOwogIGZvciAobGV0IGkgPSAwOyBpIDwgbjsgaSsrKSB3W2ldID0gMC41IC0gMC41ICogTWF0aC5jb3MoKDIgKiBNYXRoLlBJICogaSkgLyAobiAtIDEpKTsKICByZXR1cm4gdzsKfQoKLyoqIOWPluS4gOautemikeiwse+8iOW5heW6pu+8ie+8jOeUqOS6jue7memfs+iKguaJk+WIhiAqLwpmdW5jdGlvbiBzcGVjdHJ1bShzcmMsIHNyLCBhdCwgZHVyKSB7CiAgY29uc3QgTiA9IDEwMjQ7CiAgY29uc3QgZmZ0ID0gbWFrZUZGVChOKTsKICBjb25zdCByZSA9IG5ldyBGbG9hdDMyQXJyYXkoTik7CiAgY29uc3QgaW0gPSBuZXcgRmxvYXQzMkFycmF5KE4pOwogIGNvbnN0IHcgPSBoYW5uKE4pOwogIGNvbnN0IGhvcCA9IE1hdGguZmxvb3IoTiAvIDIpOwogIGNvbnN0IHN0YXJ0ID0gTWF0aC5tYXgoMCwgTWF0aC5mbG9vcihhdCAqIHNyKSk7CiAgY29uc3QgZW5kID0gTWF0aC5taW4oc3JjLmxlbmd0aCwgTWF0aC5mbG9vcigoYXQgKyBkdXIpICogc3IpKTsKICBjb25zdCBhY2MgPSBuZXcgRmxvYXQzMkFycmF5KE4gLyAyKTsKICBsZXQgY250ID0gMDsKICBmb3IgKGxldCBwID0gc3RhcnQ7IHAgKyBOIDw9IGVuZDsgcCArPSBob3ApIHsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgTjsgaSsrKSB7IHJlW2ldID0gc3JjW3AgKyBpXSAqIHdbaV07IGltW2ldID0gMDsgfQogICAgZmZ0KHJlLCBpbSwgZmFsc2UpOwogICAgZm9yIChsZXQgaSA9IDE7IGkgPCBOIC8gMjsgaSsrKSBhY2NbaV0gKz0gTWF0aC5zcXJ0KHJlW2ldICogcmVbaV0gKyBpbVtpXSAqIGltW2ldKTsKICAgIGNudCsrOwogIH0KICBpZiAoIWNudCkgcmV0dXJuIG51bGw7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBhY2MubGVuZ3RoOyBpKyspIGFjY1tpXSAvPSBjbnQ7CiAgcmV0dXJuIGFjYzsKfQoKZnVuY3Rpb24gYmFuZEUoYWNjLCBzciwgbG8sIGhpLCBOKSB7CiAgY29uc3QgYmluSHogPSBzciAvIE47CiAgY29uc3QgYSA9IE1hdGgubWF4KDEsIE1hdGguZmxvb3IobG8gLyBiaW5IeikpOwogIGNvbnN0IGIgPSBNYXRoLm1pbihhY2MubGVuZ3RoIC0gMSwgTWF0aC5jZWlsKGhpIC8gYmluSHopKTsKICBsZXQgcyA9IDA7CiAgZm9yIChsZXQgaSA9IGE7IGkgPD0gYjsgaSsrKSBzICs9IGFjY1tpXSAqIGFjY1tpXTsKICByZXR1cm4gczsKfQoKLyoqCiAqIOe7meS4gOS4qumfs+iKguaJk+WIhu+8mkYyL0YzIOi2iuW8uuOAgeS9jumikei2iuS4jemXt+OAgei1t+Wni+i2iuacieaRqeaTpumfs++8jOi2iuWDj+OAjOWGsOOAjeOAggogKi8KZnVuY3Rpb24gc2NvcmVOb3RlKHNyYywgc3IsIG50KSB7CiAgY29uc3QgYWNjID0gc3BlY3RydW0oc3JjLCBzciwgbnQuc3RhcnQsIE1hdGgubWF4KDAuMDYsIE1hdGgubWluKG50LmR1ciwgMC41KSkpOwogIGlmICghYWNjKSByZXR1cm4gLTE7CiAgY29uc3QgTiA9IDEwMjQ7CiAgY29uc3QgZTEgPSBiYW5kRShhY2MsIHNyLCBCQU5EUy5mMVswXSwgQkFORFMuZjFbMV0sIE4pOwogIGNvbnN0IGUyID0gYmFuZEUoYWNjLCBzciwgQkFORFMuZjJbMF0sIEJBTkRTLmYyWzFdLCBOKTsKICBjb25zdCBlMyA9IGJhbmRFKGFjYywgc3IsIEJBTkRTLmYzWzBdLCBCQU5EUy5mM1sxXSwgTik7CiAgY29uc3QgZWhpID0gYmFuZEUoYWNjLCBzciwgQkFORFMuaGlbMF0sIEJBTkRTLmhpWzFdLCBOKTsKICBjb25zdCB0b3QgPSBlMSArIGUyICsgZTMgKyBlaGkgKyAxZS0xMjsKICBjb25zdCBoYXJtb255ID0gKGUyIC8gdG90KSAqIDEuMzUgKyAoZTMgLyB0b3QpICogMC43ICsgKGVoaSAvIHRvdCkgKiAwLjU1OwogIGNvbnN0IG11ZCA9IChlMSAvIHRvdCkgKiAwLjQ1OwogIGNvbnN0IGNlbnRyb2lkID0gKGUyIC8gdG90KSAqIDIyMDAgKyAoZTMgLyB0b3QpICogMzEwMCArIChlaGkgLyB0b3QpICogNDgwMDsKICByZXR1cm4geyBzY29yZTogaGFybW9ueSAtIG11ZCwgY2VudHJvaWQsIGYyOiBlMiAvIHRvdCwgZWhpOiBlaGkgLyB0b3QgfTsKfQoKLyoqCiAqIFBTT0xB77ya5L+d5oyB5pe26ZW/5pig5bCE77yM5oqK5rqQ5rOi5b2i55qE5Z+66aKR5pS55YiwIHRhcmdldEYw77yM5YWx5oyv5bOw5LiN5Yqo77yI5LiN5YOP6YeN6YeH5qC36YKj5qC35Y+Y6Iqx5qCX6byg77yJ44CCCiAqIOWFs+mUrueCue+8mua6kOWfn+WPluOAjOS4gOS4qua6kOWRqOacn+OAje+8jOi+k+WHuuWfn+mTuuOAjOS4gOS4qui+k+WHuuWRqOacn+OAjeKAlOKAlOS4pOi+ueeahOeql+WuveW/hemhu+S4jeWQjO+8jAogKiDlkKbliJnnrYnkuo7liqDnqpflubPlnYfvvIzlkajmnJ/mgKfkvJrooqvmtJfmjonvvIjlkKzotbfmnaXlsLHmmK/msJTlo7Av5rKZ5rKZ5aOw77yJ44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gcHNvbGEoc3JjLCBzciwgc3JjRjAsIHRhcmdldEYwLCBvdXRMZW4pIHsKICBjb25zdCBvdXQgPSBuZXcgRmxvYXQzMkFycmF5KG91dExlbik7CiAgY29uc3Qgbm9ybSA9IG5ldyBGbG9hdDMyQXJyYXkob3V0TGVuKTsKICBpZiAoIXNyYy5sZW5ndGggfHwgb3V0TGVuIDw9IDApIHJldHVybiBvdXQ7CgogIGNvbnN0IFBzID0gTWF0aC5tYXgoMiwgTWF0aC5yb3VuZChzciAvIE1hdGgubWF4KDYwLCBzcmNGMCkpKTsgLy8g5rqQ5ZGo5pyf77yI5qC354K577yJCiAgY29uc3QgUG8gPSBNYXRoLm1heCgyLCBNYXRoLnJvdW5kKHNyIC8gTWF0aC5tYXgoNzAsIHRhcmdldEYwKSkpOyAvLyDnm67moIflkajmnJ/vvIjmoLfngrnvvIkKICBjb25zdCBtYXAgPSBzcmMubGVuZ3RoIC8gb3V0TGVuOyAvLyDovpPlh7rml7bpl7Qg4oaSIOa6kOaXtumXtAoKICBjb25zdCB3aW4gPSAodCwgaGFsZikgPT4gMC41ICsgMC41ICogTWF0aC5jb3MoKE1hdGguUEkgKiB0KSAvIChoYWxmICsgMSkpOwoKICBmb3IgKGxldCBvID0gMDsgbyA8IG91dExlbjsgbyArPSBQbykgewogICAgY29uc3Qgc0NlbnRlciA9IE1hdGgucm91bmQobyAqIG1hcCk7CiAgICAvLyDmupDln5/vvJrku6Ugc0NlbnRlciDkuLrkuK3lv4PnmoTkuIDkuKrmupDlkajmnJ8KICAgIGZvciAobGV0IGkgPSAtUHM7IGkgPD0gUHM7IGkrKykgewogICAgICBjb25zdCBzbyA9IHNDZW50ZXIgKyBpOwogICAgICBpZiAoc28gPCAwIHx8IHNvID49IHNyYy5sZW5ndGgpIGNvbnRpbnVlOwogICAgICBjb25zdCBnID0gd2luKGksIFBzKTsKICAgICAgLy8g6L6T5Ye65Z+f77ya5LulIG8g5Li65Lit5b+D55qE5LiA5Liq55uu5qCH5ZGo5pyfCiAgICAgIGNvbnN0IG9vID0gbyArIE1hdGgucm91bmQoKGkgKiBQbykgLyBQcyk7CiAgICAgIGlmIChvbyA8IDAgfHwgb28gPj0gb3V0TGVuKSBjb250aW51ZTsKICAgICAgb3V0W29vXSArPSBzcmNbc29dICogZzsKICAgICAgbm9ybVtvb10gKz0gZzsKICAgIH0KICB9CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBvdXRMZW47IGkrKykgaWYgKG5vcm1baV0gPiAwLjM1KSBvdXRbaV0gLz0gbm9ybVtpXTsKICByZXR1cm4gb3V0Owp9CgovKioKICog5LuO5Y6f5ZSx6YeM5oyR5q+N5pys77yM5YaN57uZ5q+P5Liq6Z+z56ym44CM5YCf44CN5LiA5Liq55yf5a6e6Z+z6IqC44CCCiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRCYW5rKHNyYywgc3IsIG5vdGVzKSB7CiAgY29uc3Qgc2NvcmVkID0gW107CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBub3Rlcy5sZW5ndGg7IGkrKykgewogICAgY29uc3QgbnQgPSBub3Rlc1tpXTsKICAgIGlmIChudC5kdXIgPCAwLjA5IHx8IG50LmYwIDwgOTAgfHwgbnQuZjAgPiA5MDApIGNvbnRpbnVlOwogICAgY29uc3QgcyA9IHNjb3JlTm90ZShzcmMsIHNyLCBudCk7CiAgICBpZiAoIXMgfHwgcy5zY29yZSA8PSAwKSBjb250aW51ZTsKICAgIHNjb3JlZC5wdXNoKHsgaSwgbnQsIC4uLnMgfSk7CiAgfQogIHNjb3JlZC5zb3J0KChhLCBiKSA9PiBiLnNjb3JlIC0gYS5zY29yZSk7CiAgLy8g5Y676YeN77ya55u46YK75aSq6L+R55qE5ZCM5LiA5Liq5a2X5LiN6KaB6YeN5aSN5b2T5q+N5pysCiAgY29uc3QgYmFuayA9IFtdOwogIGZvciAoY29uc3QgYyBvZiBzY29yZWQpIHsKICAgIGlmIChiYW5rLnNvbWUoKGIpID0+IE1hdGguYWJzKGIubnQuc3RhcnQgLSBjLm50LnN0YXJ0KSA8IDAuNTUpKSBjb250aW51ZTsKICAgIGJhbmsucHVzaChjKTsKICAgIGlmIChiYW5rLmxlbmd0aCA+PSAyNCkgYnJlYWs7CiAgfQogIC8vIOaMieS6ruW6puaOkuS4gOS4i++8jOWbm+e7hOWPluS4jeWQjOS6ruW6pueahAogIGJhbmsuc29ydCgoYSwgYikgPT4gYS5jZW50cm9pZCAtIGIuY2VudHJvaWQpOwogIHJldHVybiBiYW5rOwp9CgovKioKICog5oqK5oyR5aW955qE5q+N5pys6ZO65Yiw5pW06aaW5q2M55qE6Z+z56ym5LiK44CCCiAqIGdyb3VwIDEuLjQg4oaSIOS7jiBiYW5rIOmHjOaMieS6ruW6puWbm+WIhuS9jeWPluWbm+S4quS4jeWQjOeahOavjeacrO+8jOS/neivgeWbm+e7hOWQrOaEn+S4jeWQjOOAggogKi8KZXhwb3J0IGZ1bmN0aW9uIHJlbmRlclJlc2xpY2Uoc3JjLCBzciwgbm90ZXMsIHsgZ2FpbiA9IDEsIGdyb3VwID0gMiwgcHJvZ3Jlc3MgPSAoKSA9PiB7fSB9ID0ge30pIHsKICBjb25zdCB0b3RhbExlbiA9IG5vdGVzLmxlbmd0aCA/IE1hdGguY2VpbCgobm90ZXNbbm90ZXMubGVuZ3RoIC0gMV0uc3RhcnQgKyBub3Rlc1tub3Rlcy5sZW5ndGggLSAxXS5kdXIgKyAwLjYpICogc3IpIDogMDsKICBjb25zdCBvdXQgPSBuZXcgRmxvYXQzMkFycmF5KHRvdGFsTGVuKTsKICBpZiAoIXRvdGFsTGVuKSByZXR1cm4geyBkYXRhOiBvdXQsIGNvdW50OiAwLCBiYW5rOiAwIH07CgogIGNvbnN0IGJhbmsgPSBidWlsZEJhbmsoc3JjLCBzciwgbm90ZXMpOwogIGlmICghYmFuay5sZW5ndGgpIHJldHVybiB7IGRhdGE6IG91dCwgY291bnQ6IDAsIGJhbms6IDAgfTsKCiAgY29uc3QgcGljayA9IChnKSA9PiB7CiAgICBjb25zdCBuID0gYmFuay5sZW5ndGg7CiAgICBjb25zdCBmcmFjID0gKE1hdGgubWluKDQsIE1hdGgubWF4KDEsIGcpKSAtIDEpIC8gMzsgLy8gMC4uMQogICAgcmV0dXJuIGJhbmtbTWF0aC5taW4obiAtIDEsIE1hdGgucm91bmQoZnJhYyAqIChuIC0gMSkpKV07CiAgfTsKICBjb25zdCBtYXN0ZXIgPSBwaWNrKGdyb3VwKTsKCiAgbGV0IGNvdW50ID0gMDsKICBmb3IgKGxldCBrID0gMDsgayA8IG5vdGVzLmxlbmd0aDsgaysrKSB7CiAgICBjb25zdCBudCA9IG5vdGVzW2tdOwogICAgaWYgKGsgJSA0MCA9PT0gMCkgcHJvZ3Jlc3MoMC40NSArIDAuNSAqIChrIC8gbm90ZXMubGVuZ3RoKSk7CgogICAgLy8g5q+N5pys77ya6buY6K6k55So5pys57uE55qE6YKj5Liq77yM5YG25bCU5o2i5oiQ55u46YK75Lqu5bqm55qE5q+N5pys77yM6YG/5YWN5pW06aaW5a6M5YWo5LiA5Liq5qih5a2QCiAgICBsZXQgc3JjMCA9IG1hc3RlcjsKICAgIGlmIChiYW5rLmxlbmd0aCA+IDEgJiYgayAlIDcgPT09IDUpIHsKICAgICAgY29uc3QgYWx0ID0gcGljayhncm91cCA9PT0gNCA/IDMgOiBncm91cCArIDEpOwogICAgICBpZiAoYWx0ICYmIGFsdCAhPT0gbWFzdGVyKSBzcmMwID0gYWx0OwogICAgfQoKICAgIGNvbnN0IHBhZCA9IDAuMDM7CiAgICBjb25zdCBzMCA9IE1hdGgubWF4KDAsIE1hdGguZmxvb3IoKHNyYzAubnQuc3RhcnQgLSBwYWQpICogc3IpKTsKICAgIGNvbnN0IHMxID0gTWF0aC5taW4oc3JjLmxlbmd0aCwgTWF0aC5mbG9vcigoc3JjMC5udC5zdGFydCArIHNyYzAubnQuZHVyICsgMC4xMCkgKiBzcikpOwogICAgY29uc3QgY2h1bmsgPSBzcmMuc3ViYXJyYXkoczAsIHMxKTsKICAgIGlmIChjaHVuay5sZW5ndGggPCA2NCkgY29udGludWU7CgogICAgLy8g55uu5qCH6ZW/5bqm77ya6Z+z56ym5pe26ZW/ICsg5LiA54K56by76Z+z5L2Z6Z+177ybUFNPTEEg5LiA5qyh5oCn5a6M5oiQ44CM5Y+Y6LCDICsg5Y+Y6ZW/44CN77yM5LiN5YaN5LqM5qyh6YeN6YeH5qC3CiAgICBjb25zdCBvdXRMZW4gPSBNYXRoLm1heChNYXRoLmZsb29yKDAuMTAgKiBzciksIE1hdGguZmxvb3IoKG50LmR1ciAqIDAuOTIgKyAwLjA2KSAqIHNyKSk7CiAgICBjb25zdCBkc3QgPSBwc29sYShjaHVuaywgc3IsIHNyYzAubnQuZjAsIG50LmYwLCBvdXRMZW4pOwogICAgaWYgKCFkc3QubGVuZ3RoKSBjb250aW51ZTsKCiAgICAvLyDls7DlgLzlrprmoIfliLDor6Xpn7PnrKbnmoTlk43luqYKICAgIGxldCBwZWFrID0gMWUtNjsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgb3V0TGVuOyBpKyspIHBlYWsgPSBNYXRoLm1heChwZWFrLCBNYXRoLmFicyhkc3RbaV0pKTsKICAgIGNvbnN0IHRhcmdldCA9IE1hdGgubWluKDAuOSwgTWF0aC5tYXgoMC4wOCwgbnQuYW1wICogMS4xNSkpICogZ2FpbjsKICAgIGNvbnN0IGcgPSB0YXJnZXQgLyBwZWFrOwoKICAgIC8vIOS4pOerr+a3oeWFpea3oeWHuu+8jOmYsueIhumfswogICAgY29uc3QgZmFkZUluID0gTWF0aC5taW4oTWF0aC5mbG9vcigwLjAwNCAqIHNyKSwgb3V0TGVuID4+IDIpOwogICAgY29uc3QgZmFkZU91dCA9IE1hdGgubWluKE1hdGguZmxvb3IoMC4wMiAqIHNyKSwgb3V0TGVuID4+IDIpOwogICAgY29uc3QgYXQgPSBNYXRoLm1heCgwLCBNYXRoLmZsb29yKG50LnN0YXJ0ICogc3IpKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgb3V0TGVuOyBpKyspIHsKICAgICAgY29uc3QgaiA9IGF0ICsgaTsKICAgICAgaWYgKGogPj0gb3V0Lmxlbmd0aCkgYnJlYWs7CiAgICAgIGxldCB3ID0gMTsKICAgICAgaWYgKGkgPCBmYWRlSW4pIHcgPSBpIC8gZmFkZUluOwogICAgICBlbHNlIGlmIChpID4gb3V0TGVuIC0gZmFkZU91dCkgdyA9IChvdXRMZW4gLSBpKSAvIGZhZGVPdXQ7CiAgICAgIG91dFtqXSArPSBkc3RbaV0gKiBnICogdzsKICAgIH0KICAgIGNvdW50Kys7CiAgfQoKICBwcm9ncmVzcygwLjk4KTsKICByZXR1cm4geyBkYXRhOiBvdXQsIGNvdW50LCBiYW5rOiBiYW5rLmxlbmd0aCB9Owp9Cg==
+// reslice.js —— 不做频谱合成，只做「借」：
+// 从原唱里挑出最像「冰」的几个真实音节当母本，再用 PSOLA 把它们拉到每个音符的音高上复用。
+// 每个「冰」都是从原唱身上真实录下来的波形，只改音高和长度，不改频谱包络，所以不会出现「雷霆 / 电味」。
+
+import { makeFFT } from './fft.js';
+
+const BANDS = {
+  f1: [230, 430],
+  f2: [2050, 2750],
+  f3: [2850, 3550],
+  hi: [3600, 6500],
+};
+
+/** 简单汉宁窗 */
+function hann(n) {
+  const w = new Float32Array(n);
+  for (let i = 0; i < n; i++) w[i] = 0.5 - 0.5 * Math.cos((2 * Math.PI * i) / (n - 1));
+  return w;
+}
+
+/** 取一段频谱（幅度），用于给音节打分 */
+function spectrum(src, sr, at, dur) {
+  const N = 1024;
+  const fft = makeFFT(N);
+  const re = new Float32Array(N);
+  const im = new Float32Array(N);
+  const w = hann(N);
+  const hop = Math.floor(N / 2);
+  const start = Math.max(0, Math.floor(at * sr));
+  const end = Math.min(src.length, Math.floor((at + dur) * sr));
+  const acc = new Float32Array(N / 2);
+  let cnt = 0;
+  for (let p = start; p + N <= end; p += hop) {
+    for (let i = 0; i < N; i++) { re[i] = src[p + i] * w[i]; im[i] = 0; }
+    fft(re, im, false);
+    for (let i = 1; i < N / 2; i++) acc[i] += Math.sqrt(re[i] * re[i] + im[i] * im[i]);
+    cnt++;
+  }
+  if (!cnt) return null;
+  for (let i = 0; i < acc.length; i++) acc[i] /= cnt;
+  return acc;
+}
+
+function bandE(acc, sr, lo, hi, N) {
+  const binHz = sr / N;
+  const a = Math.max(1, Math.floor(lo / binHz));
+  const b = Math.min(acc.length - 1, Math.ceil(hi / binHz));
+  let s = 0;
+  for (let i = a; i <= b; i++) s += acc[i] * acc[i];
+  return s;
+}
+
+/**
+ * 给一个音节打分：F2/F3 越强、低频越不闷、起始越有摩擦音，越像「冰」。
+ */
+function scoreNote(src, sr, nt) {
+  const acc = spectrum(src, sr, nt.start, Math.max(0.06, Math.min(nt.dur, 0.5)));
+  if (!acc) return -1;
+  const N = 1024;
+  const e1 = bandE(acc, sr, BANDS.f1[0], BANDS.f1[1], N);
+  const e2 = bandE(acc, sr, BANDS.f2[0], BANDS.f2[1], N);
+  const e3 = bandE(acc, sr, BANDS.f3[0], BANDS.f3[1], N);
+  const ehi = bandE(acc, sr, BANDS.hi[0], BANDS.hi[1], N);
+  const tot = e1 + e2 + e3 + ehi + 1e-12;
+  const harmony = (e2 / tot) * 1.35 + (e3 / tot) * 0.7 + (ehi / tot) * 0.55;
+  const mud = (e1 / tot) * 0.45;
+  const centroid = (e2 / tot) * 2200 + (e3 / tot) * 3100 + (ehi / tot) * 4800;
+  return { score: harmony - mud, centroid, f2: e2 / tot, ehi: ehi / tot };
+}
+
+/**
+ * PSOLA：保持时长映射，把源波形的基频改到 targetF0，共振峰不动（不像重采样那样变花栗鼠）。
+ * 关键点：源域取「一个源周期」，输出域铺「一个输出周期」——两边的窗宽必须不同，
+ * 否则等于加窗平均，周期性会被洗掉（听起来就是气声/沙沙声）。
+ */
+export function psola(src, sr, srcF0, targetF0, outLen) {
+  const out = new Float32Array(outLen);
+  const norm = new Float32Array(outLen);
+  if (!src.length || outLen <= 0) return out;
+
+  const Ps = Math.max(2, Math.round(sr / Math.max(60, srcF0))); // 源周期（样点）
+  const Po = Math.max(2, Math.round(sr / Math.max(70, targetF0))); // 目标周期（样点）
+  const map = src.length / outLen; // 输出时间 → 源时间
+
+  const win = (t, half) => 0.5 + 0.5 * Math.cos((Math.PI * t) / (half + 1));
+
+  for (let o = 0; o < outLen; o += Po) {
+    const sCenter = Math.round(o * map);
+    // 源域：以 sCenter 为中心的一个源周期
+    for (let i = -Ps; i <= Ps; i++) {
+      const so = sCenter + i;
+      if (so < 0 || so >= src.length) continue;
+      const g = win(i, Ps);
+      // 输出域：以 o 为中心的一个目标周期
+      const oo = o + Math.round((i * Po) / Ps);
+      if (oo < 0 || oo >= outLen) continue;
+      out[oo] += src[so] * g;
+      norm[oo] += g;
+    }
+  }
+  for (let i = 0; i < outLen; i++) if (norm[i] > 0.35) out[i] /= norm[i];
+  return out;
+}
+
+/**
+ * 从原唱里挑母本，再给每个音符「借」一个真实音节。
+ */
+export function buildBank(src, sr, notes) {
+  const scored = [];
+  for (let i = 0; i < notes.length; i++) {
+    const nt = notes[i];
+    if (nt.dur < 0.09 || nt.f0 < 90 || nt.f0 > 900) continue;
+    const s = scoreNote(src, sr, nt);
+    if (!s || s.score <= 0) continue;
+    scored.push({ i, nt, ...s });
+  }
+  scored.sort((a, b) => b.score - a.score);
+  // 去重：相邻太近的同一个字不要重复当母本
+  const bank = [];
+  for (const c of scored) {
+    if (bank.some((b) => Math.abs(b.nt.start - c.nt.start) < 0.55)) continue;
+    bank.push(c);
+    if (bank.length >= 24) break;
+  }
+  // 按亮度排一下，四组取不同亮度的
+  bank.sort((a, b) => a.centroid - b.centroid);
+  return bank;
+}
+
+/**
+ * 把挑好的母本铺到整首歌的音符上。
+ * group 1..4 → 从 bank 里按亮度四分位取四个不同的母本，保证四组听感不同。
+ */
+export function renderReslice(src, sr, notes, { gain = 1, group = 2, progress = () => {} } = {}) {
+  const totalLen = notes.length ? Math.ceil((notes[notes.length - 1].start + notes[notes.length - 1].dur + 0.6) * sr) : 0;
+  const out = new Float32Array(totalLen);
+  if (!totalLen) return { data: out, count: 0, bank: 0 };
+
+  const bank = buildBank(src, sr, notes);
+  if (!bank.length) return { data: out, count: 0, bank: 0 };
+
+  const pick = (g) => {
+    const n = bank.length;
+    const frac = (Math.min(4, Math.max(1, g)) - 1) / 3; // 0..1
+    return bank[Math.min(n - 1, Math.round(frac * (n - 1)))];
+  };
+  const master = pick(group);
+
+  let count = 0;
+  for (let k = 0; k < notes.length; k++) {
+    const nt = notes[k];
+    if (k % 40 === 0) progress(0.45 + 0.5 * (k / notes.length));
+
+    // 母本：默认用本组的那个，偶尔换成相邻亮度的母本，避免整首完全一个模子
+    let src0 = master;
+    if (bank.length > 1 && k % 7 === 5) {
+      const alt = pick(group === 4 ? 3 : group + 1);
+      if (alt && alt !== master) src0 = alt;
+    }
+
+    const pad = 0.03;
+    const s0 = Math.max(0, Math.floor((src0.nt.start - pad) * sr));
+    const s1 = Math.min(src.length, Math.floor((src0.nt.start + src0.nt.dur + 0.10) * sr));
+    const chunk = src.subarray(s0, s1);
+    if (chunk.length < 64) continue;
+
+    // 目标长度：音符时长 + 一点鼻音余韵；PSOLA 一次性完成「变调 + 变长」，不再二次重采样
+    const outLen = Math.max(Math.floor(0.10 * sr), Math.floor((nt.dur * 0.92 + 0.06) * sr));
+    const dst = psola(chunk, sr, src0.nt.f0, nt.f0, outLen);
+    if (!dst.length) continue;
+
+    // 峰值定标到该音符的响度
+    let peak = 1e-6;
+    for (let i = 0; i < outLen; i++) peak = Math.max(peak, Math.abs(dst[i]));
+    const target = Math.min(0.9, Math.max(0.08, nt.amp * 1.15)) * gain;
+    const g = target / peak;
+
+    // 两端淡入淡出，防爆音
+    const fadeIn = Math.min(Math.floor(0.004 * sr), outLen >> 2);
+    const fadeOut = Math.min(Math.floor(0.02 * sr), outLen >> 2);
+    const at = Math.max(0, Math.floor(nt.start * sr));
+    for (let i = 0; i < outLen; i++) {
+      const j = at + i;
+      if (j >= out.length) break;
+      let w = 1;
+      if (i < fadeIn) w = i / fadeIn;
+      else if (i > outLen - fadeOut) w = (outLen - i) / fadeOut;
+      out[j] += dst[i] * g * w;
+    }
+    count++;
+  }
+
+  progress(0.98);
+  return { data: out, count, bank: bank.length };
+}
