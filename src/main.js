@@ -255,7 +255,7 @@ syncLabels();
     if (cur && cur === g && !audio.paused) { audio.pause(); return; }
     cur = g;
     btn.classList.add('playing');
-    audio.src = `samples/冰组${g}.mp3`;
+    audio.src = `samples/group${g}.mp3`;
     audio.currentTime = 0;
     audio.play().catch(() => {});
     el.timbre.value = String(g);
