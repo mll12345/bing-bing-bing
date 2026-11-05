@@ -1,0 +1,183 @@
+// harness.html —— 自动化测试页：不依赖 UI，直接跑引擎并汇报指标
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>engine harness</title></head>
+<body>
+<canvas id="videoCanvas" width="1280" height="720" hidden></canvas>
+<script type="module">
+import { renderIce } from '../src/engine.js';
+import { decodeMedia, encodeWav } from '../src/audio.js';
+import { analyzeTempo, envelope } from '../src/pcm.js';
+
+const RESULT = { steps: [], ok: false, errors: [] };
+window.__RESULT = RESULT;
+
+const log = (name, data) => { RESULT.steps.push({ name, data }); };
+
+// ---- 1. 合成一首「歌」：和弦 + 鼓点 + 人声似的共振峰 + 包络，128 BPM ----
+async function makeSong(seconds = 24, sr = 48000) {
+  const OAC = window.OfflineAudioContext;
+  const ctx = new OAC(2, Math.floor(seconds * sr), sr);
+  const bpm = 128, beat = 60 / bpm;
+  const master = ctx.createGain(); master.gain.value = 0.9; master.connect(ctx.destination);
+
+  // 和弦铺底（4 小节循环）
+  const chords = [
+    [261.63, 329.63, 392.0, 523.25],
+    [220.0, 261.63, 329.63, 440.0],
+    [174.61, 220.0, 261.63, 349.23],
+    [196.0, 246.94, 293.66, 392.0],
+  ];
+  const barSec = beat * 4;
+  for (let b = 0; b < Math.ceil(seconds / barSec); b++) {
+    const t = b * barSec;
+    if (t > seconds) break;
+    chords[b % 4].forEach((f, i) => {
+      const o = ctx.createOscillator();
+      o.type = i % 2 ? 'sawtooth' : 'triangle';
+      o.frequency.value = f;
+      const g = ctx.createGain();
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.055, t + 0.05);
+      g.gain.exponentialRampToValueAtTime(0.03, t + barSec * 0.85);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + barSec);
+      const lp = ctx.createBiquadFilter(); lp.type = 'lowpass'; lp.frequency.value = 2400;
+      o.connect(lp).connect(g).connect(master);
+      o.start(t); o.stop(t + barSec + 0.02);
+    });
+
+    // 「人声」：带颤音的锯齿 + 共振峰带通
+    const notes = [523.25, 587.33, 659.25, 587.33];
+    for (let k = 0; k < 4; k++) {
+      const nt = t + k * beat;
+      const f0 = notes[(b + k) % notes.length] * (k % 2 ? 2 : 1);
+      const o = ctx.createOscillator();
+      o.type = 'sawtooth';
+      o.frequency.setValueAtTime(f0, nt);
+      const lfo = ctx.createOscillator(); lfo.frequency.value = 5.5;
+      const lg = ctx.createGain(); lg.gain.value = f0 * 0.012;
+      lfo.connect(lg).connect(o.frequency);
+      const bp = ctx.createBiquadFilter(); bp.type = 'bandpass'; bp.frequency.value = 1450; bp.Q.value = 3.2;
+      const g = ctx.createGain();
+      g.gain.setValueAtTime(0.0001, nt);
+      g.gain.exponentialRampToValueAtTime(0.18, nt + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, nt + beat * 0.9);
+      o.connect(bp).connect(g).connect(master);
+      o.start(nt); lfo.start(nt); o.stop(nt + beat); lfo.stop(nt + beat);
+    }
+  }
+
+  // 鼓：底鼓 4/4 + 噪声军鼓在 2/4
+  const noise = ctx.createBuffer(1, sr, sr);
+  const nd = noise.getChannelData(0);
+  let s = 12345;
+  for (let i = 0; i < nd.length; i++) { s = (s * 1664525 + 1013904223) >>> 0; nd[i] = (s / 4294967296) * 2 - 1; }
+
+  for (let t = 0; t < seconds; t += beat) {
+    const k = ctx.createOscillator(); k.type = 'sine';
+    k.frequency.setValueAtTime(140, t);
+    k.frequency.exponentialRampToValueAtTime(45, t + 0.12);
+    const kg = ctx.createGain();
+    kg.gain.setValueAtTime(1.2, t);
+    kg.gain.exponentialRampToValueAtTime(0.0001, t + 0.24);
+    k.connect(kg).connect(master);
+    k.start(t); k.stop(t + 0.26);
+
+    const nz = ctx.createBufferSource(); nz.buffer = noise;
+    const ng = ctx.createGain();
+    ng.gain.setValueAtTime(0.28, t);
+    ng.gain.exponentialRampToValueAtTime(0.0001, t + 0.05);
+    const hp = ctx.createBiquadFilter(); hp.type = 'highpass'; hp.frequency.value = 5000;
+    nz.connect(hp).connect(ng).connect(master);
+    nz.start(t); nz.stop(t + 0.06);
+  }
+  // 慢起包络，模拟真实歌曲的前奏
+  master.gain.setValueAtTime(0.9, 0);
+  return ctx.startRendering();
+}
+
+function stats(buf) {
+  let peak = 0, sum = 0, nz = 0;
+  for (let c = 0; c < buf.numberOfChannels; c++) {
+    const d = buf.getChannelData(c);
+    for (let i = 0; i < d.length; i++) {
+      const a = Math.abs(d[i]);
+      if (a > peak) peak = a;
+      sum += d[i] * d[i];
+      if (a > 0.001) nz++;
+    }
+  }
+  const n = buf.length * buf.numberOfChannels;
+  return {
+    duration: +buf.duration.toFixed(3),
+    sr: buf.sampleRate,
+    ch: buf.numberOfChannels,
+    peak: +peak.toFixed(4),
+    rms: +Math.sqrt(sum / n).toFixed(4),
+    nonSilent: nz,
+    nan: !isFinite(peak),
+  };
+}
+
+(async () => {
+  try {
+    // ---- A. 节奏分析精度 ----
+    const song = await makeSong(24, 48000);
+    log('song', stats(song));
+
+    const mono = new Float32Array(song.length);
+    for (let c = 0; c < song.numberOfChannels; c++) {
+      const d = song.getChannelData(c);
+      for (let i = 0; i < song.length; i++) mono[i] += d[i] / song.numberOfChannels;
+    }
+    const tempo = analyzeTempo(mono, song.sampleRate);
+    log('tempo', { ...tempo, expectBpm: 128 });
+
+    // ---- B. 各档冰度渲染 ----
+    for (const ice of [1, 3, 5]) {
+      const t0 = performance.now();
+      const { buffer, info } = await renderIce(song, { ice, speed: 1.25, drum: 0.8, rev: 0.35, maxLen: 180 });
+      const st = stats(buffer);
+      // 冰度越高，切片段越多
+      log('render_ice' + ice, {
+        ...st, chopCount: info.chopCount, bpm: info.bpm, bars: info.bars,
+        sections: info.sections, ms: Math.round(performance.now() - t0),
+      });
+      if (ice === 3) {
+        window.__OUT = buffer;
+        // 前 1.5 秒应有前奏（反向铺底）而非静音
+        const d = buffer.getChannelData(0);
+        let e = 0; for (let i = 0; i < Math.min(d.length, song.sampleRate * 1.5); i++) e += Math.abs(d[i]);
+        log('introEnergy', +(e / (song.sampleRate * 1.5)).toFixed(5));
+      }
+    }
+
+    // ---- C. WAV 导出 ----
+    const wav = encodeWav(buffer3(), () => {});
+    const head = new Uint8Array(await wav.slice(0, 12).arrayBuffer());
+    log('wav', { size: wav.size, type: wav.type, riff: String.fromCharCode(...head.slice(0, 4)), wave: String.fromCharCode(...head.slice(8, 12)) });
+
+    // ---- D. mp4 解码路径 ----
+    try {
+      const r = await fetch('/test/sample.mp4');
+      if (r.ok) {
+        const blob = await r.blob();
+        const file = new File([blob], 'sample.mp4', { type: 'video/mp4' });
+        const dec = await decodeMedia(file, () => {});
+        log('mp4Decode', { method: dec.method, ...stats(dec.buffer) });
+      } else {
+        log('mp4Decode', { skipped: 'no sample.mp4 (' + r.status + ')' });
+      }
+    } catch (e) { log('mp4Decode', { error: String(e && e.message || e) }); }
+
+    RESULT.ok = true;
+  } catch (e) {
+    RESULT.errors.push(String(e && e.stack || e));
+  }
+  window.__DONE = true;
+
+  function buffer3() { return window.__OUT; }
+})();
+</script>
+</body>
+</html>

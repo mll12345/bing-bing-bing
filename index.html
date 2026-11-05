@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="把任意一首歌一键变成「冰冰冰版」：DJ 加速 + 人声切片 + 冰裂音效 + 电子鼓组，纯浏览器本地处理，不上传服务器。">
+<title>冰冰冰版生成器 🧊</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧊</text></svg>">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="ice-bg" aria-hidden="true"><canvas id="bgCanvas"></canvas></div>
+
+<header class="top">
+  <div class="brand">
+    <span class="logo">🧊</span>
+    <div>
+      <h1>冰冰冰版生成器</h1>
+      <p class="sub">把任何一首歌，冻成 <b>冰冰冰版</b> · 全程浏览器本地处理，文件不上传</p>
+    </div>
+  </div>
+  <a class="ref" href="https://www.bilibili.com/video/BV1EnhE68EBe/" target="_blank" rel="noopener">参考效果 ↗</a>
+</header>
+
+<main>
+  <!-- ============ 1. 上传 ============ -->
+  <section class="card" id="cardUpload">
+    <h2><span class="num">1</span> 选择歌曲文件</h2>
+    <div id="dropzone" class="dropzone" tabindex="0" role="button" aria-label="选择或拖入歌曲文件">
+      <input id="fileInput" type="file" accept="video/mp4,audio/*,video/*" hidden>
+      <div class="dz-inner">
+        <div class="dz-icon">🎵</div>
+        <p class="dz-main">拖入 <b>MP4 / MP3 / WAV / M4A / MOV</b>，或点击选择</p>
+        <p class="dz-hint">会自动抽取里面的音轨 · 支持最长 10 分钟（超出自动截取前段）</p>
+      </div>
+    </div>
+    <div id="fileMeta" class="file-meta hidden">
+      <div class="fm-row">
+        <span class="pill" id="pillName">—</span>
+        <span class="pill ghost" id="pillDur">—</span>
+        <span class="pill ghost" id="pillBpm">—</span>
+        <span class="pill ghost" id="pillSr">—</span>
+      </div>
+      <canvas id="waveIn" class="wave" height="120"></canvas>
+    </div>
+  </section>
+
+  <!-- ============ 2. 参数 ============ -->
+  <section class="card disabled" id="cardParams">
+    <h2><span class="num">2</span> 冰冻参数</h2>
+
+    <div class="grid">
+      <label class="field">
+        <span class="lbl">冰度 <b id="vIce">3</b> / 5</span>
+        <input id="iceLevel" type="range" min="1" max="5" step="1" value="3">
+        <span class="hint">越大 → 切片越碎、鼓越重、冰裂越多</span>
+      </label>
+
+      <label class="field">
+        <span class="lbl">加速倍率 <b id="vSpeed">1.25</b>×</span>
+        <input id="speed" type="range" min="1" max="1.45" step="0.01" value="1.25">
+        <span class="hint">DJ 升速 + 升调，推荐 1.2～1.3</span>
+      </label>
+
+      <label class="field">
+        <span class="lbl">鼓组强度 <b id="vDrum">0.8</b></span>
+        <input id="drum" type="range" min="0" max="1.4" step="0.01" value="0.8">
+        <span class="hint">四四拍 kick / clap / hihat 叠加量</span>
+      </label>
+
+      <label class="field">
+        <span class="lbl">冰洞混响 <b id="vRev">0.3</b></span>
+        <input id="rev" type="range" min="0" max="1" step="0.01" value="0.3">
+        <span class="hint">冰洞感空间，尾音更“空”</span>
+      </label>
+
+      <label class="field">
+        <span class="lbl">输出时长 <b id="vLen">完整</b></span>
+        <input id="maxLen" type="range" min="15" max="180" step="5" value="180">
+        <span class="hint">默认完整；Pages 上建议 ≤ 90 秒更快</span>
+      </label>
+
+      <label class="field">
+        <span class="lbl">歌名（用于视频字幕）</span>
+        <input id="title" type="text" maxlength="40" placeholder="例如：冰爱">
+      </label>
+    </div>
+
+    <div class="actions">
+      <button id="btnRender" class="btn primary" type="button">🧊 冰冰冰！</button>
+      <button id="btnReset" class="btn ghost-btn" type="button">重置</button>
+    </div>
+    <div class="progress hidden" id="progWrap">
+      <div class="bar"><i id="progBar"></i></div>
+      <span id="progText">准备中…</span>
+    </div>
+    <div class="error hidden" id="errBox"></div>
+  </section>
+
+  <!-- ============ 3. 结果 ============ -->
+  <section class="card disabled" id="cardOut">
+    <h2><span class="num">3</span> 冰冻完成</h2>
+    <canvas id="waveOut" class="wave" height="140"></canvas>
+    <div class="player">
+      <button id="btnPlay" class="btn play" type="button">▶</button>
+      <div class="seek"><div class="seek-fill" id="seekFill"></div></div>
+      <span class="time" id="timeLbl">0:00</span>
+    </div>
+    <div class="actions">
+      <button id="btnWav" class="btn" type="button">⬇ 下载 WAV</button>
+      <button id="btnVideo" class="btn" type="button">🎬 导出视频（WebM · 实时录制）</button>
+      <button id="btnShare" class="btn ghost-btn" type="button">🔗 复制网页链接</button>
+    </div>
+    <div class="progress hidden" id="vidWrap">
+      <div class="bar"><i id="vidBar"></i></div>
+      <span id="vidText">录制中…</span>
+    </div>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="card tip">
+    <h2>它是怎么“冰”的</h2>
+    <ol class="howto">
+      <li><b>抽取音轨</b>：mp4 里的 AAC 音轨直接用 WebAudio <code>decodeAudioData</code> 解出 PCM（失败回退录流解码）。</li>
+      <li><b>DJ 加速</b>：整体重采样到 <i>1.0–1.45×</i>，速度与音高一起上升，得到「冰化」的卡通音色。</li>
+      <li><b>节拍分析</b>：能量包络 + 自相关估 BPM，把整首歌对齐到 4/4 拍网格。</li>
+      <li><b>人声切片</b>：按 1/8、1/16、三连音在网格上重排采样点，制造「冰-冰-冰」的 stutter 循环。</li>
+      <li><b>合成鼓组</b>：程序化 kick / clap / hihat / fill，四四拍四平八稳地砸上去。</li>
+      <li><b>冰裂点缀</b>：噪声爆破 + 高频共振合成冰碎声，落在每 4 小节与收尾处。</li>
+      <li><b>母带链</b>：高通 → 空气感 EQ → 软削波 → 重压缩 + kick 侧链 pumping → 限幅。</li>
+    </ol>
+    <p class="fine">本页所有音频处理都在你的设备上完成，不上传、不存储。请仅对自己有权处理的音频使用。</p>
+  </section>
+</main>
+
+<footer>
+  <span>🧊 冰冰冰版生成器</span>
+  <span class="dot">·</span>
+  <a href="https://github.com/mll12345/bing-bing-bing" id="repoLink" target="_blank" rel="noopener">GitHub</a>
+  <span class="dot">·</span>
+  <span>零依赖 · 单页静态 · GitHub Pages</span>
+</footer>
+
+<!-- 视频录制画布（移出视口，导出时用；不能用 display:none，部分浏览器会停止 captureStream 绘制） -->
+<canvas id="videoCanvas" width="1280" height="720" aria-hidden="true"
+        style="position:fixed;left:-99999px;top:0;width:1280px;height:720px;pointer-events:none"></canvas>
+
+<script type="module" src="./src/main.js"></script>
+<noscript><p style="text-align:center;padding:2rem">需要启用 JavaScript。</p></noscript>
+</body>
+</html>

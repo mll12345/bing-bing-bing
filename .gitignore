@@ -1,0 +1,15 @@
+# 测试产物（体积大、可重新生成）
+test/out/
+test/song45.mp3
+test/song45.m4a
+test/song45.mp4
+test/src45.wav
+test/fx*.wav
+test/*.png
+test/dump-report.json
+test/dump.log
+
+# 系统
+.DS_Store
+Thumbs.db
+node_modules/
