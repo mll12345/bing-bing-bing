@@ -6,6 +6,10 @@
 
 参考效果：[🧊 冰冰冰 音效 — BV1HEho6LERf](https://www.bilibili.com/video/BV1HEho6LERf) · [🧊冰爱（雨爱DJ）🧊 — BV1EnhE68EBe](https://www.bilibili.com/video/BV1EnhE68EBe/)
 
+**线上地址**：<https://mll12345.github.io/bing-bing-bing/>
+
+**成品试听**（161 秒原曲 → 502 个冰）：[demo/冰冰冰版_114_原速_冰声.mp3](demo/冰冰冰版_114_原速_冰声.mp3) · [前 35 秒试听](demo/试听_前35秒_冰声.mp3)
+
 ## 用法
 
 1. 打开页面，拖入一个 **MP4 / MP3 / M4A / WAV**（≤120MB）
