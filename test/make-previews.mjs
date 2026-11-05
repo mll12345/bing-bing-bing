@@ -1,4 +1,4 @@
-// make-previews.mjs —— 用真母本生成 4 组试听（每组 3 个「冰」连着，与参考一致）
+// make-previews.mjs —— 每组只导「一声冰」（单音节），不放三连
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 
@@ -20,25 +20,24 @@ function writeWav(p, d) {
   fs.writeFileSync(p, b);
 }
 
+// 每组只取第一个母本 = 单声「冰」
 for (let g = 1; g <= 4; g++) {
-  const tri = meta.syllables.slice((g - 1) * 3, g * 3);
-  if (tri.length < 3) continue;
-  // 每个音节：源码 + 40ms 尾部衰减
-  const total = tri.reduce((a, s) => a + s.len + Math.floor(0.04 * SR), 0) + Math.floor(0.25 * SR);
+  const s = meta.syllables[(g - 1) * 3];
+  if (!s) continue;
+  const tail = Math.floor(0.06 * SR);
+  const total = Math.floor(0.05 * SR) + s.len + tail + Math.floor(0.05 * SR);
   const d = new Float32Array(total);
-  let off = Math.floor(0.03 * SR);
-  for (const s of tri) {
-    for (let i = 0; i < s.len; i++) {
-      const tail = i > s.len - 0.04 * SR ? (s.len - i) / (0.04 * SR) : 1;
-      d[off + i] = pool[s.off + i] * tail;
-    }
-    off += s.len + Math.floor(0.04 * SR);
+  const off = Math.floor(0.05 * SR);
+  for (let i = 0; i < s.len; i++) {
+    const t = i > s.len - tail ? (s.len - i) / tail : 1;
+    d[off + i] = pool[s.off + i] * t;
   }
   let pk = 0;
   for (let i = 0; i < d.length; i++) pk = Math.max(pk, Math.abs(d[i]));
-  const gg = 0.92 / (pk || 1);
+  const gg = 0.93 / (pk || 1);
   for (let i = 0; i < d.length; i++) d[i] *= gg;
-  writeWav(`test/out/prev${g}.wav`, d);
-  execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', `test/out/prev${g}.wav`, '-b:a', '192k', `samples/冰组${g}.mp3`]);
-  console.log(`组${g}`, tri.map((s) => s.f0).join('/'), (d.length / SR).toFixed(2) + 's');
+  writeWav(`test/out/one${g}.wav`, d);
+  execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', `test/out/one${g}.wav`, '-b:a', '192k', `samples/group${g}.mp3`]);
+  fs.copyFileSync(`samples/group${g}.mp3`, `samples/冰组${g}.mp3`);
+  console.log(`组${g} 单声 f0=${s.f0} ${(d.length / SR).toFixed(2)}s`);
 }
