@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="把任意一首歌一键变成「冰冰冰版」：人声切片 stutter + 电子鼓组 + 冰裂音效，可选 DJ 加速。纯浏览器本地处理，不上传服务器。">
+<meta name="description" content="把任意一首歌一键变成「冰冰冰版」：把歌词里的每个字都换成一个「冰」，音高跟随原唱，全程浏览器本地处理，不上传服务器。">
 <title>冰冰冰版生成器 🧊</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧊</text></svg>">
 <link rel="stylesheet" href="./styles.css">
@@ -51,32 +51,37 @@
 
     <div class="grid">
       <label class="field">
-        <span class="lbl">冰度 <b id="vIce">3</b> / 5</span>
-        <input id="iceLevel" type="range" min="1" max="5" step="1" value="3">
-        <span class="hint">越大 → 切片越碎、鼓越重、冰裂越多</span>
+        <span class="lbl">冰声音量 <b id="vVoice">1.00</b></span>
+        <input id="voice" type="range" min="0" max="2" step="0.05" value="1">
+        <span class="hint">合成的「冰」音量。拉到 2 会非常吵，0 就是原曲</span>
       </label>
 
       <label class="field">
-        <span class="lbl">加速倍率 <b id="vSpeed">原速</b></span>
-        <input id="speed" type="range" min="1" max="1.45" step="0.01" value="1">
-        <span class="hint">1.00 = 原速原调，只加冰冰冰；要 DJ 蹦迪感再往上拉</span>
+        <span class="lbl">冰声音色 <b id="vTimbre">中性</b></span>
+        <input id="timbre" type="range" min="1" max="3" step="1" value="2">
+        <span class="hint">1 清脆 / 2 中性 / 3 厚实 —— 三个冰声的三种嗓子</span>
       </label>
 
       <label class="field">
-        <span class="lbl">鼓组强度 <b id="vDrum">0.8</b></span>
-        <input id="drum" type="range" min="0" max="1.4" step="0.01" value="0.8">
-        <span class="hint">四四拍 kick / clap / hihat 叠加量</span>
+        <span class="lbl">原唱残留 <b id="vKeep">0.00</b></span>
+        <input id="keep" type="range" min="0" max="1" step="0.05" value="0">
+        <span class="hint">0 = 歌词全被「冰」换掉（默认）；拉高会听到原唱叠在冰声下</span>
       </label>
-
       <label class="field">
-        <span class="lbl">冰洞混响 <b id="vRev">0.3</b></span>
-        <input id="rev" type="range" min="0" max="1" step="0.01" value="0.3">
+        <span class="lbl">冰洞混响 <b id="vRev">0.25</b></span>
+        <input id="rev" type="range" min="0" max="1" step="0.01" value="0.25">
         <span class="hint">冰洞感空间，尾音更“空”</span>
       </label>
 
       <label class="field">
+        <span class="lbl">冰裂点缀 <b id="vSpark">0.30</b></span>
+        <input id="sparkle" type="range" min="0" max="1" step="0.01" value="0.3">
+        <span class="hint">咔嚓声，落在「冰」字上；0 = 纯净人声替换</span>
+      </label>
+
+      <label class="field">
         <span class="lbl">输出时长 <b id="vLen">完整</b></span>
-        <input id="maxLen" type="range" min="15" max="180" step="5" value="180">
+        <input id="maxLen" type="range" min="15" max="300" step="5" value="180">
         <span class="hint">默认完整；Pages 上建议 ≤ 90 秒更快</span>
       </label>
 
@@ -122,12 +127,12 @@
     <h2>它是怎么“冰”的</h2>
     <ol class="howto">
       <li><b>抽取音轨</b>：mp4 里的 AAC 音轨直接用 WebAudio <code>decodeAudioData</code> 解出 PCM（失败回退录流解码）。</li>
-      <li><b>变速（可选）</b>：默认<i>原速原调</i>，只加冰冰冰；把「加速倍率」拉到 <i>1.2–1.3×</i> 才是 DJ 加速升调，想更蹦迪再往上推。</li>
-      <li><b>节拍分析</b>：能量包络 + 自相关估 BPM，把整首歌对齐到 4/4 拍网格。</li>
-      <li><b>人声切片</b>：按 1/8、1/16、三连音在网格上重排采样点，制造「冰-冰-冰」的 stutter 循环。</li>
-      <li><b>合成鼓组</b>：程序化 kick / clap / hihat / fill，四四拍四平八稳地砸上去。</li>
-      <li><b>冰裂点缀</b>：噪声爆破 + 高频共振合成冰碎声，落在每 4 小节与收尾处。</li>
-      <li><b>母带链</b>：高通 → 空气感 EQ → 软削波 → 重压缩 + kick 侧链 pumping → 限幅。</li>
+      <li><b>分离人声</b>：立体声里人声几乎总在正中、伴奏偏两侧；逐帧逐频点算「中置占比」做软掩蔽，把人声从伴奏里拆出来。</li>
+      <li><b>跟踪旋律</b>：FFT 自相关逐帧测基频（10ms 步长），音量骤降 / 音高跳变处断字 —— 于是<i>一个音符 = 一个字 = 一个「冰」</i>。</li>
+      <li><b>合成冰声</b>：每个字现场共振峰合成一个 /piŋ/ 音节（/p/ 爆破 + /i/ 元音 + /ŋ/ 鼻音尾），<i>基频锁在原歌词的音高上</i>，所以旋律还是那首歌的旋律。</li>
+      <li><b>去掉原唱</b>：默认把分离出的人声完全替换成冰声，只留伴奏（「原唱残留」可调回）。</li>
+      <li><b>可选加料</b>：冰裂咔嚓、冰洞混响 —— 默认很轻。<b>没有变速、没有升调、没有四四拍鼓机</b>，听感就是原曲。</li>
+      <li><b>母带</b>：高通 → 空气感 EQ → 软削波 → 轻压缩 → 限幅，峰值收到 0.955。</li>
     </ol>
     <p class="fine">本页所有音频处理都在你的设备上完成，不上传、不存储。请仅对自己有权处理的音频使用。</p>
   </section>

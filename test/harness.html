@@ -133,19 +133,18 @@ function stats(buf) {
     const tempo = analyzeTempo(mono, song.sampleRate);
     log('tempo', { ...tempo, expectBpm: 128 });
 
-    // ---- B. 各档冰度渲染 ----
-    for (const ice of [1, 3, 5]) {
+    // ---- B. 三档冰声渲染：音色 1/2/3 ----
+    for (const timbre of [1, 2, 3]) {
       const t0 = performance.now();
-      const { buffer, info } = await renderIce(song, { ice, speed: 1.25, drum: 0.8, rev: 0.35, maxLen: 180 });
+      const { buffer, info } = await renderIce(song, { voice: 1, timbre, keep: 0, rev: 0.3, sparkle: 0.3, maxLen: 180 });
       const st = stats(buffer);
-      // 冰度越高，切片段越多
-      log('render_ice' + ice, {
-        ...st, chopCount: info.chopCount, bpm: info.bpm, bars: info.bars,
-        sections: info.sections, ms: Math.round(performance.now() - t0),
+      log('render_timbre' + timbre, {
+        ...st, notes: info.notes, sorted: info.sorted, sep: info.separated,
+        ms: Math.round(performance.now() - t0),
       });
-      if (ice === 3) {
+      if (timbre === 2) {
         window.__OUT = buffer;
-        // 前 1.5 秒应有前奏（反向铺底）而非静音
+        // 前 1.5 秒应有人声/伴奏而非静音
         const d = buffer.getChannelData(0);
         let e = 0; for (let i = 0; i < Math.min(d.length, song.sampleRate * 1.5); i++) e += Math.abs(d[i]);
         log('introEnergy', +(e / (song.sampleRate * 1.5)).toFixed(5));

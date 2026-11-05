@@ -57,7 +57,7 @@ const getJSON = (p) => new Promise((res, rej) => {
       returnByValue: true })).result.value);
 
     await send('Runtime.evaluate', {
-      expression: `(()=>{const s=(id,v)=>{const e=document.getElementById(id);e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}))};s('iceLevel',${ice});s('speed',${speed});s('drum',${drum});s('rev',${rev});s('maxLen',${maxLen});return 1})()`,
+      expression: `(()=>{const s=(id,v)=>{const e=document.getElementById(id);if(e){e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}))}};s('voice',${ice});s('timbre',2);s('keep',0);s('rev',${rev});s('sparkle',0.3);s('maxLen',${maxLen});return 1})()`,
     });
     await send('Runtime.evaluate', { expression: `document.getElementById('btnRender').click()` });
     await waitFor('!!window.__ice?.state?.outBuffer', 300000, 'render');

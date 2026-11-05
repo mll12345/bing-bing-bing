@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "opts": {
+    "voice": 2,
+    "timbre": 2,
+    "keep": 0,
+    "rev": 0.25,
+    "sparkle": 0.3,
+    "maxLen": 180
+  },
+  "info": "{\"notes\":131,\"timbre\":2,\"voice\":2,\"keptVocal\":0,\"speed\":1,\"sparkle\":0.3,\"inSec\":45,\"outSec\":46.4,\"separated\":true}"
+}

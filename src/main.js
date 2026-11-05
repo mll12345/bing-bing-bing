@@ -14,16 +14,18 @@ const el = {
   pillSr: $('pillSr'),
   cardParams: $('cardParams'),
   cardOut: $('cardOut'),
-  iceLevel: $('iceLevel'),
-  speed: $('speed'),
-  drum: $('drum'),
+  voice: $('voice'),
+  timbre: $('timbre'),
+  keep: $('keep'),
   rev: $('rev'),
+  sparkle: $('sparkle'),
   maxLen: $('maxLen'),
   title: $('title'),
-  vIce: $('vIce'),
-  vSpeed: $('vSpeed'),
-  vDrum: $('vDrum'),
+  vVoice: $('vVoice'),
+  vTimbre: $('vTimbre'),
+  vKeep: $('vKeep'),
   vRev: $('vRev'),
+  vSpark: $('vSpark'),
   vLen: $('vLen'),
   btnRender: $('btnRender'),
   btnReset: $('btnReset'),
@@ -220,16 +222,17 @@ async function handleFile(file) {
 }
 
 /* ================= 参数绑定 ================= */
-const fmtLen = (v) => (v >= 180 ? '完整' : v + ' 秒');
+const fmtLen = (v) => (v >= 300 ? '完整' : v + ' 秒');
+const TIMBRE_NAME = { 1: '清脆', 2: '中性', 3: '厚实' };
 function syncLabels() {
-  el.vIce.textContent = el.iceLevel.value;
-  const sp = Number(el.speed.value);
-  el.vSpeed.textContent = sp <= 1.001 ? '原速' : sp.toFixed(2) + '×';
-  el.vDrum.textContent = Number(el.drum.value).toFixed(2);
+  el.vVoice.textContent = Number(el.voice.value).toFixed(2);
+  el.vTimbre.textContent = TIMBRE_NAME[Number(el.timbre.value)] || '中性';
+  el.vKeep.textContent = Number(el.keep.value).toFixed(2);
   el.vRev.textContent = Number(el.rev.value).toFixed(2);
+  el.vSpark.textContent = Number(el.sparkle.value).toFixed(2);
   el.vLen.textContent = fmtLen(Number(el.maxLen.value));
 }
-[el.iceLevel, el.speed, el.drum, el.rev, el.maxLen].forEach((i) =>
+[el.voice, el.timbre, el.keep, el.rev, el.sparkle, el.maxLen].forEach((i) =>
   i.addEventListener('input', syncLabels));
 syncLabels();
 
@@ -244,10 +247,11 @@ el.btnRender.addEventListener('click', async () => {
 
   try {
     const opts = {
-      ice: Number(el.iceLevel.value),
-      speed: Number(el.speed.value),
-      drum: Number(el.drum.value),
+      voice: Number(el.voice.value),
+      timbre: Number(el.timbre.value),
+      keep: Number(el.keep.value),
       rev: Number(el.rev.value),
+      sparkle: Number(el.sparkle.value),
       maxLen: Number(el.maxLen.value),
     };
     showProgress(0.01, '开始冰冻…');
@@ -258,7 +262,7 @@ el.btnRender.addEventListener('click', async () => {
     state.outBuffer = buffer;
     state.outInfo = info;
 
-    el.pillBpm.textContent = `≈ ${info.bpm} BPM`;
+    el.pillBpm.textContent = `${info.notes} 个冰`;
 
     const ch = buffer.numberOfChannels;
     const mono = new Float32Array(buffer.length);
@@ -270,11 +274,10 @@ el.btnRender.addEventListener('click', async () => {
 
     el.stats.innerHTML = [
       ['时长', fmtTime(buffer.duration)],
-      ['BPM', String(info.bpm)],
-      ['小节', String(info.bars)],
-      ['变速', info.speed >= 0.9999 && info.speed <= 1.0001 ? '原速' : `${info.speed.toFixed(2)}×`],
-      ['冰度', `${info.ice}/5`],
-      ['切片', `${info.chopCount}`],
+      ['冰声', `${info.notes} 个`],
+      ['音色', TIMBRE_NAME[info.timbre] || '中性'],
+      ['原唱', info.keptVocal <= 0.02 ? '已替换' : `残留 ${info.keptVocal.toFixed(2)}`],
+      ['人声分离', info.separated ? '立体声中置' : '单声道（叠加）'],
     ].map(([k, v]) => `<div class="s"><b>${v}</b>${k}</div>`).join('');
 
     el.cardOut.classList.remove('disabled');
@@ -396,8 +399,7 @@ el.btnVideo.addEventListener('click', async () => {
     const info = state.outInfo || {};
     const blob = await recordVideo(state.outBuffer, {
       title: el.title.value || '',
-      subtitle: `🧊 BING BING BING · ${info.bpm || 120} BPM · ${info.ice || 3}/5 ICE`,
-      bpm: info.bpm || 120,
+      subtitle: `🧊 BING BING BING · ${TIMBRE_NAME[info.timbre] || '中性'} · ${info.notes || 0} 个冰`,
     }, (p, label) => {
       el.vidBar.style.width = `${Math.min(100, p * 100)}%`;
       el.vidText.textContent = label;
