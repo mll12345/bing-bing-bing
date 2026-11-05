@@ -13,3 +13,6 @@ test/dump.log
 .DS_Store
 Thumbs.db
 node_modules/
+fix.ps1
+demo/*.wav
+
