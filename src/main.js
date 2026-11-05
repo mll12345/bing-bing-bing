@@ -223,7 +223,8 @@ async function handleFile(file) {
 const fmtLen = (v) => (v >= 180 ? '完整' : v + ' 秒');
 function syncLabels() {
   el.vIce.textContent = el.iceLevel.value;
-  el.vSpeed.textContent = Number(el.speed.value).toFixed(2);
+  const sp = Number(el.speed.value);
+  el.vSpeed.textContent = sp <= 1.001 ? '原速' : sp.toFixed(2) + '×';
   el.vDrum.textContent = Number(el.drum.value).toFixed(2);
   el.vRev.textContent = Number(el.rev.value).toFixed(2);
   el.vLen.textContent = fmtLen(Number(el.maxLen.value));
@@ -271,7 +272,7 @@ el.btnRender.addEventListener('click', async () => {
       ['时长', fmtTime(buffer.duration)],
       ['BPM', String(info.bpm)],
       ['小节', String(info.bars)],
-      ['速度', `${info.speed.toFixed(2)}×`],
+      ['变速', info.speed >= 0.9999 && info.speed <= 1.0001 ? '原速' : `${info.speed.toFixed(2)}×`],
       ['冰度', `${info.ice}/5`],
       ['切片', `${info.chopCount}`],
     ].map(([k, v]) => `<div class="s"><b>${v}</b>${k}</div>`).join('');

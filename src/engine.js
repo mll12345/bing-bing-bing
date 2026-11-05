@@ -20,7 +20,7 @@ const rnd = (seed) => {
  */
 export async function renderIce(src, opts, progress = () => {}) {
   const sr = src.sampleRate;
-  const speed = clamp(opts.speed || 1.25, 1, 1.5);
+  const speed = clamp(opts.speed == null ? 1 : opts.speed, 1, 1.5);
   const ice = clamp(Math.round(opts.ice || 3), 1, 5);
   const drumAmt = clamp(opts.drum ?? 0.8, 0, 1.4);
   const revAmt = clamp(opts.rev ?? 0.3, 0, 1);
