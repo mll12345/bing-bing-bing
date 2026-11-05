@@ -57,10 +57,22 @@
       </label>
 
       <label class="field">
-        <span class="lbl">冰声音色 <b id="vTimbre">中性</b></span>
-        <input id="timbre" type="range" min="1" max="3" step="1" value="2">
-        <span class="hint">1 清脆 / 2 中性 / 3 厚实 —— 三个冰声的三种嗓子</span>
+        <span class="lbl">冰声组 <b id="vTimbre">第 2 组 · 中性</b></span>
+        <input id="timbre" type="range" min="1" max="4" step="1" value="2">
+        <span class="hint">4 组冰声，随便挑一组，整首只用一个组</span>
       </label>
+
+      <div class="field groups">
+        <span class="lbl">试听四组 <b>每组 3 个一模一样的冰</b></span>
+        <div class="group-row" id="groupRow">
+          <button class="btn group-btn" type="button" data-g="1"><b>1</b><span>低沉</span><span class="p">▶</span></button>
+          <button class="btn group-btn" type="button" data-g="2"><b>2</b><span>中性</span><span class="p">▶</span></button>
+          <button class="btn group-btn" type="button" data-g="3"><b>3</b><span>清亮</span><span class="p">▶</span></button>
+          <button class="btn group-btn" type="button" data-g="4"><b>4</b><span>尖细</span><span class="p">▶</span></button>
+        </div>
+        <audio id="groupAudio" preload="auto"></audio>
+        <span class="hint">点一下听那一组的冰；听到满意的，把上面的「冰声组」滑到同一个数字</span>
+      </div>
 
       <label class="field">
         <span class="lbl">原唱残留 <b id="vKeep">0.00</b></span>
@@ -129,7 +141,7 @@
       <li><b>抽取音轨</b>：mp4 里的 AAC 音轨直接用 WebAudio <code>decodeAudioData</code> 解出 PCM（失败回退录流解码）。</li>
       <li><b>分离人声</b>：立体声里人声几乎总在正中、伴奏偏两侧；逐帧逐频点算「中置占比」做软掩蔽，把人声从伴奏里拆出来。</li>
       <li><b>跟踪旋律</b>：FFT 自相关逐帧测基频（10ms 步长），音量骤降 / 音高跳变处断字 —— 于是<i>一个音符 = 一个字 = 一个「冰」</i>。</li>
-      <li><b>合成冰声</b>：每个字现场共振峰合成一个 /piŋ/ 音节（/p/ 爆破 + /i/ 元音 + /ŋ/ 鼻音尾），<i>基频锁在原歌词的音高上</i>，所以旋律还是那首歌的旋律。</li>
+      <li><b>唱成冰</b>：<i>不合成新声音</i>。把原唱每个字的频谱包络改写成 /i/ 的共振峰（F1≈300Hz、F2≈2350Hz），尾音渐变成 /ŋ/ 鼻腔共鸣 —— 声带、气声、颤音、咬字力度全是原唱本人的，只换「嘴型」，所以是人在唱「冰」而不是音效。</li>
       <li><b>去掉原唱</b>：默认把分离出的人声完全替换成冰声，只留伴奏（「原唱残留」可调回）。</li>
       <li><b>可选加料</b>：冰裂咔嚓、冰洞混响 —— 默认很轻。<b>没有变速、没有升调、没有四四拍鼓机</b>，听感就是原曲。</li>
       <li><b>母带</b>：高通 → 空气感 EQ → 软削波 → 轻压缩 → 限幅，峰值收到 0.955。</li>

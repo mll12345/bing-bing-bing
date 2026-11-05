@@ -223,18 +223,51 @@ async function handleFile(file) {
 
 /* ================= 参数绑定 ================= */
 const fmtLen = (v) => (v >= 300 ? '完整' : v + ' 秒');
-const TIMBRE_NAME = { 1: '清脆', 2: '中性', 3: '厚实' };
+const GROUP_NAME = { 1: '低沉', 2: '中性', 3: '清亮', 4: '尖细' };
+const groupLabel = (g) => `第 ${g} 组 · ${GROUP_NAME[g] || '中性'}`;
 function syncLabels() {
   el.vVoice.textContent = Number(el.voice.value).toFixed(2);
-  el.vTimbre.textContent = TIMBRE_NAME[Number(el.timbre.value)] || '中性';
+  const g = Number(el.timbre.value);
+  el.vTimbre.textContent = groupLabel(g);
   el.vKeep.textContent = Number(el.keep.value).toFixed(2);
   el.vRev.textContent = Number(el.rev.value).toFixed(2);
   el.vSpark.textContent = Number(el.sparkle.value).toFixed(2);
   el.vLen.textContent = fmtLen(Number(el.maxLen.value));
+  document.querySelectorAll('.group-btn').forEach((b) => {
+    b.classList.toggle('on', Number(b.dataset.g) === g);
+  });
 }
 [el.voice, el.timbre, el.keep, el.rev, el.sparkle, el.maxLen].forEach((i) =>
   i.addEventListener('input', syncLabels));
 syncLabels();
+
+/* ================= 四组冰声试听 ================= */
+(function bindGroupPreview() {
+  const row = document.getElementById('groupRow');
+  const audio = document.getElementById('groupAudio');
+  if (!row || !audio) return;
+  let cur = null;
+  row.addEventListener('click', (e) => {
+    const btn = e.target.closest('.group-btn');
+    if (!btn) return;
+    const g = Number(btn.dataset.g);
+    document.querySelectorAll('.group-btn').forEach((b) => b.classList.remove('playing'));
+    if (cur && cur === g && !audio.paused) { audio.pause(); return; }
+    cur = g;
+    btn.classList.add('playing');
+    audio.src = `samples/冰组${g}.mp3`;
+    audio.currentTime = 0;
+    audio.play().catch(() => {});
+    el.timbre.value = String(g);
+    syncLabels();
+  });
+  audio.addEventListener('ended', () => {
+    document.querySelectorAll('.group-btn').forEach((b) => b.classList.remove('playing'));
+  });
+  audio.addEventListener('pause', () => {
+    document.querySelectorAll('.group-btn').forEach((b) => b.classList.remove('playing'));
+  });
+})();
 
 /* ================= 渲染 ================= */
 el.btnRender.addEventListener('click', async () => {
@@ -275,7 +308,7 @@ el.btnRender.addEventListener('click', async () => {
     el.stats.innerHTML = [
       ['时长', fmtTime(buffer.duration)],
       ['冰声', `${info.notes} 个`],
-      ['音色', TIMBRE_NAME[info.timbre] || '中性'],
+      ['冰声组', groupLabel(info.timbre)],
       ['原唱', info.keptVocal <= 0.02 ? '已替换' : `残留 ${info.keptVocal.toFixed(2)}`],
       ['人声分离', info.separated ? '立体声中置' : '单声道（叠加）'],
     ].map(([k, v]) => `<div class="s"><b>${v}</b>${k}</div>`).join('');
@@ -399,7 +432,7 @@ el.btnVideo.addEventListener('click', async () => {
     const info = state.outInfo || {};
     const blob = await recordVideo(state.outBuffer, {
       title: el.title.value || '',
-      subtitle: `🧊 BING BING BING · ${TIMBRE_NAME[info.timbre] || '中性'} · ${info.notes || 0} 个冰`,
+      subtitle: `🧊 BING BING BING · ${groupLabel(info.timbre)} · ${info.notes || 0} 个冰`,
     }, (p, label) => {
       el.vidBar.style.width = `${Math.min(100, p * 100)}%`;
       el.vidText.textContent = label;

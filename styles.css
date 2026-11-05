@@ -109,6 +109,22 @@ canvas.wave{
 /* ---------- params ---------- */
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px 20px}
 .field{display:flex;flex-direction:column;gap:8px}
+.field.groups{grid-column:1/-1}
+.group-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.group-btn{
+  display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 6px;
+  background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px;
+  color:var(--txt);cursor:pointer;font-family:inherit;transition:.18s;
+}
+.group-btn b{font-size:19px;color:var(--ice1);line-height:1.1;font-variant-numeric:tabular-nums}
+.group-btn span{font-size:11.5px;color:var(--txt-dim)}
+.group-btn .p{font-size:11px;color:var(--ice2);opacity:.75}
+.group-btn:hover{background:rgba(127,233,255,.13);transform:translateY(-1px)}
+.group-btn.on{border-color:var(--ice2);background:rgba(62,198,255,.18);box-shadow:0 10px 26px -14px var(--ice1)}
+.group-btn.on .p{opacity:1}
+.group-btn.playing .p{animation:blink 900ms ease-in-out infinite}
+@keyframes blink{50%{opacity:.25}}
+#groupAudio{display:none}
 .lbl{font-size:13px;color:#cfeaff}
 .lbl b{color:var(--ice1);font-variant-numeric:tabular-nums}
 .hint{font-size:11.5px;color:var(--txt-dim)}

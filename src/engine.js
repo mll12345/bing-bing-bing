@@ -1,9 +1,11 @@
 // engine.js —— 「冰冰冰版」核心渲染
-// 流程：分离人声 → 跟踪旋律 → 每个字合成一个「冰」→ 与伴奏混音 → 混响母带
+// 流程：分离人声 → 跟踪旋律 → 把原唱每个字的元音改成 /i/、尾巴改成 /ŋ/（借用原唱嗓子唱「冰」）
+//       → 与伴奏混音 → 混响母带
 // 不含任何 DJ 处理：不变速、不升调、不套四四拍鼓机、不做侧链 pumping
 import { resample, biquad, normalize } from './pcm.js';
 import { separate } from './vocals.js';
-import { pitchTrack, toNotes, renderBingTrack } from './voice.js';
+import { pitchTrack, toNotes } from './voice.js';
+import { renderMorphBing } from './morph.js';
 import { iceCrack, makeIceIR, satCurve } from './dsp.js';
 
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
@@ -18,7 +20,7 @@ export async function renderIce(src, opts, progress = () => {}) {
   const sr = src.sampleRate;
   const speed = clamp(opts.speed == null ? 1 : opts.speed, 1, 1.5);
   const voiceGain = clamp(opts.voice == null ? 1 : opts.voice, 0, 2);
-  const timbre = clamp(Math.round(opts.timbre == null ? 2 : opts.timbre), 1, 3);
+  const timbre = clamp(Math.round(opts.timbre == null ? 2 : opts.timbre), 1, 4);
   const keepVocal = clamp(opts.keep == null ? 0 : opts.keep, 0, 1);
   const revAmt = clamp(opts.rev == null ? 0.25 : opts.rev, 0, 1);
   const sparkle = clamp(opts.sparkle == null ? 0.3 : opts.sparkle, 0, 1);
@@ -67,10 +69,16 @@ export async function renderIce(src, opts, progress = () => {}) {
   const track = pitchTrack(vocHP[0] || sep.mono, sr, (p, label) => progress(0.3 + p * 0.25, label));
   const notes = toNotes(track, { minDur: 0.07, clarityMin: 0.26 });
 
-  // ---------- 5. 合成冰声 ----------
+  // ---------- 5. 共振峰换元音：用原唱自己的嗓子唱「冰」 ----------
   progress(0.55, '唱冰…');
-  // 冰声对齐在原始时间轴上（0 = 歌曲开头）
-  const bing = renderBingTrack(notes, sr, len, {
+  // 需要一条干净的、能直接听到「字」的人声：中置分离结果限到 120Hz 以上
+  const vocalSrc = vocHP[0] ? Float32Array.from(vocHP[0]) : (() => {
+    const m = new Float32Array(len);
+    for (let i = 0; i < len; i++) m[i] = (working[0][i] + working[Math.min(1, working.length - 1)][i]) / 2;
+    return m;
+  })();
+  biquad(vocalSrc, sr, 'highpass', 120, 0.7);
+  const bing = renderMorphBing(vocalSrc, sr, notes, {
     gain: 1,
     timbre,
     progress: (p, label) => progress(p, label),
